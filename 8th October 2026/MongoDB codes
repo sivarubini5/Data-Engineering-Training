@@ -1,0 +1,362 @@
+//creating a collection
+db.createCollection("products_schema_demo")
+
+Inserting many data but note it has some wrong entities
+/*stock,quantity
+product_name,name
+price=int,''
+category=int
+*/
+db.products_schema_demo.insertMany([
+    {
+        product_id: 101,
+        product_name: "Laptop",
+        category: "Electronics",
+        price: 65000,
+        stock: 10
+    },
+    {
+        product_id: 102,
+        name: "Wireless Mouse",
+        category: "Electronics",
+        price: "1500",
+        stock: 25
+    },
+    {
+        product_id: 103,
+        product_name: "Office Chair",
+        category: "Furniture",
+        price: 8500,
+        quantity: 12
+    },
+    {
+        product_id: 104,
+        product_name: "Keyboard",
+        category: 100,
+        price: 2500,
+        stock: "20"
+    }
+])
+
+// flat data 
+db.products_structure.insertOne({
+    product_id: 201,
+    product_name: "Gaming Laptop",
+    brand: "Lenovo",
+    category: "Electronics",
+    price: 85000,
+    ram: "16 GB",
+    storage: "1 TB SSD",
+    processor: "Intel Core i7"
+})
+It doesn't use joins as it says splitting and joining is useless instead it stores as nested docs
+//ways to store nested data
+// nested data
+db.products_structure.insertOne({
+    product_id: 202,
+    product_name: "Gaming Laptop",
+    brand: "Lenovo",
+    category: "Electronics",
+    price: 85000,
+
+    specifications: {
+        ram: "16 GB",
+        storage: "1 TB SSD",
+        processor: "Intel Core i7"
+    }
+})
+
+//nested docs
+db.products_structure.insertOne({
+    product_id: 203,
+    product_name: "Office Desk",
+    category: "Furniture",
+    price: 12000,
+
+    supplier: {
+        supplier_name: "Home Furnishings",
+        city: "Hyderabad",
+        phone: "9876543210"
+    }
+})
+
+//array storage Even it has white and blue it has black so it select it
+db.products_structure.insertOne({
+    product_id: 204,
+    product_name: "Running Shoes",
+    category: "Footwear",
+    price: 4500,
+
+    colors: [
+        "Black",
+        "White",
+        "Blue"
+    ]
+})
+
+
+
+db.products_structure.find({
+    colors: "Black"
+})
+
+// embedded docs => {}
+db.products_structure.insertOne({
+    product_id: 205,
+    product_name: "Smart Watch",
+    category: "Electronics",
+    price: 15000,
+
+    reviews: [
+        {
+            customer: "Rohan",
+            rating: 5,
+            comment: "Excellent"
+        },
+        {
+            customer: "Meera",
+            rating: 4,
+            comment: "Good battery"
+        },
+        {
+            customer: "Kabir",
+            rating: 3,
+            comment: "Average display"
+        }
+    ]
+})
+
+//New collection
+db.createCollection("datatype_demo")
+
+//types of data
+db.datatype_demo.insertOne({
+    product_id: 301,
+
+    product_name: "Smart TV",              // String
+
+    price: 45999.99,                       // Double
+
+    stock: NumberInt(25),                  // Integer
+
+    total_views: NumberLong(150000),        // Long
+
+    available: true,                       // Boolean
+
+    launch_date: ISODate("2026-10-01"),    // Date
+
+    discount: null,                        // Null
+
+    tags: [
+        "Electronics",
+        "Smart TV",
+        "4K"
+    ],                                     // Array
+
+    specifications: {
+        screen_size: "55 inch",
+        resolution: "4K",
+        wifi: true
+    },                                     // Embedded Document
+
+    product_code: ObjectId()               // ObjectId
+})
+
+
+
+//Practice
+
+use retail_db
+db.datatype_practice.insertMany([
+{
+product_id: 501,
+product_name: "Laptop",
+price: 65000,
+stock: 10,
+available: true,
+launch_date: ISODate("2026-01-10"),
+colors: ["Black", "Silver"],
+details: {
+brand: "Dell",
+warranty_years: 2
+}
+},
+{
+product_id: 502,
+product_name: "Headphones",
+price: 4500,
+stock: 25,
+available: true,
+launch_date: ISODate("2026-03-15"),
+colors: ["Black", "Blue"],
+details: {
+brand: "Sony",
+warranty_years: 1
+}
+},
+{
+product_id: 503,
+product_name: "Office Chair",
+price: 9000,
+stock: 0,
+available: false,
+launch_date: ISODate("2025-12-20"),
+
+colors: ["Black", "Grey"],
+details: {
+brand: "GreenSoul",
+warranty_years: 3
+}
+},
+{
+product_id: 504,
+product_name: "Smart Watch",
+price: 18000,
+stock: 8,
+available: true,
+launch_date: ISODate("2026-06-01"),
+colors: ["Black", "Red"],
+details: {
+brand: "Samsung",
+warranty_years: 1
+}
+}
+])
+
+Exercises
+
+1. Display all products.
+db.datatype_practice.find()
+
+2. Find the product named Laptop .
+db.datatype_practice.find({product_name:'Laptop'})
+
+3. Find products whose price is greater than 10000 .
+db.datatype_practice.find({price:{$gt:10000}})
+
+4. Find products having stock less than 10 .
+db.datatype_practice.find({stock:{$lt:10}})
+
+5. Find products where:
+
+available = true
+db.datatype_practice.find({available:true})
+
+6. Find products where:
+
+available = false
+db.datatype_practice.find({available:false})
+
+7. Find products launched after:
+
+1 January 2026
+db.datatype_practice.find({launch_date: {$gt:ISODate('2026-01-01T00:00:00.000Z')}})
+
+8. Find products available in the color Black .
+db.datatype_practice.find({colors:'Black'})
+
+9. Find products available in both:
+Black
+Blue
+db.datatype_practice.find({colors:{$all:['Black','Blue']}})
+
+10. Find products where the brand is Samsung .
+db.datatype_practice.find({'details.brand':'Samsung'})
+
+11. Find products having more than 1 year warranty.
+db.datatype_practice.find({'details.warranty_years':{$gt:1}})
+
+12. Increase the stock of product 502 by 5 .
+db.datatype_practice.updateOne({product_id:502},{$inc:{'stock':5}})
+
+13. Change product 503 from unavailable to available.
+db.datatype_practice.updateOne({product_id:503},{$set:{'available':true}})
+
+14. Add the color White to product 501 .
+db.datatype_practice.updateOne({product_id:501},{$push:{'colors':'White'}})
+
+15. Change the warranty of product 504 to 2 years.
+db.datatype_practice.updateOne({product_id:504},{$set:{'details.warranty_years':2}})
+
+16. Display only:
+product_name
+price
+db.datatype_practice.find({},{product_name:1,price:1,_id:0})
+
+17. Find the datatype of the price field using $type .
+db.datatype_practice.aggregate([
+  {
+    $project: {
+      price_dt: { ‘$type':"$price" }
+    }
+  }
+])
+
+
+18. Find the datatype of the available field.
+db.datatype_practice.aggregate([
+  {
+    $project: {
+      datatypeofAvailable: { type:"available" }
+    }
+  }
+])
+
+19. Find the datatype of the launch_date field.
+db.datatype_practice.aggregate([
+  {
+    $project: {
+      datatypeofLD: { type:"launch_date" }
+    }
+  }
+])
+
+20. Find the datatype of the colors field.
+db.datatype_practice.aggregate([
+  {
+    $project: {
+      datatypeofcolors: { type:"colors" }
+    }
+  }
+])
+
+
+
+
+Embedding and Referencing
+
+Customer data
+embeds
+Address Data
+
+Product -- reference -- Suppliers
+
+Supplier data will be used by other entities
+Reporting
+Delivery
+
+customer id: 1,
+customer_name: "Rohan Mehta",
+email: "rohan@gmail.com",
+
+address: {
+street: "Road No 10",
+city: "Hyderabad",
+state: "Telangana",
+pincode: "500081"
+
+Referencing:
+
+customer id: 1,
+customer name: "Rohan Mehta",
+email: "rohan@gmail.com",
+address id: 501
+
+
+
+eg.Hospital Management System
+
+Patient
+Doc
+
+Task:Create 2 scenarios: separate word doc
