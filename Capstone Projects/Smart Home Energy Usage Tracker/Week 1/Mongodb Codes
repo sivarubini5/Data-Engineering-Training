@@ -1,0 +1,155 @@
+const dbName = "smart_home";
+const smartDb = db.getSiblingDB(dbName);
+
+smartDb.sensor_logs.drop();
+
+smartDb.sensor_logs.insertMany([
+  {
+    device_id: 1,
+    room_id: 1,
+    timestamp: ISODate("2026-10-12T08:00:00Z"),
+    readings: { power_watts: 1480.0, voltage: 230.5, current_amps: 6.42, energy_kwh: 1.20 },
+    status: "ON",
+    firmware: "v2.1.4",
+    signal_strength_dbm: -52
+  },
+  {
+    device_id: 1,
+    room_id: 1,
+    timestamp: ISODate("2026-10-12T14:00:00Z"),
+    readings: { power_watts: 1495.0, voltage: 229.8, current_amps: 6.51, energy_kwh: 1.45 },
+    status: "ON",
+    firmware: "v2.1.4",
+    signal_strength_dbm: -54
+  },
+  {
+    device_id: 2,
+    room_id: 1,
+    timestamp: ISODate("2026-10-12T20:00:00Z"),
+    readings: { power_watts: 110.0, voltage: 230.2, current_amps: 0.48, energy_kwh: 0.30 },
+    status: "STANDBY",
+    firmware: "v1.9.0",
+    signal_strength_dbm: -60
+  },
+  {
+    device_id: 3,
+    room_id: 2,
+    timestamp: ISODate("2026-10-12T22:00:00Z"),
+    readings: { power_watts: 1190.0, voltage: 230.7, current_amps: 5.16, energy_kwh: 2.10 },
+    status: "ON",
+    firmware: "v2.1.4",
+    signal_strength_dbm: -58
+  },
+  {
+    device_id: 5,
+    room_id: 3,
+    timestamp: ISODate("2026-10-12T12:00:00Z"),
+    readings: { power_watts: 200.0, voltage: 230.0, current_amps: 0.87, energy_kwh: 0.18 },
+    status: "ON",
+    firmware: "v3.0.2",
+    signal_strength_dbm: -47
+  },
+  {
+    device_id: 7,
+    room_id: 4,
+    timestamp: ISODate("2026-10-12T10:00:00Z"),
+    readings: { power_watts: 290.0, voltage: 230.3, current_amps: 1.26, energy_kwh: 0.90 },
+    status: "ON",
+    firmware: "v1.2.7",
+    signal_strength_dbm: -49
+  },
+  {
+    // Deliberately malformed reading (null power) so the Week 2 cleaning step has something to fix
+    device_id: 6,
+    room_id: 3,
+    timestamp: ISODate("2026-10-12T13:00:00Z"),
+    readings: { power_watts: null, voltage: 229.5, current_amps: null, energy_kwh: 0.25 },
+    status: "ON",
+    firmware: "v1.0.5",
+    signal_strength_dbm: -71
+  }
+]);
+
+const devices = [
+  { id: 1, room: 1, watts: 1500 },
+  { id: 2, room: 1, watts: 120 },
+  { id: 3, room: 2, watts: 1200 },
+  { id: 4, room: 2, watts: 10 },
+  { id: 5, room: 3, watts: 200 },
+  { id: 6, room: 3, watts: 1000 },
+  { id: 7, room: 4, watts: 300 },
+  { id: 8, room: 4, watts: 15 }
+];
+
+const start = new Date("2026-10-06T00:00:00Z");
+const batch = [];
+
+for (let day = 0; day < 7; day++) {
+  for (let hour = 0; hour < 24; hour++) {
+    const ts = new Date(start.getTime() + (day * 24 + hour) * 3600 * 1000);
+    for (const d of devices) {
+      const load = Math.random() * 0.5 + 0.4;
+      const power = +(d.watts * load).toFixed(2);
+      batch.push({
+        device_id: d.id,
+        room_id: d.room,
+        timestamp: ts,
+        readings: {
+          power_watts: power,
+          voltage: +(230 + (Math.random() - 0.5) * 4).toFixed(1),
+          current_amps: +(power / 230).toFixed(2),
+          energy_kwh: +(power / 1000).toFixed(4)   
+        },
+        status: load > 0.45 ? "ON" : "STANDBY",
+        firmware: "sim-1.0",
+        signal_strength_dbm: -Math.floor(Math.random() * 30 + 40)
+      });
+    }
+  }
+}
+smartDb.sensor_logs.insertMany(batch);
+
+print("Documents inserted: " + smartDb.sensor_logs.countDocuments());
+
+smartDb.sensor_logs.createIndex({ device_id: 1, timestamp: -1 }, { name: "idx_device_time" });
+
+smartDb.sensor_logs.createIndex({ timestamp: -1 }, { name: "idx_time" });
+
+smartDb.sensor_logs.createIndex({ room_id: 1, timestamp: -1 }, { name: "idx_room_time" });
+
+printjson(smartDb.sensor_logs.getIndexes());
+
+print("\n-- Latest 5 readings, device 1");
+smartDb.sensor_logs.find({ device_id: 1 }).sort({ timestamp: -1 }).limit(5).forEach(printjson);
+
+print("\n-- Device 3, 12 Oct 2026");
+smartDb.sensor_logs.find({
+  device_id: 3,
+  timestamp: { $gte: ISODate("2026-10-12T00:00:00Z"), $lt: ISODate("2026-10-13T00:00:00Z") }
+}).forEach(printjson);
+
+print("\n-- Readings with null power");
+smartDb.sensor_logs.find({ "readings.power_watts": null }).forEach(printjson);
+
+print("\n-- Total kWh per device");
+smartDb.sensor_logs.aggregate([
+  { $group: { _id: "$device_id", total_kwh: { $sum: "$readings.energy_kwh" }, readings: { $sum: 1 } } },
+  { $project: { total_kwh: { $round: ["$total_kwh", 3] }, readings: 1 } },
+  { $sort: { total_kwh: -1 } }
+]).forEach(printjson);
+
+print("\n-- Daily kWh per room");
+smartDb.sensor_logs.aggregate([
+  { $group: {
+      _id: { room_id: "$room_id", day: { $dateToString: { format: "%Y-%m-%d", date: "$timestamp" } } },
+      total_kwh: { $sum: "$readings.energy_kwh" }
+  } },
+  { $project: { total_kwh: { $round: ["$total_kwh", 3] } } },
+  { $sort: { "_id.day": 1, "_id.room_id": 1 } }
+]).forEach(printjson);
+
+print("\n-- Query plan for device_id lookup");
+printjson(
+  smartDb.sensor_logs.find({ device_id: 1 }).sort({ timestamp: -1 }).explain("executionStats")
+    .queryPlanner.winningPlan
+);
