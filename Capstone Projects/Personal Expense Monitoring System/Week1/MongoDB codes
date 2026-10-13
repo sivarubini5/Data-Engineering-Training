@@ -1,0 +1,41 @@
+const dbx = db.getSiblingDB("expense_tracker");
+dbx.receipts.drop();
+
+dbx.receipts.insertMany([
+  {
+    user_id: 1, expense_id: 1, merchant: "FreshMart",
+    receipt_date: ISODate("2026-09-03"), total: 1300.0, currency: "INR",
+    items: [
+      { name: "Rice 5kg", price: 450 },
+      { name: "Vegetables", price: 380 },
+      { name: "Milk", price: 470 }
+    ],
+    notes: "Monthly grocery run",
+    scan_url: "https://www.magnific.com/free-photos-vectors/receipt",
+    tags: ["groceries", "monthly"]
+  },
+  {
+    user_id: 1, expense_id: 3, merchant: "Indian Oil",
+    receipt_date: ISODate("2026-09-05"), total: 600.0, currency: "INR",
+    items: [{ name: "Petrol 6L", price: 600 }],
+    notes: "", scan_url: "https://www.magnific.com/free-photos-vectors/receipt",
+    tags: ["fuel"]
+  },
+  {
+    user_id: 2, expense_id: 6, merchant: "TechZone",
+    receipt_date: ISODate("2026-09-15"), total: 7800.0, currency: "INR",
+    items: [{ name: "Wireless headphones", price: 7800 }],
+    notes: "Warranty 1 year - keep receipt",
+    scan_url: "https://www.magnific.com/free-photos-vectors/receipt",
+    tags: ["electronics", "warranty"]
+  }
+]);
+ 
+dbx.receipts.createIndex({ user_id: 1, receipt_date: -1 });          // a user's receipts, newest first
+dbx.receipts.createIndex({ merchant: 1 });
+dbx.receipts.createIndex({ notes: "text", merchant: "text" });       
+
+// VERIFY
+printjson(dbx.receipts.getIndexes());
+printjson(dbx.receipts.find({ user_id: 1 }).sort({ receipt_date: -1 }).toArray());
+printjson(dbx.receipts.find({ user_id: 1 }).explain("executionStats").queryPlanner.winningPlan);  
