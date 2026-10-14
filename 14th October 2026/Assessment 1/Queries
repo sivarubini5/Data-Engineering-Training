@@ -338,3 +338,113 @@ db.orders.updateOne({order_id:9002},{$push:{items:{
 db.orders.updateOne({order_id:9002},{$set:{status:"Delivered"}})
 db.orders.updateOne({order_id:9002},{$pull:{items:{product:"Smart Monitor"}}})
 
+//Part 10 — Document Design
+Array->5 colors share same column name 
+Embedded document->used frequently and has multiple values like take more lines
+array of embedded documents->multiple products with multiple attributes
+simple field->used freq and has single field
+separate collection/reference->not used frequently so can be referenced
+separate collection/reference->not used frequently so can be referenced
+simple field->freq used and single values
+array->simple values
+
+//Final Challenge
+db.createCollection("suppliers")
+db.suppliers.insertMany([
+  {
+    supplier_id:801,
+    supplier_name:"Abi",
+    city:"Chennai",
+    active_status:"Active",
+    categories_supplied:["Electronics","Furniture"],
+    contact:{
+      phone:1236547892,
+      mail:"abi@gmail.com"
+    },
+    warehouse_location:["Chennai","Banglore"],
+    registrtion_date:ISODate("2026-02-01")
+  },
+  {
+    supplier_id:802,
+    supplier_name:"Maya",
+    city:"Coimbatore",
+    active_status:"Active",
+    categories_supplied:["Electronics","Home"],
+    contact:{
+      phone:1238547892,
+      mail:"maya@gmail.com"
+    },
+    warehouse_location:["Chennai","Coimbatore","Bangalore"],
+    registrtion_date:ISODate("2025-02-01")
+  },
+  {
+    supplier_id:803,
+    supplier_name:"Aditya",
+    city:"Hyderabad",
+    active_status:"Active",
+    categories_supplied:["Gadgets","Furniture"],
+    contact:{
+      phone:1236542892,
+      mail:"aditya@gmail.com"
+    },
+    warehouse_location:["Chennai","Hyderabad","Pune","Madurai"],
+    registrtion_date:ISODate("2024-02-11")
+  },
+  {
+    supplier_id:804,
+    supplier_name:"Sara",
+    city:"Madurai",
+    active_status:"InActive",
+    categories_supplied:["Electronics","Accessories"],
+    contact:{
+      phone:1296547892,
+      mail:"sara@gmail.com"
+    },
+    warehouse_location:["Madurai","Banglore"],
+    registrtion_date:ISODate("2025-10-01")
+  },
+  {
+    supplier_id:805,
+    supplier_name:"Nikita",
+    city:"Mumbai",
+    active_status:"Active",
+    categories_supplied:["Home","Furniture"],
+    contact:{
+      phone:1239542892,
+      mail:"nikita@gmail.com"
+    },
+    warehouse_location:["Mumbai","Pune","Chennai"],
+    registrtion_date:ISODate("2024-02-11")
+  }
+])
+db.suppliers.find({active_status:"Active"})
+db.suppliers.find({city:"Chennai"})
+db.suppliers.find({categories_supplied:"Electronics"})
+db.suppliers.find({registrtion_date:{$gt:ISODate("2026-01-01")}})
+db.suppliers.updateOne({supplier_id:801},{$push:{warehouse_location:"Pune"}})
+db.suppliers.updateOne({supplier_id:801},{$set:{active_status:"InActive"}})
+db.suppliers.updateOne({supplier_id:801},{$pull:{categories_supplied:"Furniture"}})
+db.suppliers.find({},{supplier_name:1,city:1,_id:0})
+db.suppliers.find().sort({registrtion_date:1})
+an array for categories->single values 
+an embedded document for contact details->key value pairs
+an array for warehouse locations->single values
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
