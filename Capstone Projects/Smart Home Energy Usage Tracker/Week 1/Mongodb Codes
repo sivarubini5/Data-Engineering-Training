@@ -1,9 +1,6 @@
-const dbName = "smart_home";
-const smartDb = db.getSiblingDB(dbName);
+db.createCollection("sensor_logs");
 
-smartDb.sensor_logs.drop();
-
-smartDb.sensor_logs.insertMany([
+db.sensor_logs.insertMany([
   {
     device_id: 1,
     room_id: 1,
@@ -107,39 +104,39 @@ for (let day = 0; day < 7; day++) {
     }
   }
 }
-smartDb.sensor_logs.insertMany(batch);
+db.sensor_logs.insertMany(batch);
 
-print("Documents inserted: " + smartDb.sensor_logs.countDocuments());
+print("Documents inserted: " + db.sensor_logs.countDocuments());
 
-smartDb.sensor_logs.createIndex({ device_id: 1, timestamp: -1 }, { name: "idx_device_time" });
+db.sensor_logs.createIndex({ device_id: 1, timestamp: -1 }, { name: "idx_device_time" });
 
-smartDb.sensor_logs.createIndex({ timestamp: -1 }, { name: "idx_time" });
+db.sensor_logs.createIndex({ timestamp: -1 }, { name: "idx_time" });
 
-smartDb.sensor_logs.createIndex({ room_id: 1, timestamp: -1 }, { name: "idx_room_time" });
+db.sensor_logs.createIndex({ room_id: 1, timestamp: -1 }, { name: "idx_room_time" });
 
-printjson(smartDb.sensor_logs.getIndexes());
+printjson(db.sensor_logs.getIndexes());
 
 print("\n-- Latest 5 readings, device 1");
-smartDb.sensor_logs.find({ device_id: 1 }).sort({ timestamp: -1 }).limit(5).forEach(printjson);
+db.sensor_logs.find({ device_id: 1 }).sort({ timestamp: -1 }).limit(5).forEach(printjson);
 
 print("\n-- Device 3, 12 Oct 2026");
-smartDb.sensor_logs.find({
+db.sensor_logs.find({
   device_id: 3,
   timestamp: { $gte: ISODate("2026-10-12T00:00:00Z"), $lt: ISODate("2026-10-13T00:00:00Z") }
 }).forEach(printjson);
 
 print("\n-- Readings with null power");
-smartDb.sensor_logs.find({ "readings.power_watts": null }).forEach(printjson);
+db.sensor_logs.find({ "readings.power_watts": null }).forEach(printjson);
 
 print("\n-- Total kWh per device");
-smartDb.sensor_logs.aggregate([
+db.sensor_logs.aggregate([
   { $group: { _id: "$device_id", total_kwh: { $sum: "$readings.energy_kwh" }, readings: { $sum: 1 } } },
   { $project: { total_kwh: { $round: ["$total_kwh", 3] }, readings: 1 } },
   { $sort: { total_kwh: -1 } }
 ]).forEach(printjson);
 
 print("\n-- Daily kWh per room");
-smartDb.sensor_logs.aggregate([
+db.sensor_logs.aggregate([
   { $group: {
       _id: { room_id: "$room_id", day: { $dateToString: { format: "%Y-%m-%d", date: "$timestamp" } } },
       total_kwh: { $sum: "$readings.energy_kwh" }
@@ -148,8 +145,3 @@ smartDb.sensor_logs.aggregate([
   { $sort: { "_id.day": 1, "_id.room_id": 1 } }
 ]).forEach(printjson);
 
-print("\n-- Query plan for device_id lookup");
-printjson(
-  smartDb.sensor_logs.find({ device_id: 1 }).sort({ timestamp: -1 }).explain("executionStats")
-    .queryPlanner.winningPlan
-);
