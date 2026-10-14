@@ -67,44 +67,6 @@ db.sensor_logs.insertMany([
   }
 ]);
 
-const devices = [
-  { id: 1, room: 1, watts: 1500 },
-  { id: 2, room: 1, watts: 120 },
-  { id: 3, room: 2, watts: 1200 },
-  { id: 4, room: 2, watts: 10 },
-  { id: 5, room: 3, watts: 200 },
-  { id: 6, room: 3, watts: 1000 },
-  { id: 7, room: 4, watts: 300 },
-  { id: 8, room: 4, watts: 15 }
-];
-
-const start = new Date("2026-10-06T00:00:00Z");
-const batch = [];
-
-for (let day = 0; day < 7; day++) {
-  for (let hour = 0; hour < 24; hour++) {
-    const ts = new Date(start.getTime() + (day * 24 + hour) * 3600 * 1000);
-    for (const d of devices) {
-      const load = Math.random() * 0.5 + 0.4;
-      const power = +(d.watts * load).toFixed(2);
-      batch.push({
-        device_id: d.id,
-        room_id: d.room,
-        timestamp: ts,
-        readings: {
-          power_watts: power,
-          voltage: +(230 + (Math.random() - 0.5) * 4).toFixed(1),
-          current_amps: +(power / 230).toFixed(2),
-          energy_kwh: +(power / 1000).toFixed(4)   
-        },
-        status: load > 0.45 ? "ON" : "STANDBY",
-        firmware: "sim-1.0",
-        signal_strength_dbm: -Math.floor(Math.random() * 30 + 40)
-      });
-    }
-  }
-}
-db.sensor_logs.insertMany(batch);
 
 print("Documents inserted: " + db.sensor_logs.countDocuments());
 
@@ -116,8 +78,7 @@ db.sensor_logs.createIndex({ room_id: 1, timestamp: -1 }, { name: "idx_room_time
 
 printjson(db.sensor_logs.getIndexes());
 
-print("\n-- Latest 5 readings, device 1");
-db.sensor_logs.find({ device_id: 1 }).sort({ timestamp: -1 }).limit(5).forEach(printjson);
+db.sensor_logs.find({ device_id: 1 }).sort({ timestamp: -1 }).forEach(printjson);
 
 print("\n-- Device 3, 12 Oct 2026");
 db.sensor_logs.find({
