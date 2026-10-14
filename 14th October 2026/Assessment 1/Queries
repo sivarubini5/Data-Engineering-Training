@@ -101,7 +101,7 @@ warranty_years: 1
 
 //Part 2 - CRUD Operations
 db.products.find()
-db.products.find({product_id=:103})
+db.products.find({product_id:103})
 db.products.insertOne({
   product_id: 107,
   product_name: 'Bluetooth Speaker',
@@ -134,16 +134,18 @@ db.products.updateOne({product_id:105},{$set:{stock:20,available:true}})
 db.products.updateOne({product_id:104},{$inc:{stock:10}})
 db.products.updateOne({product_id:106},{$inc:{stock:-3}})
 db.products.updateOne({product_id:101},{$set:{discount_percent:10}})
-db.products.updateOne({product_id:101},{$set:{discount_percent:null}})
+db.products.updateOne({product_id:101},{$unset:{discount_percent:""}})
 db.products.deleteOne({product_id:109})
 db.products.deleteMany({stock:0})
-const C=db.products.findOneAndDelete({product_id:108})
-print(C)
+
+db.products.find({product_id:109})
+db.products.deleteOne({product_id:109})
+db.products.find({product_id:109})
 
 //Part 3 — Filtering and Query Operators
 db.products.find({category:"Electronics"})
 db.products.find({price:{$gt:10000}});
-db.products.find({price:{$gt:5000,$lt:30000}});
+db.products.find({price:{$gte:5000,$lte:30000}});
 db.products.find({stock:{$lt:10}});
 db.products.find({available:true});
 db.products.find({available:false});
@@ -152,11 +154,11 @@ db.products.find({category:{$nin:['Accessories']}});
 db.products.find({price:{$gt:10000},stock:{$gt:5}});
 db.products.find({$or:[{category:"Electronics"},{price:{$lt:5000}}]});
 db.products.find({launch_date:{$gt:ISODate("2026-02-01T00:00:00Z")}});
-db.products.find({launch_date:{$gt:ISODate("2026-01-01T00:00:00Z"),$lt:ISODate("2026-03-31T00:00:00Z")}});
+db.products.find({launch_date:{$gte:ISODate("2026-01-01T00:00:00Z"),$lte:ISODate("2026-03-31T00:00:00Z")}});
 
 //Part 4 — Projection and Sorting
 db.products.find({},{product_name:1,price:1,_id:0})
-db.products.find({},{product_name:1,price:1,stock:1,_id:0})
+db.products.find({},{product_name:1,category:1,stock:1,_id:0})
 db.products.find().sort({price:1})
 db.products.find().sort({price:-1})
 db.products.find().sort({product_name:1})
@@ -209,7 +211,7 @@ warranty_years: 3
 }
 })
 db.products.find({price:{$type:'string'}})
-db.products.updateOne({product_id:110},{$set:{price:{$toDouble:"$price"}}})
+db.products.updateOne({product_id:110},[{$set:{price:{$toDouble:"$price"}}}])
 
 //Part 8 — Customers Collection
 db.createCollection("customers")
@@ -329,7 +331,12 @@ db.orders.insertMany([
 db.orders.find({status:"Delivered"})
 db.orders.find({"items.product":"Ultra Laptop"})
 db.orders.find({"items.quantity":{$gt:1}})
-db.orders.find({"items.quantity":2,"items.product":"Smart Monitor"})
+db.orders.find({items:{
+    $elemMatch:{
+      product:"Smart Monitor",
+      quantity:2
+    }
+  }})
 db.orders.updateOne({order_id:9002},{$push:{items:{
                 product: "Smart Monitor",
                 quantity: 2,
@@ -339,13 +346,13 @@ db.orders.updateOne({order_id:9002},{$set:{status:"Delivered"}})
 db.orders.updateOne({order_id:9002},{$pull:{items:{product:"Smart Monitor"}}})
 
 //Part 10 — Document Design
-Array->5 colors share same column name 
-Embedded document->used frequently and has multiple values like take more lines
+Array->5 colors share same column name so array stores multiple values within single field
+Embedded document->used frequently and group related details together
 array of embedded documents->multiple products with multiple attributes
-simple field->used freq and has single field
-separate collection/reference->not used frequently so can be referenced
-separate collection/reference->not used frequently so can be referenced
-simple field->freq used and single values
+Embedded Document->related specifications can be grouped together 
+separate collection/reference->orders can grow indefinitely and can create very large document
+separate collection/reference->reviews can grow indefinitely and can create very large document
+simple field->individual values
 array->simple values
 
 //Final Challenge
