@@ -6,7 +6,7 @@ CREATE TABLE rooms (
     room_name   VARCHAR(50)  NOT NULL UNIQUE,
     floor_no    TINYINT      NOT NULL DEFAULT 0,
     created_at  TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB; 
+); 
  drop table devices;
 
 CREATE TABLE devices (
@@ -20,7 +20,7 @@ CREATE TABLE devices (
     last_updated TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     CONSTRAINT fk_devices_room FOREIGN KEY (room_id)
         REFERENCES rooms(room_id) ON DELETE RESTRICT ON UPDATE CASCADE
-) ENGINE=InnoDB;
+);
  
 CREATE TABLE energy_logs (
     log_id BIGINT AUTO_INCREMENT PRIMARY KEY,
@@ -30,7 +30,7 @@ CREATE TABLE energy_logs (
     power_watts DECIMAL(10,2) NULL,
     voltage DECIMAL(6,2)  NULL,
     CONSTRAINT fk_logs_device FOREIGN KEY (device_id) REFERENCES devices(device_id) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB;
+);
  
 CREATE INDEX idx_logs_device_time ON energy_logs (device_id, recorded_at);
 CREATE INDEX idx_logs_time        ON energy_logs (recorded_at);
@@ -87,12 +87,6 @@ FROM devices d
 JOIN rooms r ON r.room_id = d.room_id
 ORDER BY r.room_name, d.device_name;
  
--- Latest reading per device
-SELECT d.device_name, l.recorded_at, l.energy_kwh, l.power_watts
-FROM energy_logs l
-JOIN devices d ON d.device_id = l.device_id
-WHERE l.recorded_at = (SELECT MAX(recorded_at) FROM energy_logs WHERE device_id = l.device_id);
- 
 -- Logs for one device in a time window (uses idx_logs_device_time)
 SELECT * FROM energy_logs
 WHERE device_id = 1
@@ -124,12 +118,8 @@ WHERE device_name = 'Smart TV';
  
 -- Remove old logs (data retention)
 DELETE FROM energy_logs WHERE recorded_at < '2026-01-01 00:00:00';
- 
--- Remove a device (its logs go with it via ON DELETE CASCADE)
+
 DELETE FROM devices WHERE device_name = 'Washing Machine';
- 
--- Remove a room (works only if it has no devices, due to RESTRICT)
-DELETE FROM rooms WHERE room_name = 'Balcony';
  
 DROP PROCEDURE IF EXISTS sp_room_daily_energy;
  
@@ -149,9 +139,9 @@ BEGIN
     SELECT
         r.room_id,
         r.room_name,
-        DATE(l.recorded_at)          AS usage_date,
-        COUNT(DISTINCT d.device_id)  AS active_devices,
-        ROUND(SUM(l.energy_kwh), 3)  AS total_kwh
+        DATE(l.recorded_at) AS usage_date,
+        COUNT(DISTINCT d.device_id) AS active_devices,
+        ROUND(SUM(l.energy_kwh), 3) AS total_kwh
     FROM energy_logs l
     JOIN devices d ON d.device_id = l.device_id
     JOIN rooms   r ON r.room_id   = d.room_id
