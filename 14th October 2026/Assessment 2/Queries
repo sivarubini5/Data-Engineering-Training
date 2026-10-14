@@ -186,8 +186,8 @@ db.restaurants.find().sort({rating:-1}).limit(3)
 
 //Data Types
 db.restaurants.find({rating:{$type:["int","decimal","long","double"]}})
-db.orders.aggregate([{"$project":{order_date_type:{$type:"order_date"}}}])
-db.orders.aggregate([{"$project":{items_type:{$type:"items"}}}])
+db.orders.aggregate([{"$project":{order_date_type:{$type:"$order_date"}}}])
+db.orders.aggregate([{"$project":{items_type:{$type:"$items"}}}])
 db.restaurants.insertOne({
   restaurant_id: 107,
   restaurant_name: 'Taj',
@@ -204,7 +204,9 @@ db.restaurants.insertOne({
     email: 'taj@email.com'
   }
 })
-db.restaurants.find({restaurant_id:107})
+db.restaurants.find({
+  rating:{$type:"string"}
+})
 db.restaurants.updateOne({restaurant_id:107},{$set:{rating:4.5}})
 
 //Final Challenge
