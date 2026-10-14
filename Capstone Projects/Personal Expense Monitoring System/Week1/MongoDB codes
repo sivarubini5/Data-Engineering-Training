@@ -1,7 +1,5 @@
-const dbx = db.getSiblingDB("expense_tracker");
-dbx.receipts.drop();
-
-dbx.receipts.insertMany([
+db.createCollection("receipts");
+db.receipts.insertMany([
   {
     user_id: 1, expense_id: 1, merchant: "FreshMart",
     receipt_date: ISODate("2026-09-03"), total: 1300.0, currency: "INR",
@@ -31,11 +29,10 @@ dbx.receipts.insertMany([
   }
 ]);
  
-dbx.receipts.createIndex({ user_id: 1, receipt_date: -1 });          // a user's receipts, newest first
-dbx.receipts.createIndex({ merchant: 1 });
-dbx.receipts.createIndex({ notes: "text", merchant: "text" });       
+db.receipts.createIndex({ user_id: 1, receipt_date: -1 });          // a user's receipts, newest first
+db.receipts.createIndex({ merchant: 1 });
+db.receipts.createIndex({ notes: "text", merchant: "text" });       
 
 // VERIFY
 printjson(dbx.receipts.getIndexes());
 printjson(dbx.receipts.find({ user_id: 1 }).sort({ receipt_date: -1 }).toArray());
-printjson(dbx.receipts.find({ user_id: 1 }).explain("executionStats").queryPlanner.winningPlan);  
