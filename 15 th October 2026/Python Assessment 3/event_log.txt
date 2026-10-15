@@ -1,0 +1,5 @@
+Event processing started
+Registration data loaded
+Registration validation completed
+Event report generated
+Event processing completed
