@@ -1,0 +1,4 @@
+Processing started
+Customer data loaded
+Order data processed
+Processing completed
