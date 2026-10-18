@@ -255,3 +255,129 @@ for i in customer:
 with open("products_updated.json","w") as file:
     json.dump(customer,file,indent=4)
 print("Updated json file created successfully")
+Section F — User-Defined Module
+#in retail_utils.py and main.py
+#Section G — Pandas Data Processing
+
+import pandas as pd
+orders_df=pd.read_csv("orders.csv")
+orders_df.rename(columns={"stat": "status"}, inplace=True)
+print(orders_df.head())
+print(orders_df.columns)
+print(orders_df.dtypes)
+print(orders_df.shape)
+delivered_orders=orders_df.query("status == 'Delivered'")
+print(delivered_orders)
+print(orders_df[orders_df["quantity"] > 2])
+orders_df["order_value"] = (
+    orders_df["quantity"] * orders_df["unit_price"]
+)
+print(orders_df)
+print(orders_df["status"].value_counts())
+orders_df["order_date"] = pd.to_datetime(orders_df["order_date"])
+print(orders_df.dtypes)
+orders_df["month"] = orders_df["order_date"].dt.month
+print(orders_df[["order_date", "month"]])
+monthly_orders = orders_df.groupby(
+    ["month", "status"]
+).size().reset_index(name="order_count")
+print(monthly_orders)
+category_sales = orders_df.groupby("category")["order_value"].sum()
+print(category_sales)
+average_sales = orders_df.groupby("category")["order_value"].mean()
+print(average_sales)
+sorted_orders = orders_df.sort_values(
+    by="order_value",
+    ascending=False
+)
+print(sorted_orders)
+
+#Section H — Pandas Join and Aggregation
+import pandas as pd
+customers_df = pd.read_csv("customers.csv")
+orders_df = pd.read_csv("orders.csv")
+orders_df.rename(columns={"stat": "status"}, inplace=True)
+orders_df["order_value"] = (
+    orders_df["quantity"] * orders_df["unit_price"]
+)
+joined_df = pd.merge(
+    orders_df,
+    customers_df,
+    on="customer_id",
+    how="inner"
+)
+print(joined_df)
+print(
+    joined_df[
+        [
+            "order_id",
+            "customer_name",
+            "city",
+            "product",
+            "status",
+            "order_value"
+        ]
+    ]
+)
+hyderabad_orders = joined_df[
+    (joined_df["status"] == "Delivered") &
+    (joined_df["city"] == "Hyderabad")
+]
+print(hyderabad_orders)
+city_summary = joined_df.groupby("city").agg(
+    total_orders=("order_id", "count"),
+    total_sales=("order_value", "sum"),
+    average_order_value=("order_value", "mean")
+).reset_index()
+print(city_summary)
+city_summary = city_summary.sort_values(
+    by="total_sales",
+    ascending=False
+)
+print(city_summary)
+city_summary.to_csv(
+    "city_sales_summary.csv",
+    index=False
+)
+city_summary.to_json(
+    "city_sales_summary.json",
+    orient="records",
+    indent=4
+)
+print("CSV and JSON files created successfully")
+
+#Section I — NumPy/Pandas Enrichment
+import numpy as np
+joined_df["order_size"] = np.select(
+    [
+        joined_df["order_value"] >= 50000,
+        joined_df["order_value"] >= 15000
+    ],
+    [
+        "High",
+        "Medium"
+    ],
+    default="Low"
+)
+print(
+    joined_df[
+        ["order_id", "order_value", "order_size"]
+    ]
+)
+
+joined_df["priority_customer"] = np.where(
+    joined_df["segment"] == "Corporate",
+    "Priority",
+    "Normal"
+)
+print(
+    joined_df[
+        ["customer_name", "segment", "priority_customer"]
+    ]
+)
+
+joined_df.to_csv(
+    "enriched_orders.csv",
+    index=False
+)
+print("Enriched orders file created successfully")
