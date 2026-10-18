@@ -1,38 +1,55 @@
-db.createCollection("receipts");
+//insert automatically creates collection if not present
 db.receipts.insertMany([
   {
-    user_id: 1, expense_id: 1, merchant: "FreshMart",
-    receipt_date: ISODate("2026-09-03"), total: 1300.0, currency: "INR",
+    receipt_id: "R1001",
+    user_id: 1,
+    expense_id: 1,
+    store: "Big Bazaar",
+    date: new Date("2026-09-03"),
     items: [
-      { name: "Rice 5kg", price: 450 },
-      { name: "Vegetables", price: 380 },
-      { name: "Milk", price: 470 }
+      { name: "Rice 5kg", price: 320.00 },
+      { name: "Milk 1L",  price: 60.00 },
+      { name: "Eggs 12",  price: 100.00 }
     ],
-    notes: "Monthly grocery run",
-    scan_url: "https://www.magnific.com/free-photos-vectors/receipt",
-    tags: ["groceries", "monthly"]
+    total: 480.00,
+    notes: "Monthly grocery shopping",
+    scanned_image: "https://www.magnific.com/free-photos-vectors/grocery-receipt-print"
   },
   {
-    user_id: 1, expense_id: 3, merchant: "Indian Oil",
-    receipt_date: ISODate("2026-09-05"), total: 600.0, currency: "INR",
-    items: [{ name: "Petrol 6L", price: 600 }],
-    notes: "", scan_url: "https://www.magnific.com/free-photos-vectors/receipt",
-    tags: ["fuel"]
+    receipt_id: "R1002",
+    user_id: 1,
+    expense_id: 4,
+    store: "Saravana Bhavan",
+    date: new Date("2026-09-12"),
+    items: [
+      { name: "Meals", price: 250.00 },
+      { name: "Coffee", price: 50.50 }
+    ],
+    total: 300.50,
+    notes: "Dinner with friends",
+    scanned_image: "https://www.shutterstock.com/image-photo/restaurant-receipt-large-check-1053419630"
   },
   {
-    user_id: 2, expense_id: 6, merchant: "TechZone",
-    receipt_date: ISODate("2026-09-15"), total: 7800.0, currency: "INR",
-    items: [{ name: "Wireless headphones", price: 7800 }],
-    notes: "Warranty 1 year - keep receipt",
-    scan_url: "https://www.magnific.com/free-photos-vectors/receipt",
-    tags: ["electronics", "warranty"]
+    receipt_id: "R1003",
+    user_id: 2,
+    expense_id: 5,
+    store: "TNEB",
+    date: new Date("2026-09-07"),
+    items: [
+      { name: "Electricity bill - Aug", price: 1800.00 }
+    ],
+    total: 1800.00,
+    notes: "Paid online",
+    scanned_image: "https://www.alamy.com/stock-photo/payment-receipt-electricity-bill.html?pseudoid=5068AE57-D930-44FA-8042-BC2788E61156"
   }
-]);
- 
-db.receipts.createIndex({ user_id: 1, receipt_date: -1 });          // a user's receipts, newest first
-db.receipts.createIndex({ merchant: 1 });
-db.receipts.createIndex({ notes: "text", merchant: "text" });       
+])
+db.receipts.createIndex({user_id:1});
+db.receipts.createIndex({receipt_id:1},{unique:true});
+db.receipts.createIndex({user_id:1,date:-1});
 
-// VERIFY
-printjson(dbx.receipts.getIndexes());
-printjson(dbx.receipts.find({ user_id: 1 }).sort({ receipt_date: -1 }).toArray());
+print("Indexes:");
+printjson(db.receipts.getIndexes());
+print("Receipts for user 1:");
+printjson(db.receipts.find({user_id:1}).toArray());
+print("Lookup receipt R1003:");
+printjson(db.receipts.findOne({ receipt_id: "R1003" }));
