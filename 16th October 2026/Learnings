@@ -88,26 +88,15 @@ HTTP -- 200 for success
 201 for successful creation of new record
 500 for server error
 
-Routing Table
+Client      Routing Table        server
 
-Path
+        Path      method/Component
 
-method
-Component
+        /        HomeComp
 
-server
+      /cart      Cart Comp
 
-Client
-
-HomeComp
-
-/cart
-
-/pay
-
-/Cart Comp
-
-Payment Comp
+      /pay      Payment Comp
 
 from fastapi import FastAPI
 app=FastAPI()
@@ -119,3 +108,56 @@ def home():
 def say_hello(name:str):
     return {"message":f"Hello {name}"}
 #check in browser by searching http://127.0.0.1:8000/hello/sivarubini
+
+
+from fastapi import FastAPI
+from pydantic import BaseModel
+app=FastAPI()
+
+class Product(BaseModel):
+    id: int
+    name: str
+    price: float
+products=[]
+products = []
+
+@app. get("/")
+def home():
+    return {"message": "FastAPI is running"}
+
+@app.get("/products")
+def get_products():
+    return products
+
+@app.post("/products")
+def add_product(product: Product):
+    products. append(product)
+    return {
+    "message": "Product added",
+    "product": product
+    }
+#http://127.0.01:8000/products get give []
+#for same link in post with body raw and json {
+#     "id": 1,
+#   "name": "Keyboard",
+#   "price": 1200
+# } and product 2 gives {
+#     "message": "Product added",
+#     "product": {
+#         "id": 2,
+#         "name": "Mouse",
+#         "price": 1200.0
+#     }
+# }
+#again get gives [
+#     {
+#         "id": 2,
+#         "name": "Mouse",
+#         "price": 1200.0
+#     },
+#     {
+#         "id": 1,
+#         "name": "Keyboard",
+#         "price": 1200.0
+#     }
+# ]
