@@ -1,0 +1,121 @@
+FastAPI 
+  is a modern, high-speed Python web framework used to build APIs (Application Programming Interfaces) that let different software applications talk to each other
+Advntages:
+  Super Fast Speed
+  Automatic Documentation->automatically creates interactive web pages (Swagger UI) where you can see and test your API endpoints
+  Automatic Data Validation-> It checks incoming data using Python type hints. If a user sends text instead of a number, FastAPI blocks the request immediately and explains the error, saving you from writing manual check code
+  Less Code, Fewer Bugs
+  Asynchronous Support-> It handles many requests at the same time without waiting for slow tasks (like database lookups) to finish first,keeping the app smooth and responsive
+JSON (JavaScript Object Notation)
+  is a lightweight text format used for storing and transporting data. 
+  In Python, JSON is handled through a built-in library called the json module, meaning you do not need to install any external packages to use it.
+  While a JSON object looks almost identical to a Python dictionary, they are fundamentally different: 
+  JSON is always a string format, whereas a Python dictionary is an in-memory data structure
+Advantages of api
+  Code Reusability:Developers do not need to "reinvent the wheel" for standard features. Instead of writing complex components from scratch, they can integrate pre-built APIs for services like Google Maps geolocation, payments, or identity authentication.
+  Faster Development Cycles
+  Language Independence:APIs enable software systems built in completely different programming languages (like Python, Java, or Ruby) to connect effortlessly using lightweight formats like JSON
+  Stability via Versioning: Well-designed APIs use versioning controls (e.g., v2 or v3 tags in the URL). This permits updates and new features to launch without breaking existing application code
+
+3tier architecture all apps will have alteast 3 tier to n tier
+  Ul Layer
+      Presentation Logic
+      
+      Angular
+      React
+      Ember JS
+  
+  API Layer
+      Business Logic
+      
+      Web API
+      Java Spring
+      Express JS
+      Fast API
+      
+      gives Endpoints(Endpoint->hides bussiness logic and shows only methods to access that logic like google maps location when contact us is clicked)      
+          api (lat, long) 
+  
+  Database 
+      Data
+
+Http Verbs / Methods
+  GET: Pull the data from DB
+  POST: Insert data into DB
+  PUT: Update data in DB
+  DELETE: Delete data from DB
+
+Example: Facebook
+GET
+  Landing Page
+POST
+  Create a Facebook post
+  Comment on FB Post
+  Share a FB post
+  Like a FB post
+PUT
+  Modify FB Post
+  Modify a Comment
+DELETE
+  Delete a FB Post
+  Delete a Comment
+
+API (facebook page to api)
+DB (ap to db)
+
+
+JSON (api return resonse in this format)
+JSON
+  Cross Language Format
+Usage
+  Stock Market Report API  
+  Cricket Score
+  Weather Report(IMD manages for india but reaches to n number of peoples in india using different technologies because they share as json)
+  
+Languges like .net,java,React etc can understand json
+
+Project1
+the operation executed successfully
+P2
+OK
+P3
+Executed Successfully
+All saying success but in different ways to avoid confuson there comes Status Codes
+
+HTTP -- 200 for success
+404 for not found
+401 for unauthorized
+201 for successful creation of new record
+500 for server error
+
+Routing Table
+
+Path
+
+method
+Component
+
+server
+
+Client
+
+HomeComp
+
+/cart
+
+/pay
+
+/Cart Comp
+
+Payment Comp
+
+from fastapi import FastAPI
+app=FastAPI()
+@app.get("/")
+def home():
+    return {"message": "Hello from FastAPI"}
+#dont run instead use uvicorn main:app --reload to make server run
+@app.get("/hello/{name}")
+def say_hello(name:str):
+    return {"message":f"Hello {name}"}
+#check in browser by searching http://127.0.0.1:8000/hello/sivarubini
