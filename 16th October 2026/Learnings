@@ -165,3 +165,39 @@ def add_product(product: Product):
 #         "price": 1200.0
 #     }
 # ]
+
+
+from fastapi import FastAPI,HTTPException
+@app.get("/products/{product_id}")
+def get_product(product_id: int):
+    for product in products:
+        if product.id == product_id:
+            return product
+    raise HTTPException(status_code=404, detail="Product not found")
+#in postman http://127.0.01:8000/products/1 get method
+
+
+@app.put("/products/{product_id}")
+def update_product(product_id: int, updated_product: Product):
+    for index, product in enumerate(products):
+        if product.id == product_id:
+            products[index] = updated_product
+            return updated_product
+    raise HTTPException(status_code=404, detail="Product not found")
+#http://127.0.0.1:8000/products/1 put method {
+#     "id": 1,
+#   "name": "Mouse 123"   ,
+#   "price": 1200
+# } same as post raw,json
+
+@app.delete("/products/{product_id}")
+def delete_product(product_id: int):
+    for index, product in enumerate(products):
+        if product.id == product_id:
+            deleted=products.pop(index)
+            return {
+                "message": "Product deleted",
+                "product": deleted
+            }
+    raise HTTPException(status_code=404, detail="Product not found")
+#delete http://127.0.0.1:8000/products/1
