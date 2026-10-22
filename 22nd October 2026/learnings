@@ -1,0 +1,182 @@
+What is PySpark?
+  PySpark is the Python API of Apache Spark.  
+  To understand this, first understand Apache Spark.
+  - Apache Spark: A framework used to process and analyze large amounts of data quickly.
+  - PySpark: Allows us to use Apache Spark through Python programming.
+  In simple words: 
+  PySpark helps us process huge datasets efficiently using Python, especially when the data is too large or slow to process on a single computer.
+Real-life example
+  Imagine Amazon has 10 crore customer orders.
+  Amazon wants to calculate:
+  - Total sales.
+  - Most purchased products.
+  - Monthly revenue.
+  - Customers who ordered more than five times.
+  Processing such huge data using a normal Python program on one computer might take a long time.
+  PySpark can divide the data into smaller parts and process them simultaneously using multiple computing resources.
+Advantages of PySpark
+  Fast processing->	Processes large datasets efficiently
+  Handles Big Data	->Can work with millions or billions of records
+  Distributed processing->	Divides work across multiple computers
+  Python support->	Allows developers to write Spark programs using Python
+  Fault tolerance->	Can recover lost computations when a machine fails
+  Scalability->	Additional machines can be added when workload increases
+  Multiple data formats->	Supports CSV, JSON, Parquet and more
+  SQL support->	Allows SQL queries through Spark SQL
+What is a Cluster in PySpark?
+  A cluster is a group of computers connected together to perform a task.
+  Instead of one computer processing the entire dataset, multiple computers share the workload.
+Simple real-life example
+  Imagine a teacher gives 1,000 answer sheets for correction.
+  Without a cluster:
+  One teacher corrects all 1,000 papers.
+  With a cluster:
+  Five teachers divide the papers equally.
+  - Teacher 1 → 200 papers
+  - Teacher 2 → 200 papers
+  - Teacher 3 → 200 papers
+  - Teacher 4 → 200 papers
+  - Teacher 5 → 200 papers
+  All five work simultaneously, so the task can finish faster.
+  PySpark follows a similar concept called Distributed Processing.
+Important Components of a PySpark Cluster
+  1. Driver Program
+  The Driver is like a team leader.
+  It:
+  - Runs the main Spark application.
+  - Divides jobs into smaller tasks.
+  - Schedules tasks for execution.
+  - Coordinates the overall process.
+  2. Cluster Manager
+  The Cluster Manager manages computing resources.
+  It decides how much CPU and memory should be allocated to Spark applications.
+  Examples include YARN, Kubernetes and Spark Standalone.
+  3. Worker Nodes
+  Workers are the computers that provide resources for processing data.
+  A cluster can contain multiple worker nodes.
+  4. Executors
+  Executors are processes launched on worker nodes.
+  They:
+  - Execute tasks assigned by the Driver.
+  - Process data.
+  - Store intermediate data when needed.
+  - Send results or status information back to the Driver.
+  Important distinction: A worker is a machine, whereas an executor is a process running on a worker.
+  
+Codes in Google Colab:
+!pip install pyspark
+
+from pyspark.sql import SparkSession
+spark=SparkSession.builder \
+  .appName("Pyspark Training") \
+  .getOrCreate()
+
+print(spark)
+print(spark.version)
+
+data = [
+    (101, "Laptop", "Electronics", 65000),
+    (102, "Mouse", "Accessories", 1500),
+    (103, "Monitor", "Electronics", 18000),
+    (104, "Office Chair", "Furniture", 9000),
+    (105, "Keyboard", "Accessories", 3000)
+]
+
+columns=[
+    "product_id",
+    "product_name",
+    "category",
+    "price"
+]
+
+df=spark.createDatFrame(data,columns)
+
+df.show()
+
+df.printSchema()
+
+print(df.columns)
+
+df.select("product_name","price").show()
+
+df.filter(df.category=="Electronics").show()
+
+df.filter(df.price>10000).show()
+
+df.filter(
+(df.category == "Electronics")&(df.price>20000)).show()
+
+Practice 
+1. Display all records.
+2. Display only product name and category.
+3. Display Furniture products.
+4. Display products costing more than 5000.
+5. Display Accessories products costing below 5000.
+6. Display the DataFrame schema.
+7. Display all column names.
+
+df.select("product_id","product_name","category","price").show()
+
+df.select("product_name","category").show()
+
+df.filter(df.category=="Furniture").show()
+
+df.filter(df.price>5000).show()
+
+df.filter((df.category=="Accessories")&(df.price<5000)).show()
+
+df.printSchema()
+
+print(df.columns)
+
+from pyspark.sql.types import (
+    StructType,
+    StructField,
+    IntegerType,
+    StringType,
+    DoubleType,
+    BooleanType
+)
+
+data = [
+    (101, "Laptop", "Electronics", 65000.0, True),
+    (102, "Mouse", "Accessories", 1500.0, True),
+    (103, "Monitor", "Electronics", 18000.0, True),
+    (104, "Office Chair", "Furniture", 9000.0, False),
+    (105, "Keyboard", "Accessories", 3000.0, True)
+]
+
+schema = StructType([
+    StructField("product_id", IntegerType(), False),
+    StructField("product_name", StringType(), False),
+    StructField("category", StringType(), True),
+    StructField("price", DoubleType(), True),
+    StructField("available", BooleanType(), True)
+])
+
+df = spark.createDataFrame(data, schema)
+
+df.show()
+
+df.printSchema()
+
+from pyspark.sql.functions import col
+//create new col
+df2=df.withColumn(
+    "price_with_tax",
+    col("price")*1.18
+)
+df2.show()
+//modify existing col
+df2=df.withColumn("price",col("price")*1.10)
+df2.show()
+
+df2=df.withColumnRenamed("product_name","name")
+df2.show()
+
+df2=df.drop("available")
+df2.show()
+
+from pyspark.sql.functions import lit
+df2=df.withColumn("country",lit("India"))
+df2.show()
