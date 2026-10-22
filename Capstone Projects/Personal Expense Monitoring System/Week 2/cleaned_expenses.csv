@@ -1,0 +1,13 @@
+user_id,date,category,amount,description,month
+1,2026-09-03,Food,480.0,Groceries,2026-09
+1,2026-09-05,Transport,120.0,Metro card recharge,2026-09
+1,2026-09-01,Rent,12000.0,Monthly rent,2026-09
+1,2026-09-12,Food,300.5,Restaurant dinner,2026-09
+2,2026-09-07,Utilities,1800.0,Electricity bill,2026-09
+2,2026-09-15,Entertainment,600.0,Movie tickets,2026-09
+1,2026-10-02,Food,520.0,Groceries,2026-10
+1,2026-10-04,Transport,150.0,Cab ride,2026-10
+1,2026-10-01,Rent,12000.0,Monthly rent,2026-10
+2,2026-10-06,Utilities,1950.0,Electricity bill,2026-10
+2,2026-10-14,Entertainment,750.0,Concert,2026-10
+2,2026-10-14,Entertainment,750.0,Concert,2026-10

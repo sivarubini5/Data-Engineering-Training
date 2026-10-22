@@ -1,0 +1,14 @@
+user_id,date,category,amount,description
+1,2026-09-03,food,"₹480.00",Groceries
+1,05/09/2026,Transport,"₹120.00",Metro card recharge
+1,2026-09-01,RENT,"12,000.00",Monthly rent
+1,"Sep 12, 2026", Food ,"$300.50",Restaurant dinner
+2,2026-09-07,utilities,"1,800.00",Electricity bill
+2,15/09/2026,Entertainment,600,Movie tickets
+1,2026-10-02,food,"₹520.00",Groceries
+1,2026-10-04,transport,"₹150.00",Cab ride
+1,2026-10-01,rent,"12,000.00",Monthly rent
+2,2026-10-06,utilities,"1,950.00",Electricity bill
+2,2026-10-14,entertainment,"₹750.00",Concert
+2,2026-10-14,entertainment,"₹750.00",Concert
+2,2026-10-20,food,,Missing amount row
