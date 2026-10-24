@@ -1,0 +1,7 @@
+plant_id,plant_name,city,region,year_opened,plant_manager
+PL01,Hyderabad Plant,Hyderabad,South,2016,R. Menon
+PL02,Pune Plant,Pune,West,2018,S. Kulkarni
+PL03,Chennai Plant,Chennai,South,2015,A. Natarajan
+PL04,Noida Plant,Noida,North,2019,M. Sharma
+PL05,Ahmedabad Plant,Ahmedabad,West,2017,P. Desai
+PL06,Kolkata Plant,Kolkata,East,2020,D. Banerjee

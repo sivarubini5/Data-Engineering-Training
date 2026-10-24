@@ -1,0 +1,992 @@
+[
+  {
+    "machine_id": "MC001",
+    "plant_id": "PL01",
+    "machine_type": "CNC",
+    "installed_year": 2022,
+    "capacity_per_hour": 120,
+    "specifications": {
+      "rated_power_kw": 22,
+      "max_temperature_c": 85,
+      "vibration_limit_mm_s": 5.0
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 60,
+      "last_service": "2026-01-14"
+    }
+  },
+  {
+    "machine_id": "MC002",
+    "plant_id": "PL01",
+    "machine_type": "Assembly",
+    "installed_year": 2024,
+    "capacity_per_hour": 80,
+    "specifications": {
+      "rated_power_kw": 22,
+      "max_temperature_c": 85,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 60,
+      "last_service": "2026-05-19"
+    }
+  },
+  {
+    "machine_id": "MC003",
+    "plant_id": "PL01",
+    "machine_type": "Casting",
+    "installed_year": 2018,
+    "capacity_per_hour": 120,
+    "specifications": {
+      "rated_power_kw": 55,
+      "max_temperature_c": 90,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 45,
+      "last_service": "2026-08-28"
+    }
+  },
+  {
+    "machine_id": "MC004",
+    "plant_id": "PL01",
+    "machine_type": "Welding",
+    "installed_year": 2024,
+    "capacity_per_hour": 180,
+    "specifications": {
+      "rated_power_kw": 22,
+      "max_temperature_c": 85,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 60,
+      "last_service": "2026-04-19"
+    }
+  },
+  {
+    "machine_id": "MC005",
+    "plant_id": "PL01",
+    "machine_type": "Testing",
+    "installed_year": 2022,
+    "capacity_per_hour": 150,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 85,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-05-09"
+    }
+  },
+  {
+    "machine_id": "MC006",
+    "plant_id": "PL02",
+    "machine_type": "CNC",
+    "installed_year": 2021,
+    "capacity_per_hour": 100,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 85,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 60,
+      "last_service": "2026-01-09"
+    }
+  },
+  {
+    "machine_id": "MC007",
+    "plant_id": "PL02",
+    "machine_type": "Assembly",
+    "installed_year": 2022,
+    "capacity_per_hour": 100,
+    "specifications": {
+      "rated_power_kw": 22,
+      "max_temperature_c": 80,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-06-26"
+    }
+  },
+  {
+    "machine_id": "MC008",
+    "plant_id": "PL02",
+    "machine_type": "Casting",
+    "installed_year": 2020,
+    "capacity_per_hour": 180,
+    "specifications": {
+      "rated_power_kw": 55,
+      "max_temperature_c": 75,
+      "vibration_limit_mm_s": 5.0
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-04-21"
+    }
+  },
+  {
+    "machine_id": "MC009",
+    "plant_id": "PL02",
+    "machine_type": "Welding",
+    "installed_year": 2020,
+    "capacity_per_hour": 80,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 85,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-08-13"
+    }
+  },
+  {
+    "machine_id": "MC010",
+    "plant_id": "PL02",
+    "machine_type": "Testing",
+    "installed_year": 2024,
+    "capacity_per_hour": 150,
+    "specifications": {
+      "rated_power_kw": 55,
+      "max_temperature_c": 90,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 45,
+      "last_service": "2026-06-05"
+    }
+  },
+  {
+    "machine_id": "MC011",
+    "plant_id": "PL03",
+    "machine_type": "CNC",
+    "installed_year": 2025,
+    "capacity_per_hour": 100,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 90,
+      "vibration_limit_mm_s": 6.0
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-04-04"
+    }
+  },
+  {
+    "machine_id": "MC012",
+    "plant_id": "PL03",
+    "machine_type": "Assembly",
+    "installed_year": 2025,
+    "capacity_per_hour": 180,
+    "specifications": {
+      "rated_power_kw": 55,
+      "max_temperature_c": 80,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-04-26"
+    }
+  },
+  {
+    "machine_id": "MC013",
+    "plant_id": "PL03",
+    "machine_type": "Casting",
+    "installed_year": 2020,
+    "capacity_per_hour": 180,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 90,
+      "vibration_limit_mm_s": 5.0
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 60,
+      "last_service": "2026-08-03"
+    }
+  },
+  {
+    "machine_id": "MC014",
+    "plant_id": "PL03",
+    "machine_type": "Welding",
+    "installed_year": 2021,
+    "capacity_per_hour": 180,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 80,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 90,
+      "last_service": "2026-01-21"
+    }
+  },
+  {
+    "machine_id": "MC015",
+    "plant_id": "PL03",
+    "machine_type": "Testing",
+    "installed_year": 2018,
+    "capacity_per_hour": 180,
+    "specifications": {
+      "rated_power_kw": 45,
+      "max_temperature_c": 90,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-09-02"
+    }
+  },
+  {
+    "machine_id": "MC016",
+    "plant_id": "PL04",
+    "machine_type": "CNC",
+    "installed_year": 2024,
+    "capacity_per_hour": 120,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 75,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 45,
+      "last_service": "2026-02-15"
+    }
+  },
+  {
+    "machine_id": "MC017",
+    "plant_id": "PL04",
+    "machine_type": "Assembly",
+    "installed_year": 2019,
+    "capacity_per_hour": 120,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 85,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-06-23"
+    }
+  },
+  {
+    "machine_id": "MC018",
+    "plant_id": "PL04",
+    "machine_type": "Casting",
+    "installed_year": 2020,
+    "capacity_per_hour": 100,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 85,
+      "vibration_limit_mm_s": 5.0
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-03-27"
+    }
+  },
+  {
+    "machine_id": "MC019",
+    "plant_id": "PL04",
+    "machine_type": "Welding",
+    "installed_year": 2021,
+    "capacity_per_hour": 80,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 75,
+      "vibration_limit_mm_s": 5.0
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-07-27"
+    }
+  },
+  {
+    "machine_id": "MC020",
+    "plant_id": "PL04",
+    "machine_type": "Testing",
+    "installed_year": 2018,
+    "capacity_per_hour": 120,
+    "specifications": {
+      "rated_power_kw": 15,
+      "max_temperature_c": 80,
+      "vibration_limit_mm_s": 5.0
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 45,
+      "last_service": "2026-09-17"
+    }
+  },
+  {
+    "machine_id": "MC021",
+    "plant_id": "PL05",
+    "machine_type": "CNC",
+    "installed_year": 2023,
+    "capacity_per_hour": 80,
+    "specifications": {
+      "rated_power_kw": 55,
+      "max_temperature_c": 80,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 60,
+      "last_service": "2026-07-17"
+    }
+  },
+  {
+    "machine_id": "MC022",
+    "plant_id": "PL05",
+    "machine_type": "Assembly",
+    "installed_year": 2022,
+    "capacity_per_hour": 120,
+    "specifications": {
+      "rated_power_kw": 15,
+      "max_temperature_c": 75,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 90,
+      "last_service": "2026-04-03"
+    }
+  },
+  {
+    "machine_id": "MC023",
+    "plant_id": "PL05",
+    "machine_type": "Casting",
+    "installed_year": 2024,
+    "capacity_per_hour": 150,
+    "specifications": {
+      "rated_power_kw": 45,
+      "max_temperature_c": 90,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 30,
+      "last_service": "2026-04-20"
+    }
+  },
+  {
+    "machine_id": "MC024",
+    "plant_id": "PL05",
+    "machine_type": "Welding",
+    "installed_year": 2021,
+    "capacity_per_hour": 120,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 90,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 45,
+      "last_service": "2026-06-17"
+    }
+  },
+  {
+    "machine_id": "MC025",
+    "plant_id": "PL05",
+    "machine_type": "Testing",
+    "installed_year": 2019,
+    "capacity_per_hour": 120,
+    "specifications": {
+      "rated_power_kw": 45,
+      "max_temperature_c": 80,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 60,
+      "last_service": "2026-05-11"
+    }
+  },
+  {
+    "machine_id": "MC026",
+    "plant_id": "PL06",
+    "machine_type": "CNC",
+    "installed_year": 2025,
+    "capacity_per_hour": 150,
+    "specifications": {
+      "rated_power_kw": 30,
+      "max_temperature_c": 75,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 45,
+      "last_service": "2026-08-18"
+    }
+  },
+  {
+    "machine_id": "MC027",
+    "plant_id": "PL06",
+    "machine_type": "Assembly",
+    "installed_year": 2020,
+    "capacity_per_hour": 150,
+    "specifications": {
+      "rated_power_kw": 55,
+      "max_temperature_c": 90,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 60,
+      "last_service": "2026-07-23"
+    }
+  },
+  {
+    "machine_id": "MC028",
+    "plant_id": "PL06",
+    "machine_type": "Casting",
+    "installed_year": 2025,
+    "capacity_per_hour": 120,
+    "specifications": {
+      "rated_power_kw": 15,
+      "max_temperature_c": 90,
+      "vibration_limit_mm_s": 6.0
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 90,
+      "last_service": "2026-02-20"
+    }
+  },
+  {
+    "machine_id": "MC029",
+    "plant_id": "PL06",
+    "machine_type": "Welding",
+    "installed_year": 2023,
+    "capacity_per_hour": 180,
+    "specifications": {
+      "rated_power_kw": 15,
+      "max_temperature_c": 75,
+      "vibration_limit_mm_s": 4.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 90,
+      "last_service": "2026-06-28"
+    }
+  },
+  {
+    "machine_id": "MC030",
+    "plant_id": "PL06",
+    "machine_type": "Testing",
+    "installed_year": 2021,
+    "capacity_per_hour": 150,
+    "specifications": {
+      "rated_power_kw": 55,
+      "max_temperature_c": 75,
+      "vibration_limit_mm_s": 5.5
+    },
+    "sensors": [
+      {
+        "sensor": "temperature",
+        "unit": "C",
+        "active": true
+      },
+      {
+        "sensor": "vibration",
+        "unit": "mm/s",
+        "active": true
+      },
+      {
+        "sensor": "energy",
+        "unit": "kWh",
+        "active": true
+      }
+    ],
+    "maintenance": {
+      "frequency_days": 45,
+      "last_service": "2026-05-04"
+    }
+  }
+]
