@@ -1,0 +1,274 @@
+[
+  {
+    "warehouse_id": "W01",
+    "environment": {
+      "temperature_range_c": {
+        "minimum": 18,
+        "maximum": 32
+      },
+      "humidity_target_pct": 45
+    },
+    "sensors": [
+      {
+        "sensor_id": "W01-S1",
+        "type": "Temperature",
+        "enabled": false
+      },
+      {
+        "sensor_id": "W01-S2",
+        "type": "Humidity",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W01-S3",
+        "type": "Door",
+        "enabled": true
+      }
+    ],
+    "safety": {
+      "fire_suppression": "Sprinkler",
+      "inspections": {
+        "last_date": "2026-06-15",
+        "next_date": "2026-12-15"
+      }
+    }
+  },
+  {
+    "warehouse_id": "W02",
+    "environment": {
+      "temperature_range_c": {
+        "minimum": 18,
+        "maximum": 32
+      },
+      "humidity_target_pct": 50
+    },
+    "sensors": [
+      {
+        "sensor_id": "W02-S1",
+        "type": "Temperature",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W02-S2",
+        "type": "Humidity",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W02-S3",
+        "type": "Door",
+        "enabled": true
+      }
+    ],
+    "safety": {
+      "fire_suppression": "Gas",
+      "inspections": {
+        "last_date": "2026-06-15",
+        "next_date": "2026-12-15"
+      }
+    }
+  },
+  {
+    "warehouse_id": "W03",
+    "environment": {
+      "temperature_range_c": {
+        "minimum": 18,
+        "maximum": 32
+      },
+      "humidity_target_pct": 55
+    },
+    "sensors": [
+      {
+        "sensor_id": "W03-S1",
+        "type": "Temperature",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W03-S2",
+        "type": "Humidity",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W03-S3",
+        "type": "Door",
+        "enabled": true
+      }
+    ],
+    "safety": {
+      "fire_suppression": "Sprinkler",
+      "inspections": {
+        "last_date": "2026-06-15",
+        "next_date": "2026-12-15"
+      }
+    }
+  },
+  {
+    "warehouse_id": "W04",
+    "environment": {
+      "temperature_range_c": {
+        "minimum": 18,
+        "maximum": 32
+      },
+      "humidity_target_pct": 60
+    },
+    "sensors": [
+      {
+        "sensor_id": "W04-S1",
+        "type": "Temperature",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W04-S2",
+        "type": "Humidity",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W04-S3",
+        "type": "Door",
+        "enabled": false
+      }
+    ],
+    "safety": {
+      "fire_suppression": "Gas",
+      "inspections": {
+        "last_date": "2026-06-15",
+        "next_date": "2026-12-15"
+      }
+    }
+  },
+  {
+    "warehouse_id": "W05",
+    "environment": {
+      "temperature_range_c": {
+        "minimum": 18,
+        "maximum": 32
+      },
+      "humidity_target_pct": 45
+    },
+    "sensors": [
+      {
+        "sensor_id": "W05-S1",
+        "type": "Temperature",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W05-S2",
+        "type": "Humidity",
+        "enabled": false
+      },
+      {
+        "sensor_id": "W05-S3",
+        "type": "Door",
+        "enabled": true
+      }
+    ],
+    "safety": {
+      "fire_suppression": "Sprinkler",
+      "inspections": {
+        "last_date": "2026-06-15",
+        "next_date": "2026-12-15"
+      }
+    }
+  },
+  {
+    "warehouse_id": "W06",
+    "environment": {
+      "temperature_range_c": {
+        "minimum": 16,
+        "maximum": 24
+      },
+      "humidity_target_pct": 50
+    },
+    "sensors": [
+      {
+        "sensor_id": "W06-S1",
+        "type": "Temperature",
+        "enabled": false
+      },
+      {
+        "sensor_id": "W06-S2",
+        "type": "Humidity",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W06-S3",
+        "type": "Door",
+        "enabled": true
+      }
+    ],
+    "safety": {
+      "fire_suppression": "Gas",
+      "inspections": {
+        "last_date": "2026-06-15",
+        "next_date": "2026-12-15"
+      }
+    }
+  },
+  {
+    "warehouse_id": "W07",
+    "environment": {
+      "temperature_range_c": {
+        "minimum": 18,
+        "maximum": 32
+      },
+      "humidity_target_pct": 55
+    },
+    "sensors": [
+      {
+        "sensor_id": "W07-S1",
+        "type": "Temperature",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W07-S2",
+        "type": "Humidity",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W07-S3",
+        "type": "Door",
+        "enabled": true
+      }
+    ],
+    "safety": {
+      "fire_suppression": "Sprinkler",
+      "inspections": {
+        "last_date": "2026-06-15",
+        "next_date": "2026-12-15"
+      }
+    }
+  },
+  {
+    "warehouse_id": "W08",
+    "environment": {
+      "temperature_range_c": {
+        "minimum": 18,
+        "maximum": 32
+      },
+      "humidity_target_pct": 60
+    },
+    "sensors": [
+      {
+        "sensor_id": "W08-S1",
+        "type": "Temperature",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W08-S2",
+        "type": "Humidity",
+        "enabled": true
+      },
+      {
+        "sensor_id": "W08-S3",
+        "type": "Door",
+        "enabled": true
+      }
+    ],
+    "safety": {
+      "fire_suppression": "Gas",
+      "inspections": {
+        "last_date": "2026-06-15",
+        "next_date": "2026-12-15"
+      }
+    }
+  }
+]

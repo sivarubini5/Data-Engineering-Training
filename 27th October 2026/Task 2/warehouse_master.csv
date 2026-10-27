@@ -1,0 +1,9 @@
+warehouse_id,warehouse_name,city,region,capacity_units,storage_type
+W01,Charminar Fulfilment Hub,Hyderabad,South,42000,Ambient
+W02,Electronic City DC,Bengaluru,South,55000,Mixed
+W03,Vashi Distribution Hub,Navi Mumbai,West,61000,Ambient
+W04,Okhla Sorting Centre,New Delhi,North,48000,Mixed
+W05,Salt Lake Logistics Park,Kolkata,East,36000,Ambient
+W06,Ambattur Dispatch Centre,Chennai,South,39000,Temperature Controlled
+W07,Naroda Distribution Centre,Ahmedabad,West,44000,Mixed
+W08,Hinjewadi Fulfilment Centre,Pune,West,52000,Ambient

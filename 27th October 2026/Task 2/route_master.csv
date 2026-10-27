@@ -1,0 +1,13 @@
+route_id,origin_region,destination_region,route_type,distance_km,toll_inr
+R01,South,South,Intraregional,180,140
+R02,South,West,Interregional,760,490
+R03,South,North,Interregional,1550,1100
+R04,South,East,Interregional,1430,930
+R05,West,West,Intraregional,230,170
+R06,West,North,Interregional,1130,820
+R07,West,East,Interregional,1710,1250
+R08,North,North,Intraregional,210,150
+R09,North,East,Interregional,1280,910
+R10,East,East,Intraregional,165,120
+R11,East,South,Interregional,1460,1010
+R12,North,South,Interregional,1570,1140

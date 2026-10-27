@@ -1,0 +1,8 @@
+carrier_id,carrier_name,carrier_type,base_cost_per_km,reliability_score
+C01,SwiftLine Express,Express,6.4,95
+C02,ParcelBridge,Standard,4.3,89
+C03,MetroRoute Logistics,Standard,4.7,91
+C04,AirSprint Couriers,Express,8.2,94
+C05,CargoNest,Economy,3.6,84
+C06,RouteWise,Economy,3.9,86
+C07,BluePeak Delivery,Standard,4.5,90
