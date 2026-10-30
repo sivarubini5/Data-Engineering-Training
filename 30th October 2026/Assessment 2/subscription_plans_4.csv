@@ -1,0 +1,5 @@
+plan_id,plan_name,monthly_fee_inr,max_concurrent_streams,max_video_quality
+PL01,Mobile,149,1,HD
+PL02,Basic,249,1,Full HD
+PL03,Standard,399,2,Full HD
+PL04,Premium,649,4,4K

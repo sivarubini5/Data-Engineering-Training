@@ -1,0 +1,9 @@
+device_id,device_type,platform,screen_category
+DV01,Android Phone,Android,Small
+DV02,iPhone,iOS,Small
+DV03,Smart TV,TV OS,Large
+DV04,Tablet,Android,Medium
+DV05,Desktop Browser,Windows,Large
+DV06,Streaming Stick,TV OS,Large
+DV07,Game Console,Console OS,Large
+DV08,Laptop Browser,macOS,Medium

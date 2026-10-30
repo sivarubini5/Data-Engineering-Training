@@ -1,0 +1,121 @@
+content_id,content_title,genre,content_type,duration_minutes,release_year,content_language
+CT0001,Ancient River,Adventure,Movie,116,2019,Telugu
+CT0002,Blue Circuit,Drama,Series Episode,61,2026,Telugu
+CT0003,Golden Frontier,Drama,Movie,104,2018,English
+CT0004,Quiet Puzzle,Comedy,Documentary,72,2021,English
+CT0005,Ancient Archive,Animation,Documentary,48,2022,English
+CT0006,Silver Puzzle,Thriller,Series Episode,33,2026,English
+CT0007,Ancient Voyage,Comedy,Documentary,62,2017,English
+CT0008,Northern Puzzle,Sci-Fi,Special,68,2020,Hindi
+CT0009,Blue Voyage,Animation,Series Episode,61,2021,Telugu
+CT0010,Hidden Echo,Sci-Fi,Special,87,2017,Hindi
+CT0011,Secret Canvas,Documentary,Documentary,49,2021,Hindi
+CT0012,Quiet Horizon,Animation,Series Episode,51,2020,Telugu
+CT0013,Crimson Echo,Comedy,Series Episode,47,2025,English
+CT0014,Solar Horizon,Documentary,Movie,93,2017,English
+CT0015,Fading Harbor,Adventure,Documentary,101,2020,English
+CT0016,Secret Valley,Adventure,Movie,137,2023,Hindi
+CT0017,Quiet Frontier,Documentary,Series Episode,24,2018,English
+CT0018,Quiet Canvas,Adventure,Movie,125,2023,English
+CT0019,Bright Valley,Comedy,Movie,169,2017,English
+CT0020,Northern Legend,Sci-Fi,Movie,98,2017,Tamil
+CT0021,Hidden Circuit,Animation,Movie,100,2025,English
+CT0022,Fading River,Sci-Fi,Movie,98,2025,Tamil
+CT0023,Golden River,Animation,Series Episode,34,2021,English
+CT0024,Last Circuit,Thriller,Documentary,63,2023,Hindi
+CT0025,Hidden Summit,Sci-Fi,Documentary,43,2019,Telugu
+CT0026,Last Archive,Animation,Series Episode,54,2024,English
+CT0027,Blue Horizon,Comedy,Movie,166,2021,Telugu
+CT0028,Silver Legend,Drama,Documentary,109,2019,Telugu
+CT0029,Wild Current,Documentary,Series Episode,33,2023,Telugu
+CT0030,Lost Frontier,Comedy,Series Episode,49,2026,English
+CT0031,Golden Archive,Animation,Series Episode,55,2025,Hindi
+CT0032,Rising Harbor,Thriller,Series Episode,53,2018,Telugu
+CT0033,Last Garden,Sci-Fi,Series Episode,35,2019,English
+CT0034,Golden Memory,Thriller,Movie,159,2024,Tamil
+CT0035,Rising Garden,Adventure,Documentary,66,2024,Malayalam
+CT0036,Emerald Legend,Animation,Documentary,105,2026,Telugu
+CT0037,Northern Atlas,Adventure,Movie,125,2018,Telugu
+CT0038,Rising Echo,Sports,Series Episode,31,2023,Hindi
+CT0039,Rising Current,Documentary,Series Episode,53,2023,English
+CT0040,Emerald Echo,Adventure,Documentary,92,2026,English
+CT0041,Crimson Journey,Sports,Series Episode,57,2025,English
+CT0042,Solar Memory,Adventure,Movie,154,2021,English
+CT0043,Northern Circuit,Animation,Documentary,73,2022,Malayalam
+CT0044,Lost Echo,Drama,Documentary,46,2022,Tamil
+CT0045,Silver Garden,Documentary,Series Episode,39,2025,Hindi
+CT0046,Midnight River,Drama,Documentary,73,2018,Hindi
+CT0047,Wild Harbor,Drama,Movie,114,2024,Telugu
+CT0048,Lost Journey,Adventure,Movie,149,2018,Hindi
+CT0049,Silver Frontier,Adventure,Movie,119,2020,Hindi
+CT0050,Crimson Harbor,Animation,Series Episode,36,2017,Telugu
+CT0051,Secret Archive,Adventure,Series Episode,34,2018,Hindi
+CT0052,Midnight Echo,Sports,Movie,154,2025,Tamil
+CT0053,Emerald Journey,Sports,Series Episode,39,2025,English
+CT0054,Infinite Valley,Adventure,Series Episode,63,2022,Hindi
+CT0055,Silver Circuit,Documentary,Series Episode,60,2017,English
+CT0056,Wild Canvas,Comedy,Movie,162,2017,English
+CT0057,Emerald Valley,Documentary,Documentary,107,2024,English
+CT0058,Bright Voyage,Adventure,Documentary,90,2023,Hindi
+CT0059,Silver Valley,Comedy,Movie,158,2025,Hindi
+CT0060,Fading Voyage,Thriller,Documentary,36,2026,English
+CT0061,Emerald Voyage,Animation,Series Episode,57,2023,Hindi
+CT0062,Rising Archive,Drama,Movie,150,2019,Hindi
+CT0063,Electric Garden,Sports,Series Episode,32,2022,Malayalam
+CT0064,Electric Legend,Sci-Fi,Movie,151,2026,Hindi
+CT0065,Last Frontier,Adventure,Series Episode,24,2025,Telugu
+CT0066,Midnight Signal,Drama,Special,82,2026,Hindi
+CT0067,Rising Circuit,Animation,Series Episode,34,2026,Telugu
+CT0068,Hidden Journey,Adventure,Series Episode,61,2017,English
+CT0069,Crimson Summit,Drama,Movie,171,2026,Malayalam
+CT0070,Midnight Voyage,Sports,Documentary,46,2020,English
+CT0071,Secret Memory,Sports,Movie,110,2017,English
+CT0072,Electric Valley,Drama,Series Episode,46,2022,English
+CT0073,Solar Journey,Thriller,Series Episode,38,2022,English
+CT0074,Electric Horizon,Sports,Series Episode,51,2021,English
+CT0075,Lost Puzzle,Adventure,Movie,135,2024,Telugu
+CT0076,Ancient Valley,Comedy,Series Episode,61,2023,English
+CT0077,Fading Signal,Documentary,Movie,122,2021,Malayalam
+CT0078,Lost Voyage,Drama,Documentary,46,2019,English
+CT0079,Wild Valley,Sci-Fi,Documentary,70,2022,English
+CT0080,Quiet Atlas,Adventure,Series Episode,54,2024,Telugu
+CT0081,Infinite Journey,Adventure,Special,103,2021,Hindi
+CT0082,Crimson Current,Thriller,Special,109,2024,Telugu
+CT0083,Golden Atlas,Documentary,Series Episode,39,2022,English
+CT0084,Northern Valley,Drama,Movie,89,2017,Hindi
+CT0085,Hidden Harbor,Comedy,Movie,83,2024,Hindi
+CT0086,Fading Garden,Sports,Documentary,96,2023,English
+CT0087,Last Legend,Thriller,Documentary,97,2023,English
+CT0088,Bright Archive,Sci-Fi,Series Episode,53,2021,Telugu
+CT0089,Rising Journey,Sci-Fi,Documentary,97,2026,Hindi
+CT0090,Solar Current,Adventure,Series Episode,26,2020,Hindi
+CT0091,Lost Canvas,Sci-Fi,Movie,150,2018,English
+CT0092,Rising Summit,Drama,Series Episode,61,2019,Tamil
+CT0093,Ancient Circuit,Comedy,Series Episode,32,2022,Tamil
+CT0094,Blue Puzzle,Animation,Series Episode,55,2018,English
+CT0095,Rising Memory,Drama,Series Episode,63,2023,Hindi
+CT0096,Electric Echo,Sports,Movie,104,2020,English
+CT0097,Rising Atlas,Sports,Documentary,51,2022,English
+CT0098,Solar Orbit,Drama,Movie,96,2023,English
+CT0099,Solar Frontier,Sports,Series Episode,47,2018,English
+CT0100,Golden Puzzle,Animation,Movie,126,2024,Tamil
+CT0101,Hidden Puzzle,Adventure,Movie,115,2018,Malayalam
+CT0102,Secret Horizon,Animation,Series Episode,58,2020,Hindi
+CT0103,Silver Archive,Sports,Special,117,2023,English
+CT0104,Hidden Valley,Adventure,Series Episode,31,2023,English
+CT0105,Infinite Horizon,Adventure,Movie,166,2019,Telugu
+CT0106,Last River,Animation,Movie,138,2022,Hindi
+CT0107,Secret Circuit,Sports,Series Episode,40,2021,Tamil
+CT0108,Quiet River,Sci-Fi,Special,61,2022,Telugu
+CT0109,Silver Summit,Sports,Series Episode,48,2023,English
+CT0110,Golden Canvas,Adventure,Documentary,92,2018,Telugu
+CT0111,Lost Valley,Sci-Fi,Movie,90,2020,Hindi
+CT0112,Blue Archive,Sci-Fi,Series Episode,47,2019,Hindi
+CT0113,Wild Journey,Thriller,Documentary,77,2026,English
+CT0114,Emerald Circuit,Animation,Movie,138,2021,English
+CT0115,Blue Garden,Comedy,Series Episode,48,2019,Hindi
+CT0116,Last Summit,Comedy,Series Episode,51,2018,Hindi
+CT0117,Crimson Archive,Drama,Series Episode,57,2022,Hindi
+CT0118,Silver Harbor,Documentary,Documentary,51,2025,English
+CT0119,Lost Harbor,Animation,Documentary,93,2019,Telugu
+CT0120,Last Harbor,Comedy,Special,75,2025,English
