@@ -1,0 +1,13 @@
+substation_id,city,region,capacity_mw,commissioned_year
+SUB01,Hyderabad,South,110,2016
+SUB02,Bengaluru,South,135,2009
+SUB03,Chennai,South,105,1999
+SUB04,Pune,West,115,2012
+SUB05,Mumbai,West,160,2002
+SUB06,Delhi,North,175,2002
+SUB07,Jaipur,North,95,2004
+SUB08,Ahmedabad,West,120,2009
+SUB09,Kochi,South,90,2013
+SUB10,Visakhapatnam,South,85,2021
+SUB11,Lucknow,North,100,2000
+SUB12,Indore,Central,90,2004

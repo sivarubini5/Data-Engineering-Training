@@ -1,0 +1,1601 @@
+ticket_id,meter_id,opened_date,closed_date,issue_type,severity,ticket_status,maintenance_cost_inr
+MT00001,M0101,2026-06-03,2026-06-16,Meter Replacement,Low,Closed,7751.99
+MT00002,M0097,2026-04-18,,Communication Failure,High,Open,24779.59
+MT00003,M0034,2026-06-25,2026-06-29,Power Quality,Medium,Closed,15467.05
+MT00004,M0100,2026-06-30,,Voltage Fluctuation,Medium,In Progress,15755.93
+MT00005,M0027,2026-08-12,,Voltage Fluctuation,Low,In Progress,13318.94
+MT00006,M0074,2026-07-25,2026-08-09,Sensor Calibration,Low,Closed,18861.63
+MT00007,M0116,2026-05-06,,Voltage Fluctuation,High,In Progress,8722.71
+MT00008,M0032,2026-06-01,2026-06-08,Physical Inspection,Low,Closed,4204.02
+MT00009,M0063,2026-02-13,,Sensor Calibration,Medium,In Progress,14087.76
+MT00010,M0129,2026-02-20,2026-03-01,Communication Failure,High,Closed,15343.66
+MT00011,M0056,2026-08-19,2026-08-24,Voltage Fluctuation,Low,Closed,1670.62
+MT00012,M0115,2026-03-27,,Sensor Calibration,Medium,In Progress,21214.86
+MT00013,M0086,2026-03-26,2026-03-30,Power Quality,Medium,Closed,16912.23
+MT00014,M0123,2026-08-15,2026-08-17,Meter Replacement,High,Closed,11338.67
+MT00015,M0033,2026-01-23,2026-01-24,Meter Replacement,High,Closed,1109.39
+MT00016,M0097,2026-07-06,2026-07-11,Power Quality,High,Closed,12288.1
+MT00017,M0006,2026-05-30,2026-06-14,Meter Replacement,High,Closed,14712.87
+MT00018,M0027,2026-05-21,,Voltage Fluctuation,High,In Progress,10851.73
+MT00019,M0080,2026-08-17,2026-08-22,Power Quality,Low,Closed,6654.59
+MT00020,M0053,2026-01-16,2026-01-28,Meter Replacement,High,Closed,4511.44
+MT00021,M0121,2026-06-15,2026-06-19,Meter Replacement,Critical,Closed,7412.13
+MT00022,M0012,2026-05-08,,Power Quality,Medium,In Progress,4131.09
+MT00023,M0087,2026-04-26,,Power Quality,Medium,In Progress,1679.01
+MT00024,M0076,2026-04-02,2026-04-07,Sensor Calibration,Medium,Closed,24545.3
+MT00025,M0022,2026-02-27,,Physical Inspection,Medium,In Progress,3285.85
+MT00026,M0147,2026-06-26,2026-07-07,Communication Failure,Low,Closed,16611.02
+MT00027,M0043,2026-01-04,2026-01-17,Meter Replacement,High,Closed,14336.85
+MT00028,M0048,2026-08-19,2026-09-04,Voltage Fluctuation,High,Closed,22611.19
+MT00029,M0063,2026-03-21,2026-04-04,Sensor Calibration,Low,Closed,3236.14
+MT00030,M0068,2026-04-29,2026-05-01,Sensor Calibration,Low,Closed,6700.52
+MT00031,M0115,2026-03-06,2026-03-11,Communication Failure,Critical,Closed,23280.05
+MT00032,M0114,2026-01-31,2026-02-15,Power Quality,High,Closed,21700.31
+MT00033,M0096,2026-01-23,2026-01-26,Communication Failure,Low,Closed,24242.49
+MT00034,M0099,2026-05-30,2026-06-02,Physical Inspection,Medium,Closed,11258.76
+MT00035,M0049,2026-04-27,2026-04-28,Voltage Fluctuation,High,Closed,
+MT00036,M0074,2026-01-05,,Power Quality,Medium,In Progress,
+MT00037,M0031,2026-05-30,2026-06-08,Sensor Calibration,Medium,Closed,21381.18
+MT00038,M0090,2026-06-01,,Meter Replacement,Medium,In Progress,8578.25
+MT00039,M0097,2026-01-23,,Sensor Calibration,Low,Open,
+MT00040,M0093,2026-07-01,,Meter Replacement,Medium,In Progress,2598.24
+MT00041,M0057,2026-08-29,2026-09-04,Power Quality,Low,Closed,13038.02
+MT00042,M0029,2026-03-05,2026-03-19,Voltage Fluctuation,Low,Closed,8785.99
+MT00043,M0113,2026-03-09,2026-03-13,Communication Failure,High,Closed,13825.67
+MT00044,M0063,2026-07-01,,Physical Inspection,Medium,In Progress,
+MT00045,M0075,2026-05-19,2026-06-03,Meter Replacement,High,Closed,15712.23
+MT00046,M0034,2026-08-28,,Physical Inspection,High,In Progress,22254.7
+MT00047,M0084,2026-07-20,,Sensor Calibration,Low,Open,23802.9
+MT00048,M0012,2026-04-09,2026-04-13,Communication Failure,High,Closed,6260.68
+MT00049,M0103,2026-07-24,2026-08-10,Voltage Fluctuation,High,Closed,18476.88
+MT00050,M0142,2026-04-09,,Voltage Fluctuation,Medium,Open,24616.52
+MT00051,M0095,2026-08-27,,Power Quality,High,In Progress,9760.29
+MT00052,M0098,2026-06-10,2026-06-25,Communication Failure,Medium,Closed,19764.16
+MT00053,M0015,2026-01-21,2026-02-04,Voltage Fluctuation,Critical,Closed,2122.56
+MT00054,M0018,2026-01-22,2026-01-27,Power Quality,High,Closed,
+MT00055,M0099,2026-02-21,,Meter Replacement,High,In Progress,
+MT00056,M0112,2026-02-13,2026-02-20,Voltage Fluctuation,Low,Closed,4973.25
+MT00057,M0136,2026-07-17,,Voltage Fluctuation,Medium,In Progress,10170.61
+MT00058,M0051,2026-01-18,2026-01-26,Physical Inspection,Low,Closed,13437.73
+MT00059,M0068,2026-04-01,,Physical Inspection,Low,In Progress,11415.31
+MT00060,M0120,2026-05-09,2026-05-17,Physical Inspection,High,Closed,23165.29
+MT00061,M0142,2026-03-12,2026-03-20,Physical Inspection,Medium,Closed,1226.73
+MT00062,M0081,2026-05-11,,Voltage Fluctuation,Medium,In Progress,12127.34
+MT00063,M0096,2026-06-14,2026-06-15,Communication Failure,High,Closed,8831.76
+MT00064,M0090,2026-03-17,,Sensor Calibration,Medium,In Progress,18230.13
+MT00065,M0080,2026-05-06,,Communication Failure,Medium,In Progress,11550.17
+MT00066,M0027,2026-01-14,2026-01-30,Communication Failure,Low,Closed,14194.42
+MT00067,M0132,2026-04-17,,Physical Inspection,High,In Progress,16701.92
+MT00068,M0113,2026-01-18,2026-01-31,Physical Inspection,High,Closed,1171.11
+MT00069,M0138,2026-03-18,2026-03-28,Meter Replacement,High,Closed,12581.79
+MT00070,M0061,2026-04-03,,Power Quality,Low,In Progress,16862.59
+MT00071,M0095,2026-02-06,2026-02-16,Sensor Calibration,Critical,Closed,2644.16
+MT00072,M0035,2026-03-11,2026-03-18,Voltage Fluctuation,High,Closed,23212.42
+MT00073,M0111,2026-03-07,2026-03-10,Power Quality,High,Closed,4336.12
+MT00074,M0079,2026-02-03,2026-02-08,Communication Failure,Low,Closed,18688.32
+MT00075,M0136,2026-01-06,2026-01-18,Power Quality,Low,Closed,13035.15
+MT00076,M0150,2026-06-19,2026-07-05,Sensor Calibration,Low,Closed,19480.76
+MT00077,M0112,2026-07-09,2026-07-17,Voltage Fluctuation,Medium,Closed,17134.09
+MT00078,M0084,2026-08-10,,Sensor Calibration,Medium,Open,15371.38
+MT00079,M0131,2026-02-15,2026-02-16,Physical Inspection,Medium,Closed,13582.33
+MT00080,M0060,2026-02-02,2026-02-04,Communication Failure,Medium,Closed,12862.72
+MT00081,M0097,2026-01-02,,Communication Failure,Medium,In Progress,8454.88
+MT00082,M0038,2026-04-29,,Sensor Calibration,High,In Progress,16348.46
+MT00083,M0009,2026-08-28,2026-08-31,Sensor Calibration,High,Closed,10552.21
+MT00084,M0014,2026-02-22,2026-03-06,Communication Failure,Medium,Closed,2483.28
+MT00085,M0108,2026-05-27,2026-05-30,Sensor Calibration,Medium,Closed,2315.73
+MT00086,M0089,2026-05-31,2026-06-14,Physical Inspection,Medium,Closed,4838.59
+MT00087,M0142,2026-05-23,2026-05-25,Sensor Calibration,Medium,Closed,4694.83
+MT00088,M0038,2026-03-09,2026-03-18,Power Quality,Low,Closed,4598.24
+MT00089,M0135,2026-08-15,2026-08-31,Power Quality,Medium,Closed,17816.07
+MT00090,M0122,2026-03-06,2026-03-18,Sensor Calibration,Medium,Closed,14180.91
+MT00091,M0064,2026-01-04,2026-01-12,Sensor Calibration,Low,Closed,3714.4
+MT00092,M0011,2026-03-16,2026-03-19,Communication Failure,Medium,Closed,1723.01
+MT00093,M0090,2026-06-06,,Physical Inspection,Medium,In Progress,15770.2
+MT00094,M0054,2026-07-26,2026-07-28,Meter Replacement,Low,Closed,24897.04
+MT00095,M0126,2026-03-25,,Physical Inspection,High,In Progress,20919.03
+MT00096,M0140,2026-02-01,,Voltage Fluctuation,High,In Progress,16103.18
+MT00097,M0003,2026-08-30,2026-09-01,Voltage Fluctuation,Medium,Closed,11825.52
+MT00098,M0068,2026-07-11,2026-07-12,Physical Inspection,Low,Closed,6144.79
+MT00099,M0089,2026-01-05,2026-01-16,Meter Replacement,Medium,Closed,8673.52
+MT00100,M0149,2026-03-04,,Communication Failure,High,In Progress,23682.33
+MT00101,M0099,2026-03-17,2026-03-24,Communication Failure,High,Closed,1452.41
+MT00102,M0052,2026-08-18,2026-08-29,Voltage Fluctuation,High,Closed,8919.02
+MT00103,M0073,2026-05-24,2026-05-25,Power Quality,Medium,Closed,12010.71
+MT00104,M0004,2026-08-30,2026-09-11,Physical Inspection,Medium,Closed,21040.09
+MT00105,M0131,2026-06-15,2026-06-18,Power Quality,Low,Closed,5164.88
+MT00106,M0131,2026-01-30,2026-02-08,Power Quality,Low,Closed,12274.59
+MT00107,M0072,2026-03-10,2026-03-12,Communication Failure,Low,Closed,13953.81
+MT00108,M0010,2026-07-27,2026-07-28,Power Quality,High,Closed,3777.18
+MT00109,M0132,2026-08-10,,Sensor Calibration,Medium,In Progress,10726.06
+MT00110,M0005,2026-03-08,2026-03-24,Voltage Fluctuation,High,Closed,1582.58
+MT00111,M0024,2026-02-05,,Communication Failure,Medium,In Progress,10612.33
+MT00112,M0092,2026-01-26,2026-02-01,Power Quality,Low,Closed,13525.45
+MT00113,M0145,2026-08-26,2026-09-10,Communication Failure,Low,Closed,
+MT00114,M0115,2026-03-04,,Power Quality,Medium,Open,24886.14
+MT00115,M0047,2026-01-08,2026-01-15,Sensor Calibration,Medium,Closed,
+MT00116,M0118,2026-02-16,2026-02-25,Power Quality,Low,Closed,3820.01
+MT00117,M0023,2026-04-25,,Communication Failure,Medium,In Progress,
+MT00118,M0042,2026-02-01,2026-02-16,Power Quality,Medium,Closed,5307.35
+MT00119,M0133,2026-05-08,,Sensor Calibration,High,In Progress,6534.03
+MT00120,M0145,2026-05-04,2026-05-12,Sensor Calibration,Medium,Closed,20956.08
+MT00121,M0143,2026-02-27,,Power Quality,Medium,In Progress,16533.75
+MT00122,M0100,2026-01-06,2026-01-20,Physical Inspection,Medium,Closed,24557.33
+MT00123,M0010,2026-08-04,2026-08-20,Voltage Fluctuation,Medium,Closed,7810.18
+MT00124,M0107,2026-02-09,2026-02-12,Sensor Calibration,Medium,Closed,1267.63
+MT00125,M0135,2026-08-29,2026-09-12,Sensor Calibration,High,Closed,10348.5
+MT00126,M0145,2026-02-24,2026-03-04,Physical Inspection,High,Closed,18993.01
+MT00127,M0082,2026-05-23,,Communication Failure,High,In Progress,8581.75
+MT00128,M0150,2026-04-19,2026-04-22,Communication Failure,Critical,Closed,20986.59
+MT00129,M0047,2026-04-08,2026-04-09,Sensor Calibration,Medium,Closed,24400.72
+MT00130,M0121,2026-04-26,2026-05-06,Voltage Fluctuation,Low,Closed,23289.46
+MT00131,M0131,2026-07-11,2026-07-19,Voltage Fluctuation,Critical,Closed,1316.55
+MT00132,M0009,2026-02-01,2026-02-11,Sensor Calibration,Low,Closed,19846.76
+MT00133,M0066,2026-02-26,,Power Quality,High,Open,22032.66
+MT00134,M0027,2026-07-12,2026-07-25,Sensor Calibration,High,Closed,4113.69
+MT00135,M0043,2026-07-02,2026-07-06,Meter Replacement,High,Closed,9979.52
+MT00136,M0055,2026-03-19,2026-03-29,Sensor Calibration,Low,Closed,10680.94
+MT00137,M0100,2026-05-12,2026-05-21,Sensor Calibration,Medium,Closed,14023.16
+MT00138,M0146,2026-05-09,,Power Quality,Low,Open,4118.53
+MT00139,M0088,2026-06-01,2026-06-15,Communication Failure,Medium,Closed,4552.9
+MT00140,M0012,2026-03-29,2026-04-09,Sensor Calibration,High,Closed,
+MT00141,M0121,2026-06-16,2026-06-21,Communication Failure,High,Closed,21533.74
+MT00142,M0102,2026-04-01,2026-04-13,Power Quality,High,Closed,20592.77
+MT00143,M0138,2026-02-09,2026-02-14,Meter Replacement,High,Closed,23348.7
+MT00144,M0139,2026-07-11,2026-07-17,Sensor Calibration,High,Closed,13732.14
+MT00145,M0140,2026-03-13,2026-03-19,Meter Replacement,Medium,Closed,5699.25
+MT00146,M0055,2026-03-11,2026-03-15,Power Quality,Low,Closed,7338.9
+MT00147,M0083,2026-01-10,,Meter Replacement,Critical,In Progress,10113.65
+MT00148,M0120,2026-01-25,,Physical Inspection,Medium,In Progress,18567.96
+MT00149,M0094,2026-06-05,,Sensor Calibration,High,In Progress,21976.5
+MT00150,M0040,2026-08-25,2026-09-10,Physical Inspection,High,Closed,11192.78
+MT00151,M0124,2026-04-27,2026-05-13,Meter Replacement,High,Closed,5064.25
+MT00152,M0122,2026-08-21,2026-09-04,Power Quality,Critical,Closed,8322.58
+MT00153,M0108,2026-02-11,2026-02-13,Physical Inspection,Low,Closed,13313.42
+MT00154,M0006,2026-07-24,2026-08-10,Voltage Fluctuation,High,Closed,1916.54
+MT00155,M0103,2026-07-16,2026-08-01,Communication Failure,Low,Closed,14609.87
+MT00156,M0115,2026-03-13,2026-03-16,Voltage Fluctuation,Low,Closed,18409.66
+MT00157,M0101,2026-07-30,,Physical Inspection,High,Open,22329.12
+MT00158,M0131,2026-06-04,2026-06-12,Physical Inspection,High,Closed,24522.44
+MT00159,M0071,2026-01-26,2026-02-06,Communication Failure,Medium,Closed,14309.62
+MT00160,M0051,2026-02-22,2026-03-07,Sensor Calibration,Medium,Closed,11587.8
+MT00161,M0074,2026-04-08,,Power Quality,Medium,Open,2957.68
+MT00162,M0146,2026-04-23,2026-05-10,Communication Failure,High,Closed,14016.47
+MT00163,M0046,2026-07-31,2026-08-12,Meter Replacement,Low,Closed,19909.91
+MT00164,M0136,2026-03-24,2026-04-09,Sensor Calibration,Medium,Closed,13222.36
+MT00165,M0032,2026-08-06,,Physical Inspection,High,Open,7920.97
+MT00166,M0005,2026-04-20,2026-05-02,Sensor Calibration,Low,Closed,1210.06
+MT00167,M0123,2026-01-24,2026-02-04,Meter Replacement,Low,Closed,10489.8
+MT00168,M0007,2026-03-28,,Power Quality,Critical,In Progress,14350.01
+MT00169,M0056,2026-05-11,2026-05-20,Communication Failure,High,Closed,9587.53
+MT00170,M0099,2026-05-23,2026-05-29,Meter Replacement,Low,Closed,10691.21
+MT00171,M0135,2026-04-14,2026-04-29,Power Quality,Low,Closed,12009.04
+MT00172,M0009,2026-06-10,2026-06-22,Communication Failure,High,Closed,16644.57
+MT00173,M0048,2026-07-30,,Voltage Fluctuation,Medium,Open,9959.31
+MT00174,M0013,2026-04-25,,Physical Inspection,Medium,Open,20392.43
+MT00175,M0079,2026-06-27,2026-07-06,Voltage Fluctuation,Medium,Closed,11958.75
+MT00176,M0096,2026-01-03,2026-01-13,Voltage Fluctuation,High,Closed,
+MT00177,M0035,2026-07-12,2026-07-28,Communication Failure,Low,Closed,6432.42
+MT00178,M0132,2026-08-03,,Sensor Calibration,Medium,Open,18859.12
+MT00179,M0014,2026-01-30,,Sensor Calibration,Medium,In Progress,9727.3
+MT00180,M0042,2026-04-05,,Sensor Calibration,High,In Progress,14553.86
+MT00181,M0015,2026-08-07,2026-08-21,Voltage Fluctuation,High,Closed,6768.52
+MT00182,M0080,2026-05-19,2026-06-01,Sensor Calibration,Low,Closed,20008.31
+MT00183,M0056,2026-02-08,2026-02-13,Physical Inspection,Medium,Closed,21151.07
+MT00184,M0112,2026-04-07,2026-04-22,Physical Inspection,Medium,Closed,18559.13
+MT00185,M0015,2026-03-16,,Physical Inspection,High,In Progress,14535.89
+MT00186,M0002,2026-06-06,2026-06-18,Meter Replacement,Medium,Closed,9709.84
+MT00187,M0011,2026-04-24,,Sensor Calibration,Low,In Progress,7721.68
+MT00188,M0036,2026-07-30,2026-08-12,Communication Failure,Medium,Closed,18199.36
+MT00189,M0100,2026-04-22,,Communication Failure,Medium,Open,17718.02
+MT00190,M0016,2026-01-22,2026-01-25,Power Quality,Medium,Closed,6369.51
+MT00191,M0127,2026-01-03,,Physical Inspection,Medium,In Progress,13462.01
+MT00192,M0095,2026-04-28,,Power Quality,Low,Open,9230.32
+MT00193,M0014,2026-07-28,2026-08-09,Power Quality,Medium,Closed,21614.68
+MT00194,M0076,2026-07-07,,Voltage Fluctuation,Medium,In Progress,5864.22
+MT00195,M0105,2026-04-21,2026-04-27,Voltage Fluctuation,Low,Closed,
+MT00196,M0003,2026-05-16,2026-06-01,Physical Inspection,Medium,Closed,2927.85
+MT00197,M0009,2026-07-27,2026-08-12,Voltage Fluctuation,Low,Closed,24079.41
+MT00198,M0071,2026-06-07,2026-06-09,Voltage Fluctuation,Medium,Closed,23860.76
+MT00199,M0125,2026-05-04,2026-05-12,Sensor Calibration,High,Closed,
+MT00200,M0092,2026-03-02,2026-03-18,Power Quality,Low,Closed,20934.71
+MT00201,M0102,2026-07-22,2026-08-01,Physical Inspection,Low,Closed,13070.32
+MT00202,M0010,2026-07-30,,Voltage Fluctuation,High,In Progress,4531.99
+MT00203,M0024,2026-08-06,2026-08-20,Power Quality,Low,Closed,2863.67
+MT00204,M0108,2026-03-07,2026-03-16,Power Quality,High,Closed,
+MT00205,M0127,2026-08-08,2026-08-17,Sensor Calibration,Medium,Closed,22302.38
+MT00206,M0037,2026-07-14,2026-07-18,Physical Inspection,Low,Closed,23069.55
+MT00207,M0042,2026-04-11,2026-04-13,Sensor Calibration,High,Closed,804.52
+MT00208,M0075,2026-08-21,2026-09-01,Communication Failure,Medium,Closed,7821.33
+MT00209,M0020,2026-01-01,2026-01-06,Sensor Calibration,Low,Closed,
+MT00210,M0131,2026-06-09,2026-06-23,Communication Failure,High,Closed,6913.5
+MT00211,M0085,2026-07-02,2026-07-14,Sensor Calibration,Medium,Closed,17449.23
+MT00212,M0077,2026-02-10,2026-02-14,Physical Inspection,High,Closed,17454.11
+MT00213,M0106,2026-07-24,2026-07-31,Physical Inspection,Low,Closed,20193.08
+MT00214,M0078,2026-03-26,,Meter Replacement,Medium,In Progress,13151.19
+MT00215,M0072,2026-07-09,2026-07-11,Meter Replacement,Low,Closed,8213.54
+MT00216,M0075,2026-06-12,2026-06-27,Sensor Calibration,High,Closed,23683.11
+MT00217,M0090,2026-02-05,,Physical Inspection,Medium,Open,19589.29
+MT00218,M0048,2026-05-10,2026-05-11,Meter Replacement,Medium,Closed,13252.91
+MT00219,M0098,2026-04-22,2026-05-06,Meter Replacement,High,Closed,6664.33
+MT00220,M0150,2026-06-28,2026-07-05,Physical Inspection,Medium,Closed,11021.61
+MT00221,M0105,2026-03-03,2026-03-17,Voltage Fluctuation,Low,Closed,20396.11
+MT00222,M0118,2026-01-05,2026-01-22,Sensor Calibration,Low,Closed,22859.29
+MT00223,M0038,2026-02-25,2026-03-09,Meter Replacement,Medium,Closed,12912.49
+MT00224,M0103,2026-01-11,2026-01-17,Sensor Calibration,Medium,Closed,19091.99
+MT00225,M0084,2026-06-20,2026-07-07,Meter Replacement,Medium,Closed,3477.73
+MT00226,M0099,2026-06-21,2026-06-26,Sensor Calibration,High,Closed,21230.28
+MT00227,M0081,2026-07-14,2026-07-29,Power Quality,Low,Closed,22241.14
+MT00228,M0088,2026-07-08,2026-07-14,Voltage Fluctuation,Low,Closed,3609.94
+MT00229,M0149,2026-08-09,2026-08-11,Voltage Fluctuation,Medium,Closed,10079.09
+MT00230,M0085,2026-02-21,2026-03-07,Communication Failure,High,Closed,10810.09
+MT00231,M0119,2026-02-19,2026-03-01,Sensor Calibration,Medium,Closed,19593.4
+MT00232,M0010,2026-05-28,2026-06-14,Sensor Calibration,High,Closed,8546.02
+MT00233,M0145,2026-02-06,,Meter Replacement,Low,In Progress,3264.97
+MT00234,M0116,2026-04-29,2026-05-08,Meter Replacement,Medium,Closed,10158.88
+MT00235,M0029,2026-07-29,2026-08-09,Voltage Fluctuation,Medium,Closed,14986.45
+MT00236,M0015,2026-05-04,2026-05-10,Physical Inspection,Medium,Closed,9471.47
+MT00237,M0050,2026-05-24,2026-05-28,Power Quality,High,Closed,4401.15
+MT00238,M0005,2026-03-14,2026-03-20,Meter Replacement,Medium,Closed,4066.6
+MT00239,M0012,2026-02-25,2026-03-06,Communication Failure,Critical,Closed,8794.32
+MT00240,M0086,2026-08-28,2026-09-13,Meter Replacement,High,Closed,16286.64
+MT00241,M0105,2026-06-05,2026-06-08,Communication Failure,Low,Closed,20637.63
+MT00242,M0079,2026-07-15,2026-07-29,Sensor Calibration,Medium,Closed,15547.15
+MT00243,M0019,2026-08-31,2026-09-12,Communication Failure,Low,Closed,13299.71
+MT00244,M0065,2026-05-01,2026-05-06,Meter Replacement,Medium,Closed,19216.63
+MT00245,M0121,2026-08-17,,Meter Replacement,High,Open,14768.13
+MT00246,M0099,2026-07-28,2026-08-01,Voltage Fluctuation,Medium,Closed,9406.82
+MT00247,M0141,2026-08-04,,Sensor Calibration,Low,In Progress,23359.55
+MT00248,M0071,2026-01-09,2026-01-19,Sensor Calibration,Medium,Closed,5447.65
+MT00249,M0136,2026-08-09,2026-08-25,Sensor Calibration,Medium,Closed,21110.45
+MT00250,M0133,2026-07-19,2026-08-05,Physical Inspection,Medium,Closed,11242.55
+MT00251,M0137,2026-07-21,2026-07-31,Sensor Calibration,Medium,Closed,22376.79
+MT00252,M0140,2026-08-19,2026-08-20,Communication Failure,Medium,Closed,14956.01
+MT00253,M0054,2026-08-19,2026-09-04,Power Quality,Medium,Closed,18122.39
+MT00254,M0032,2026-04-17,2026-04-26,Physical Inspection,Low,Closed,5956.15
+MT00255,M0047,2026-06-10,2026-06-17,Physical Inspection,Medium,Closed,10055.77
+MT00256,M0134,2026-05-13,,Voltage Fluctuation,High,In Progress,
+MT00257,M0080,2026-08-08,,Power Quality,Low,In Progress,18354.74
+MT00258,M0011,2026-06-17,2026-06-24,Physical Inspection,Medium,Closed,8638.33
+MT00259,M0144,2026-08-07,,Meter Replacement,Low,Open,8110.18
+MT00260,M0016,2026-04-10,,Sensor Calibration,Medium,In Progress,
+MT00261,M0043,2026-01-25,2026-02-10,Voltage Fluctuation,High,Closed,17008.61
+MT00262,M0137,2026-05-13,,Voltage Fluctuation,Medium,Open,973.76
+MT00263,M0022,2026-03-10,2026-03-11,Voltage Fluctuation,Medium,Closed,13246.33
+MT00264,M0024,2026-02-23,,Communication Failure,Low,In Progress,13911.84
+MT00265,M0148,2026-07-18,2026-08-03,Sensor Calibration,Low,Closed,4447.91
+MT00266,M0098,2026-07-15,2026-07-20,Communication Failure,Low,Closed,20152.51
+MT00267,M0108,2026-08-07,,Power Quality,Medium,In Progress,7209.12
+MT00268,M0020,2026-03-30,2026-04-16,Meter Replacement,High,Closed,2805.91
+MT00269,M0059,2026-05-13,,Communication Failure,High,In Progress,21171.98
+MT00270,M0110,2026-05-09,,Physical Inspection,Medium,In Progress,23624.42
+MT00271,M0106,2026-06-30,,Sensor Calibration,Medium,In Progress,12694.12
+MT00272,M0055,2026-03-15,2026-03-30,Meter Replacement,Critical,Closed,5090.16
+MT00273,M0007,2026-04-17,2026-04-21,Voltage Fluctuation,Medium,Closed,17962.81
+MT00274,M0104,2026-07-01,,Meter Replacement,Low,Open,18244.57
+MT00275,M0046,2026-01-18,2026-01-23,Voltage Fluctuation,Low,Closed,5422.75
+MT00276,M0062,2026-08-11,2026-08-12,Physical Inspection,Medium,Closed,12587.01
+MT00277,M0120,2026-05-30,,Communication Failure,Medium,In Progress,688.45
+MT00278,M0004,2026-04-21,,Power Quality,Medium,Open,20580.91
+MT00279,M0062,2026-02-25,2026-03-03,Communication Failure,High,Closed,8016.88
+MT00280,M0120,2026-05-10,,Voltage Fluctuation,Low,In Progress,12240.23
+MT00281,M0080,2026-01-08,,Physical Inspection,Medium,Open,17387.97
+MT00282,M0007,2026-06-15,,Communication Failure,High,Open,1238.81
+MT00283,M0025,2026-04-27,,Communication Failure,High,In Progress,9985.16
+MT00284,M0120,2026-04-10,,Communication Failure,Low,In Progress,13032.58
+MT00285,M0086,2026-05-11,2026-05-13,Sensor Calibration,High,Closed,17906.34
+MT00286,M0023,2026-05-24,,Voltage Fluctuation,Medium,In Progress,17924.81
+MT00287,M0067,2026-04-18,2026-04-19,Physical Inspection,Medium,Closed,8391.82
+MT00288,M0017,2026-03-29,,Power Quality,Low,In Progress,10547.86
+MT00289,M0048,2026-06-04,2026-06-10,Power Quality,Medium,Closed,22225.52
+MT00290,M0008,2026-07-23,2026-08-08,Communication Failure,Medium,Closed,11272.58
+MT00291,M0072,2026-08-10,2026-08-18,Voltage Fluctuation,Critical,Closed,10762.78
+MT00292,M0006,2026-01-03,,Voltage Fluctuation,Medium,In Progress,18702.97
+MT00293,M0092,2026-01-12,2026-01-16,Meter Replacement,Medium,Closed,19587.91
+MT00294,M0073,2026-08-03,2026-08-14,Power Quality,High,Closed,15071.43
+MT00295,M0016,2026-03-24,2026-03-26,Communication Failure,Critical,Closed,9545.45
+MT00296,M0119,2026-03-15,2026-03-18,Physical Inspection,High,Closed,16327.49
+MT00297,M0144,2026-03-20,2026-04-04,Communication Failure,Critical,Closed,4710.2
+MT00298,M0106,2026-04-13,2026-04-23,Voltage Fluctuation,High,Closed,
+MT00299,M0020,2026-02-11,,Meter Replacement,Low,In Progress,18341.01
+MT00300,M0067,2026-08-25,2026-09-02,Meter Replacement,Low,Closed,15920.3
+MT00301,M0150,2026-08-06,,Meter Replacement,Low,Open,14516.25
+MT00302,M0142,2026-08-03,2026-08-05,Voltage Fluctuation,High,Closed,24221.06
+MT00303,M0010,2026-07-12,,Voltage Fluctuation,Medium,In Progress,7153.02
+MT00304,M0031,2026-02-04,2026-02-11,Physical Inspection,Medium,Closed,7317.94
+MT00305,M0116,2026-03-08,2026-03-25,Physical Inspection,Medium,Closed,16653.79
+MT00306,M0015,2026-06-11,,Communication Failure,Medium,Open,6121.62
+MT00307,M0138,2026-03-03,,Sensor Calibration,Medium,In Progress,14902.78
+MT00308,M0146,2026-08-08,,Voltage Fluctuation,High,In Progress,1296.45
+MT00309,M0145,2026-06-29,2026-07-06,Communication Failure,Medium,Closed,1585.91
+MT00310,M0068,2026-03-07,2026-03-12,Physical Inspection,Medium,Closed,
+MT00311,M0010,2026-07-07,,Physical Inspection,High,In Progress,1121.34
+MT00312,M0066,2026-03-10,2026-03-24,Physical Inspection,Medium,Closed,17498.42
+MT00313,M0007,2026-05-15,2026-05-28,Meter Replacement,Low,Closed,
+MT00314,M0038,2026-06-27,,Physical Inspection,High,Open,13569.59
+MT00315,M0027,2026-04-23,2026-05-04,Communication Failure,Medium,Closed,4023.24
+MT00316,M0059,2026-05-26,2026-06-10,Physical Inspection,Medium,Closed,18154.91
+MT00317,M0009,2026-03-17,2026-03-20,Meter Replacement,Medium,Closed,22633.84
+MT00318,M0054,2026-05-14,,Sensor Calibration,High,In Progress,20071.76
+MT00319,M0078,2026-01-09,2026-01-25,Power Quality,Critical,Closed,9265.29
+MT00320,M0089,2026-03-20,2026-03-21,Voltage Fluctuation,High,Closed,19535.29
+MT00321,M0052,2026-06-25,,Power Quality,Medium,In Progress,2379.63
+MT00322,M0016,2026-01-13,2026-01-16,Meter Replacement,Low,Closed,2073.27
+MT00323,M0117,2026-02-01,2026-02-12,Physical Inspection,Low,Closed,5842.8
+MT00324,M0052,2026-04-13,2026-04-15,Power Quality,High,Closed,
+MT00325,M0078,2026-04-10,2026-04-16,Communication Failure,Medium,Closed,991.81
+MT00326,M0031,2026-01-05,2026-01-20,Power Quality,Medium,Closed,5076.23
+MT00327,M0075,2026-08-01,2026-08-13,Physical Inspection,Critical,Closed,22967.36
+MT00328,M0099,2026-03-30,2026-04-02,Sensor Calibration,Low,Closed,22807.97
+MT00329,M0125,2026-07-14,,Power Quality,Low,Open,23120.89
+MT00330,M0145,2026-06-10,2026-06-13,Physical Inspection,Low,Closed,22718.48
+MT00331,M0120,2026-04-05,,Voltage Fluctuation,Medium,Open,
+MT00332,M0070,2026-07-05,,Sensor Calibration,Medium,Open,16470.08
+MT00333,M0083,2026-08-27,2026-08-28,Meter Replacement,Low,Closed,5474.21
+MT00334,M0072,2026-04-16,2026-04-28,Meter Replacement,Low,Closed,16929.85
+MT00335,M0012,2026-04-30,2026-05-14,Meter Replacement,High,Closed,12929.23
+MT00336,M0105,2026-02-20,2026-03-07,Power Quality,Medium,Closed,24072.23
+MT00337,M0100,2026-01-05,,Communication Failure,Low,In Progress,16583.34
+MT00338,M0010,2026-07-01,2026-07-07,Physical Inspection,High,Closed,2606.54
+MT00339,M0011,2026-04-18,2026-04-28,Communication Failure,High,Closed,22976.52
+MT00340,M0009,2026-02-01,2026-02-06,Meter Replacement,High,Closed,14634.4
+MT00341,M0021,2026-05-04,2026-05-17,Voltage Fluctuation,High,Closed,826.14
+MT00342,M0118,2026-05-19,2026-06-04,Voltage Fluctuation,Low,Closed,5678.75
+MT00343,M0079,2026-04-18,2026-04-26,Sensor Calibration,Medium,Closed,20518.97
+MT00344,M0108,2026-05-20,,Physical Inspection,Low,In Progress,9178.18
+MT00345,M0142,2026-03-17,,Power Quality,Medium,Open,2713.95
+MT00346,M0127,2026-08-18,2026-09-01,Voltage Fluctuation,High,Closed,13763.22
+MT00347,M0017,2026-06-05,2026-06-20,Sensor Calibration,High,Closed,21299.77
+MT00348,M0029,2026-01-05,2026-01-21,Power Quality,Medium,Closed,20828.79
+MT00349,M0115,2026-03-06,2026-03-12,Meter Replacement,Low,Closed,12677.84
+MT00350,M0147,2026-05-07,2026-05-13,Physical Inspection,Medium,Closed,1504.34
+MT00351,M0127,2026-01-10,2026-01-26,Physical Inspection,Low,Closed,15108.33
+MT00352,M0041,2026-01-19,,Meter Replacement,Low,In Progress,23058.59
+MT00353,M0097,2026-04-12,2026-04-23,Power Quality,Medium,Closed,1916.86
+MT00354,M0125,2026-08-20,,Physical Inspection,High,Open,22893.94
+MT00355,M0013,2026-06-21,,Voltage Fluctuation,High,In Progress,2800.99
+MT00356,M0087,2026-01-11,2026-01-14,Communication Failure,Low,Closed,3790.45
+MT00357,M0095,2026-02-22,,Sensor Calibration,Low,In Progress,16116.14
+MT00358,M0066,2026-05-22,2026-06-04,Sensor Calibration,High,Closed,23913.89
+MT00359,M0065,2026-06-27,2026-07-05,Meter Replacement,Medium,Closed,21509.65
+MT00360,M0005,2026-04-08,2026-04-23,Communication Failure,Medium,Closed,14586.76
+MT00361,M0140,2026-06-18,2026-07-03,Physical Inspection,High,Closed,22184.34
+MT00362,M0032,2026-08-25,2026-08-30,Sensor Calibration,Low,Closed,15865.15
+MT00363,M0032,2026-08-27,,Physical Inspection,Low,In Progress,24529.23
+MT00364,M0088,2026-04-14,2026-04-18,Power Quality,Low,Closed,23699.93
+MT00365,M0106,2026-02-08,2026-02-09,Meter Replacement,Low,Closed,8760.77
+MT00366,M0104,2026-03-14,2026-03-28,Power Quality,Medium,Closed,4400.15
+MT00367,M0144,2026-06-13,,Meter Replacement,Medium,Open,2373.41
+MT00368,M0145,2026-04-10,2026-04-26,Voltage Fluctuation,Low,Closed,19495.4
+MT00369,M0101,2026-08-20,,Power Quality,Medium,In Progress,2356.58
+MT00370,M0142,2026-06-23,2026-06-28,Sensor Calibration,Medium,Closed,22517.59
+MT00371,M0014,2026-02-12,,Sensor Calibration,High,Open,23136.47
+MT00372,M0104,2026-06-17,2026-06-21,Power Quality,Low,Closed,
+MT00373,M0136,2026-02-26,2026-03-03,Voltage Fluctuation,Medium,Closed,21068.71
+MT00374,M0010,2026-02-23,,Physical Inspection,Medium,In Progress,19684.78
+MT00375,M0045,2026-07-04,2026-07-08,Physical Inspection,Low,Closed,11482.27
+MT00376,M0008,2026-01-31,,Sensor Calibration,Low,In Progress,3830.09
+MT00377,M0132,2026-08-31,2026-09-08,Physical Inspection,High,Closed,6654.96
+MT00378,M0066,2026-04-20,,Meter Replacement,Medium,In Progress,2147.26
+MT00379,M0017,2026-06-10,2026-06-14,Voltage Fluctuation,High,Closed,2597.29
+MT00380,M0015,2026-07-23,,Meter Replacement,Low,In Progress,11064.48
+MT00381,M0084,2026-01-12,,Voltage Fluctuation,Medium,In Progress,17975.93
+MT00382,M0054,2026-04-27,,Physical Inspection,Medium,In Progress,22112.51
+MT00383,M0105,2026-03-02,2026-03-12,Physical Inspection,High,Closed,6305.5
+MT00384,M0089,2026-02-10,,Voltage Fluctuation,Low,In Progress,12119.9
+MT00385,M0136,2026-01-06,2026-01-13,Communication Failure,High,Closed,1253.69
+MT00386,M0139,2026-08-14,2026-08-23,Power Quality,Medium,Closed,5878.43
+MT00387,M0061,2026-06-28,2026-07-09,Voltage Fluctuation,High,Closed,5070.36
+MT00388,M0011,2026-02-13,,Communication Failure,High,In Progress,15338.32
+MT00389,M0041,2026-03-31,,Sensor Calibration,High,In Progress,16284.26
+MT00390,M0063,2026-07-28,2026-08-02,Meter Replacement,Medium,Closed,9812.79
+MT00391,M0025,2026-03-12,2026-03-26,Power Quality,Critical,Closed,15861.91
+MT00392,M0071,2026-04-21,2026-04-23,Meter Replacement,Medium,Closed,10007.8
+MT00393,M0049,2026-03-15,2026-03-19,Communication Failure,Medium,Closed,17836.49
+MT00394,M0032,2026-03-12,,Power Quality,Critical,Open,11426.95
+MT00395,M0121,2026-06-29,,Physical Inspection,Medium,Open,4487.77
+MT00396,M0149,2026-02-21,2026-02-27,Voltage Fluctuation,Low,Closed,24200.91
+MT00397,M0040,2026-03-12,2026-03-17,Physical Inspection,Medium,Closed,
+MT00398,M0143,2026-08-17,,Voltage Fluctuation,Medium,In Progress,22373.07
+MT00399,M0075,2026-05-11,2026-05-21,Voltage Fluctuation,Medium,Closed,9990.02
+MT00400,M0086,2026-08-17,,Meter Replacement,Low,In Progress,19927.49
+MT00401,M0052,2026-08-29,2026-09-02,Meter Replacement,Medium,Closed,9007.61
+MT00402,M0110,2026-06-14,,Physical Inspection,Critical,Open,18709.46
+MT00403,M0056,2026-03-25,2026-04-04,Power Quality,Low,Closed,3451.13
+MT00404,M0102,2026-06-07,2026-06-13,Physical Inspection,Low,Closed,15575.36
+MT00405,M0041,2026-02-23,2026-03-09,Power Quality,Low,Closed,7025.23
+MT00406,M0048,2026-01-10,,Communication Failure,Low,Open,9505.05
+MT00407,M0065,2026-03-27,2026-03-31,Meter Replacement,Medium,Closed,4243.56
+MT00408,M0032,2026-01-30,2026-02-12,Meter Replacement,Medium,Closed,21186.62
+MT00409,M0008,2026-06-13,2026-06-24,Communication Failure,Medium,Closed,3040.6
+MT00410,M0095,2026-05-02,,Sensor Calibration,Medium,In Progress,5885.41
+MT00411,M0043,2026-04-01,2026-04-13,Voltage Fluctuation,Low,Closed,20033.76
+MT00412,M0099,2026-01-08,2026-01-14,Communication Failure,Medium,Closed,3235.29
+MT00413,M0072,2026-07-30,,Sensor Calibration,Critical,In Progress,19626.08
+MT00414,M0108,2026-04-02,2026-04-15,Voltage Fluctuation,Low,Closed,2020.18
+MT00415,M0081,2026-08-07,,Communication Failure,Medium,Open,3717.28
+MT00416,M0049,2026-03-14,,Communication Failure,Low,In Progress,21996.88
+MT00417,M0092,2026-03-13,2026-03-23,Communication Failure,Medium,Closed,22500.1
+MT00418,M0042,2026-04-10,,Voltage Fluctuation,Low,In Progress,
+MT00419,M0007,2026-03-19,2026-03-30,Physical Inspection,Low,Closed,14069.66
+MT00420,M0022,2026-02-01,2026-02-02,Sensor Calibration,Low,Closed,18940.39
+MT00421,M0086,2026-05-21,,Power Quality,High,Open,14263.39
+MT00422,M0055,2026-06-17,2026-07-01,Voltage Fluctuation,Medium,Closed,19359.69
+MT00423,M0136,2026-05-27,2026-06-04,Meter Replacement,Low,Closed,13643.05
+MT00424,M0141,2026-06-26,2026-07-04,Meter Replacement,High,Closed,24931.64
+MT00425,M0030,2026-05-06,,Power Quality,High,In Progress,5142.7
+MT00426,M0004,2026-05-26,,Sensor Calibration,Low,In Progress,737.04
+MT00427,M0051,2026-02-06,2026-02-13,Power Quality,High,Closed,9469.66
+MT00428,M0095,2026-02-03,2026-02-10,Sensor Calibration,Low,Closed,1355.86
+MT00429,M0008,2026-02-18,2026-02-28,Voltage Fluctuation,Low,Closed,16667.69
+MT00430,M0090,2026-06-15,,Power Quality,High,In Progress,18109.22
+MT00431,M0022,2026-04-03,2026-04-11,Communication Failure,Medium,Closed,1386.1
+MT00432,M0020,2026-03-29,2026-04-03,Voltage Fluctuation,Medium,Closed,5153.61
+MT00433,M0123,2026-04-30,2026-05-01,Power Quality,High,Closed,
+MT00434,M0033,2026-05-07,2026-05-20,Meter Replacement,Low,Closed,16716.5
+MT00435,M0085,2026-02-20,2026-03-09,Sensor Calibration,Medium,Closed,
+MT00436,M0134,2026-05-16,2026-06-01,Voltage Fluctuation,Medium,Closed,13316.55
+MT00437,M0131,2026-01-30,2026-02-08,Power Quality,Medium,Closed,17482.23
+MT00438,M0012,2026-02-09,2026-02-16,Voltage Fluctuation,Medium,Closed,1677.01
+MT00439,M0026,2026-02-15,2026-02-28,Meter Replacement,Low,Closed,17804.84
+MT00440,M0116,2026-04-27,2026-05-07,Voltage Fluctuation,Low,Closed,4219.59
+MT00441,M0091,2026-02-19,2026-02-27,Power Quality,Low,Closed,2242.72
+MT00442,M0061,2026-08-11,2026-08-20,Physical Inspection,Medium,Closed,4204.28
+MT00443,M0100,2026-03-18,,Communication Failure,Medium,In Progress,5162.73
+MT00444,M0057,2026-07-11,,Communication Failure,High,In Progress,17781.48
+MT00445,M0081,2026-02-07,,Communication Failure,Medium,In Progress,
+MT00446,M0008,2026-03-01,2026-03-13,Voltage Fluctuation,Medium,Closed,5616.37
+MT00447,M0013,2026-02-17,2026-02-23,Sensor Calibration,Low,Closed,22293.32
+MT00448,M0142,2026-01-05,2026-01-17,Sensor Calibration,High,Closed,18057.05
+MT00449,M0023,2026-01-01,2026-01-07,Sensor Calibration,High,Closed,22103.87
+MT00450,M0135,2026-03-03,2026-03-09,Physical Inspection,High,Closed,2432.91
+MT00451,M0015,2026-08-26,2026-08-31,Power Quality,High,Closed,10339.27
+MT00452,M0059,2026-02-05,,Physical Inspection,Medium,Open,8202.38
+MT00453,M0102,2026-07-05,2026-07-06,Meter Replacement,Low,Closed,17201.82
+MT00454,M0059,2026-08-05,2026-08-11,Power Quality,Medium,Closed,16856.24
+MT00455,M0030,2026-06-24,2026-07-03,Physical Inspection,Low,Closed,10173.22
+MT00456,M0044,2026-08-17,2026-08-24,Power Quality,Medium,Closed,22112.98
+MT00457,M0112,2026-08-20,2026-08-24,Sensor Calibration,Critical,Closed,7525.29
+MT00458,M0062,2026-08-14,,Physical Inspection,Medium,In Progress,892.2
+MT00459,M0082,2026-02-22,2026-03-08,Sensor Calibration,Medium,Closed,12195.42
+MT00460,M0022,2026-01-10,2026-01-11,Meter Replacement,Medium,Closed,10989.76
+MT00461,M0066,2026-08-01,,Meter Replacement,Low,Open,10155.61
+MT00462,M0137,2026-07-23,2026-08-01,Power Quality,High,Closed,3609.74
+MT00463,M0072,2026-05-10,2026-05-24,Communication Failure,High,Closed,5837.82
+MT00464,M0073,2026-01-01,,Voltage Fluctuation,Low,In Progress,5571.56
+MT00465,M0147,2026-07-30,2026-08-16,Sensor Calibration,Low,Closed,15998.2
+MT00466,M0066,2026-08-27,2026-08-29,Meter Replacement,Low,Closed,4107.4
+MT00467,M0026,2026-04-09,2026-04-18,Power Quality,Low,Closed,
+MT00468,M0040,2026-02-20,,Voltage Fluctuation,Low,Open,12362.27
+MT00469,M0014,2026-06-11,2026-06-13,Sensor Calibration,High,Closed,3277.08
+MT00470,M0043,2026-03-30,2026-04-13,Meter Replacement,Critical,Closed,21172.86
+MT00471,M0149,2026-01-13,,Communication Failure,Low,In Progress,18044.46
+MT00472,M0117,2026-01-14,2026-01-28,Physical Inspection,Low,Closed,4369.19
+MT00473,M0005,2026-06-11,2026-06-13,Power Quality,Critical,Closed,24004.52
+MT00474,M0048,2026-07-04,2026-07-19,Sensor Calibration,Low,Closed,19602.61
+MT00475,M0107,2026-07-03,2026-07-08,Communication Failure,Medium,Closed,
+MT00476,M0135,2026-01-19,,Physical Inspection,Medium,Open,6843.49
+MT00477,M0078,2026-08-18,2026-08-30,Sensor Calibration,Medium,Closed,1901.96
+MT00478,M0082,2026-07-15,2026-07-16,Voltage Fluctuation,Medium,Closed,17668.33
+MT00479,M0143,2026-03-08,2026-03-11,Voltage Fluctuation,Medium,Closed,3703.16
+MT00480,M0125,2026-06-13,,Power Quality,Low,In Progress,12387.34
+MT00481,M0011,2026-04-06,2026-04-14,Sensor Calibration,High,Closed,3687.31
+MT00482,M0058,2026-01-27,2026-01-29,Power Quality,Medium,Closed,1493.18
+MT00483,M0085,2026-07-31,2026-08-15,Communication Failure,High,Closed,1150.73
+MT00484,M0065,2026-03-01,,Voltage Fluctuation,High,In Progress,10544.26
+MT00485,M0129,2026-05-19,2026-05-21,Power Quality,Low,Closed,3005.64
+MT00486,M0109,2026-04-30,,Power Quality,High,In Progress,
+MT00487,M0113,2026-04-30,2026-05-12,Power Quality,Critical,Closed,4572.45
+MT00488,M0139,2026-01-24,,Communication Failure,Medium,In Progress,3564.82
+MT00489,M0088,2026-01-31,2026-02-06,Communication Failure,High,Closed,3493.58
+MT00490,M0007,2026-07-05,2026-07-21,Sensor Calibration,High,Closed,13358.88
+MT00491,M0008,2026-05-31,2026-06-15,Voltage Fluctuation,Medium,Closed,13859.56
+MT00492,M0083,2026-02-02,2026-02-04,Physical Inspection,Medium,Closed,6778.56
+MT00493,M0109,2026-03-31,2026-04-13,Physical Inspection,Medium,Closed,12903.12
+MT00494,M0019,2026-02-18,2026-02-26,Power Quality,Low,Closed,3745.86
+MT00495,M0090,2026-01-20,,Physical Inspection,High,Open,8051.21
+MT00496,M0120,2026-06-10,2026-06-23,Physical Inspection,Low,Closed,16454.13
+MT00497,M0081,2026-07-14,2026-07-19,Meter Replacement,Medium,Closed,23823.36
+MT00498,M0082,2026-05-04,2026-05-12,Communication Failure,High,Closed,14568.65
+MT00499,M0017,2026-06-04,2026-06-20,Meter Replacement,Medium,Closed,21018.8
+MT00500,M0059,2026-05-08,2026-05-12,Power Quality,High,Closed,8566.99
+MT00501,M0097,2026-01-07,2026-01-10,Power Quality,High,Closed,23713.2
+MT00502,M0028,2026-01-17,2026-01-28,Power Quality,High,Closed,
+MT00503,M0038,2026-02-22,,Communication Failure,Medium,In Progress,8001.0
+MT00504,M0140,2026-05-24,2026-05-25,Power Quality,Low,Closed,22033.86
+MT00505,M0013,2026-04-16,,Physical Inspection,Low,In Progress,1127.64
+MT00506,M0071,2026-06-05,,Communication Failure,Low,In Progress,6672.39
+MT00507,M0109,2026-06-27,,Power Quality,Medium,In Progress,18381.91
+MT00508,M0040,2026-08-09,2026-08-19,Meter Replacement,High,Closed,22506.3
+MT00509,M0086,2026-07-03,2026-07-10,Physical Inspection,Low,Closed,13196.44
+MT00510,M0085,2026-07-13,2026-07-27,Communication Failure,Low,Closed,16831.76
+MT00511,M0139,2026-04-24,,Power Quality,Low,In Progress,
+MT00512,M0104,2026-01-02,,Power Quality,Medium,Open,
+MT00513,M0047,2026-08-26,2026-09-10,Sensor Calibration,High,Closed,18697.29
+MT00514,M0065,2026-05-24,2026-05-26,Sensor Calibration,Low,Closed,2737.7
+MT00515,M0097,2026-03-16,2026-03-24,Voltage Fluctuation,Medium,Closed,4818.39
+MT00516,M0035,2026-07-31,,Communication Failure,Low,Open,22200.52
+MT00517,M0053,2026-06-05,,Physical Inspection,Critical,Open,17322.08
+MT00518,M0066,2026-08-20,2026-08-21,Sensor Calibration,Medium,Closed,1932.02
+MT00519,M0147,2026-02-11,2026-02-28,Physical Inspection,High,Closed,10292.74
+MT00520,M0086,2026-05-13,2026-05-14,Communication Failure,Low,Closed,11316.7
+MT00521,M0010,2026-06-21,,Sensor Calibration,Medium,Open,
+MT00522,M0039,2026-08-17,2026-08-23,Voltage Fluctuation,High,Closed,19134.61
+MT00523,M0136,2026-08-06,2026-08-13,Sensor Calibration,Low,Closed,17853.82
+MT00524,M0126,2026-01-17,,Communication Failure,Low,In Progress,12997.67
+MT00525,M0021,2026-06-18,2026-06-30,Meter Replacement,Medium,Closed,
+MT00526,M0005,2026-08-31,2026-09-10,Voltage Fluctuation,Medium,Closed,2367.9
+MT00527,M0052,2026-04-23,2026-05-09,Meter Replacement,Medium,Closed,5485.85
+MT00528,M0102,2026-08-24,2026-09-03,Sensor Calibration,Medium,Closed,15198.87
+MT00529,M0118,2026-01-08,2026-01-21,Power Quality,Medium,Closed,3852.69
+MT00530,M0019,2026-06-13,2026-06-21,Voltage Fluctuation,Medium,Closed,20254.65
+MT00531,M0149,2026-03-17,2026-03-18,Power Quality,Low,Closed,6712.06
+MT00532,M0107,2026-08-08,,Power Quality,Medium,In Progress,11882.14
+MT00533,M0050,2026-08-07,2026-08-13,Sensor Calibration,Medium,Closed,3755.21
+MT00534,M0041,2026-03-28,2026-04-08,Sensor Calibration,Medium,Closed,15962.41
+MT00535,M0146,2026-02-16,2026-02-20,Physical Inspection,Critical,Closed,3633.84
+MT00536,M0098,2026-02-07,2026-02-14,Physical Inspection,Low,Closed,13606.52
+MT00537,M0077,2026-03-31,2026-04-05,Communication Failure,Low,Closed,17029.27
+MT00538,M0120,2026-08-01,,Physical Inspection,Low,In Progress,4694.77
+MT00539,M0105,2026-01-16,2026-01-17,Physical Inspection,High,Closed,15778.17
+MT00540,M0041,2026-06-24,2026-07-07,Physical Inspection,Low,Closed,
+MT00541,M0035,2026-06-26,,Communication Failure,Medium,In Progress,557.22
+MT00542,M0134,2026-03-24,2026-04-10,Communication Failure,Critical,Closed,16374.34
+MT00543,M0063,2026-04-04,,Power Quality,High,Open,8616.42
+MT00544,M0149,2026-04-26,,Communication Failure,Medium,In Progress,668.29
+MT00545,M0045,2026-08-08,,Physical Inspection,Medium,Open,
+MT00546,M0096,2026-05-22,2026-06-08,Physical Inspection,High,Closed,3006.34
+MT00547,M0050,2026-03-19,2026-03-31,Sensor Calibration,High,Closed,4704.85
+MT00548,M0064,2026-08-23,,Meter Replacement,High,In Progress,10927.15
+MT00549,M0073,2026-01-24,2026-02-04,Meter Replacement,Low,Closed,16704.47
+MT00550,M0122,2026-04-11,2026-04-25,Voltage Fluctuation,Critical,Closed,13265.73
+MT00551,M0115,2026-07-28,2026-08-12,Communication Failure,Low,Closed,14296.46
+MT00552,M0080,2026-01-09,2026-01-13,Power Quality,High,Closed,19197.25
+MT00553,M0099,2026-03-19,2026-03-31,Voltage Fluctuation,Medium,Closed,5243.26
+MT00554,M0091,2026-06-10,2026-06-24,Voltage Fluctuation,Low,Closed,16637.75
+MT00555,M0128,2026-04-25,2026-04-27,Voltage Fluctuation,Medium,Closed,6145.15
+MT00556,M0069,2026-05-05,,Power Quality,Low,In Progress,15088.68
+MT00557,M0022,2026-07-14,2026-07-19,Meter Replacement,Critical,Closed,24030.07
+MT00558,M0037,2026-07-24,2026-08-04,Meter Replacement,Medium,Closed,16197.71
+MT00559,M0034,2026-01-15,2026-01-31,Meter Replacement,Low,Closed,
+MT00560,M0040,2026-05-13,2026-05-21,Meter Replacement,Medium,Closed,10999.18
+MT00561,M0054,2026-02-17,2026-02-21,Meter Replacement,High,Closed,
+MT00562,M0051,2026-05-18,,Power Quality,Low,In Progress,5749.03
+MT00563,M0053,2026-04-15,,Communication Failure,Medium,In Progress,23068.72
+MT00564,M0127,2026-04-27,2026-05-04,Sensor Calibration,High,Closed,7031.75
+MT00565,M0087,2026-04-04,2026-04-09,Communication Failure,High,Closed,9634.34
+MT00566,M0017,2026-08-19,,Communication Failure,Medium,In Progress,7614.66
+MT00567,M0078,2026-04-04,,Voltage Fluctuation,Low,Open,18081.29
+MT00568,M0107,2026-06-18,,Power Quality,Low,In Progress,22252.76
+MT00569,M0046,2026-05-16,2026-05-27,Power Quality,Low,Closed,2325.84
+MT00570,M0057,2026-01-18,2026-01-24,Power Quality,Low,Closed,23161.54
+MT00571,M0075,2026-06-05,2026-06-10,Sensor Calibration,Critical,Closed,15278.06
+MT00572,M0047,2026-06-07,2026-06-24,Meter Replacement,High,Closed,558.25
+MT00573,M0056,2026-06-24,2026-06-25,Sensor Calibration,Low,Closed,10684.62
+MT00574,M0058,2026-06-29,2026-07-12,Power Quality,Medium,Closed,
+MT00575,M0108,2026-06-02,,Voltage Fluctuation,Low,Open,16392.52
+MT00576,M0061,2026-07-10,,Power Quality,Low,In Progress,23826.33
+MT00577,M0008,2026-08-08,2026-08-20,Communication Failure,High,Closed,13596.67
+MT00578,M0080,2026-01-05,2026-01-14,Power Quality,Low,Closed,9945.26
+MT00579,M0067,2026-02-01,2026-02-06,Physical Inspection,High,Closed,12470.37
+MT00580,M0138,2026-08-02,2026-08-09,Communication Failure,High,Closed,3238.06
+MT00581,M0061,2026-05-16,2026-05-23,Physical Inspection,High,Closed,22608.81
+MT00582,M0004,2026-07-04,2026-07-20,Voltage Fluctuation,Medium,Closed,22435.24
+MT00583,M0103,2026-08-10,2026-08-20,Sensor Calibration,Low,Closed,721.55
+MT00584,M0046,2026-07-14,2026-07-27,Communication Failure,Critical,Closed,12547.92
+MT00585,M0127,2026-07-11,2026-07-28,Meter Replacement,Low,Closed,6441.71
+MT00586,M0059,2026-05-27,,Sensor Calibration,Low,In Progress,15222.21
+MT00587,M0001,2026-07-17,2026-07-28,Sensor Calibration,Low,Closed,10635.38
+MT00588,M0041,2026-03-05,,Voltage Fluctuation,Low,In Progress,9986.21
+MT00589,M0096,2026-04-23,2026-04-26,Power Quality,High,Closed,21041.87
+MT00590,M0128,2026-06-09,2026-06-19,Meter Replacement,Low,Closed,23215.42
+MT00591,M0128,2026-04-25,2026-04-27,Physical Inspection,High,Closed,3356.87
+MT00592,M0016,2026-07-20,2026-07-26,Sensor Calibration,High,Closed,24985.96
+MT00593,M0102,2026-05-21,2026-05-23,Power Quality,Medium,Closed,17207.47
+MT00594,M0023,2026-01-21,2026-02-06,Voltage Fluctuation,Medium,Closed,
+MT00595,M0090,2026-06-18,2026-06-25,Communication Failure,Low,Closed,9458.66
+MT00596,M0079,2026-07-15,2026-07-16,Power Quality,Low,Closed,16302.98
+MT00597,M0112,2026-05-07,,Communication Failure,Medium,In Progress,14190.91
+MT00598,M0002,2026-06-22,2026-07-03,Sensor Calibration,Low,Closed,1864.61
+MT00599,M0061,2026-06-15,2026-06-16,Communication Failure,Medium,Closed,18635.36
+MT00600,M0071,2026-06-11,,Meter Replacement,Critical,In Progress,14400.59
+MT00601,M0031,2026-04-07,2026-04-12,Physical Inspection,High,Closed,14805.94
+MT00602,M0081,2026-02-02,2026-02-12,Sensor Calibration,High,Closed,9500.57
+MT00603,M0096,2026-07-09,,Voltage Fluctuation,Medium,In Progress,18918.97
+MT00604,M0050,2026-05-08,,Sensor Calibration,Medium,In Progress,15703.8
+MT00605,M0126,2026-04-21,2026-05-06,Power Quality,Critical,Closed,19991.96
+MT00606,M0051,2026-05-26,2026-06-12,Voltage Fluctuation,Medium,Closed,13333.09
+MT00607,M0049,2026-02-26,2026-03-07,Power Quality,Low,Closed,21441.36
+MT00608,M0080,2026-07-31,,Communication Failure,Medium,In Progress,17885.42
+MT00609,M0090,2026-08-13,,Power Quality,High,In Progress,4903.14
+MT00610,M0005,2026-04-22,,Voltage Fluctuation,High,Open,2262.75
+MT00611,M0006,2026-03-17,2026-03-30,Voltage Fluctuation,High,Closed,4890.82
+MT00612,M0025,2026-04-22,,Sensor Calibration,Medium,In Progress,24570.72
+MT00613,M0107,2026-04-01,2026-04-13,Communication Failure,High,Closed,7480.36
+MT00614,M0056,2026-02-10,,Meter Replacement,Low,Open,445.47
+MT00615,M0048,2026-03-15,2026-03-19,Communication Failure,Medium,Closed,21405.99
+MT00616,M0095,2026-08-24,2026-09-07,Voltage Fluctuation,High,Closed,5779.62
+MT00617,M0126,2026-07-03,2026-07-06,Physical Inspection,Medium,Closed,21576.95
+MT00618,M0073,2026-06-12,2026-06-22,Voltage Fluctuation,Low,Closed,15264.67
+MT00619,M0004,2026-07-13,2026-07-18,Meter Replacement,Medium,Closed,
+MT00620,M0024,2026-03-06,2026-03-11,Communication Failure,Medium,Closed,12365.94
+MT00621,M0113,2026-07-20,2026-07-25,Meter Replacement,Medium,Closed,13690.62
+MT00622,M0009,2026-02-10,,Meter Replacement,Medium,Open,8829.88
+MT00623,M0102,2026-07-03,2026-07-20,Sensor Calibration,Medium,Closed,18425.48
+MT00624,M0104,2026-03-02,2026-03-08,Sensor Calibration,High,Closed,23959.77
+MT00625,M0071,2026-04-15,,Communication Failure,Medium,In Progress,19854.74
+MT00626,M0005,2026-08-29,2026-09-04,Sensor Calibration,Critical,Closed,
+MT00627,M0041,2026-02-06,,Communication Failure,Low,In Progress,13847.08
+MT00628,M0146,2026-01-23,,Meter Replacement,Medium,In Progress,4191.33
+MT00629,M0135,2026-01-01,,Meter Replacement,Low,In Progress,12765.15
+MT00630,M0057,2026-02-16,2026-02-20,Physical Inspection,Critical,Closed,7385.14
+MT00631,M0008,2026-05-29,2026-06-13,Voltage Fluctuation,High,Closed,22681.65
+MT00632,M0141,2026-04-21,,Power Quality,Medium,Open,20537.12
+MT00633,M0048,2026-02-06,,Physical Inspection,Medium,In Progress,10541.14
+MT00634,M0070,2026-01-26,2026-02-11,Power Quality,High,Closed,2004.39
+MT00635,M0067,2026-03-12,,Meter Replacement,Medium,In Progress,11345.92
+MT00636,M0001,2026-05-11,2026-05-20,Physical Inspection,Medium,Closed,7878.74
+MT00637,M0016,2026-08-27,2026-09-10,Physical Inspection,Low,Closed,6175.43
+MT00638,M0150,2026-06-01,2026-06-15,Sensor Calibration,High,Closed,7307.37
+MT00639,M0026,2026-04-13,2026-04-17,Voltage Fluctuation,Medium,Closed,23123.06
+MT00640,M0116,2026-05-17,2026-05-27,Sensor Calibration,Low,Closed,16359.73
+MT00641,M0089,2026-02-10,2026-02-25,Sensor Calibration,Medium,Closed,9394.34
+MT00642,M0041,2026-04-05,,Sensor Calibration,Low,In Progress,794.02
+MT00643,M0122,2026-07-12,2026-07-28,Communication Failure,Low,Closed,13549.19
+MT00644,M0107,2026-03-10,,Physical Inspection,Medium,In Progress,22163.64
+MT00645,M0019,2026-04-01,,Physical Inspection,Low,In Progress,14040.4
+MT00646,M0101,2026-05-29,2026-06-12,Meter Replacement,Low,Closed,15825.14
+MT00647,M0110,2026-07-10,,Sensor Calibration,Medium,Open,1647.57
+MT00648,M0056,2026-06-29,2026-06-30,Communication Failure,Low,Closed,18349.26
+MT00649,M0033,2026-02-10,2026-02-17,Communication Failure,Medium,Closed,17831.76
+MT00650,M0074,2026-08-19,,Sensor Calibration,Low,Open,4935.71
+MT00651,M0027,2026-05-11,,Communication Failure,Low,Open,24958.47
+MT00652,M0059,2026-03-17,,Sensor Calibration,Low,Open,21637.78
+MT00653,M0101,2026-07-16,,Meter Replacement,Critical,Open,8920.33
+MT00654,M0087,2026-01-10,2026-01-13,Meter Replacement,High,Closed,18572.22
+MT00655,M0040,2026-02-01,2026-02-02,Power Quality,Medium,Closed,24903.65
+MT00656,M0032,2026-04-09,2026-04-18,Physical Inspection,Low,Closed,18164.94
+MT00657,M0042,2026-03-01,2026-03-16,Sensor Calibration,Low,Closed,3868.51
+MT00658,M0021,2026-05-20,2026-05-31,Voltage Fluctuation,Low,Closed,8389.01
+MT00659,M0060,2026-06-22,2026-06-25,Meter Replacement,Low,Closed,
+MT00660,M0149,2026-02-04,2026-02-09,Physical Inspection,Medium,Closed,16196.42
+MT00661,M0078,2026-08-17,,Sensor Calibration,Low,In Progress,7476.12
+MT00662,M0110,2026-08-20,,Physical Inspection,Medium,In Progress,5719.91
+MT00663,M0106,2026-06-18,2026-06-25,Meter Replacement,Low,Closed,17349.51
+MT00664,M0100,2026-05-31,2026-06-11,Communication Failure,Low,Closed,3384.03
+MT00665,M0107,2026-01-08,2026-01-21,Voltage Fluctuation,High,Closed,15059.23
+MT00666,M0097,2026-08-10,2026-08-19,Physical Inspection,Critical,Closed,18081.9
+MT00667,M0007,2026-04-23,2026-05-09,Meter Replacement,High,Closed,6179.93
+MT00668,M0092,2026-04-06,2026-04-12,Meter Replacement,Medium,Closed,2046.7
+MT00669,M0082,2026-04-06,,Voltage Fluctuation,Medium,In Progress,24095.52
+MT00670,M0059,2026-08-20,2026-08-31,Power Quality,Medium,Closed,10104.26
+MT00671,M0143,2026-01-21,,Sensor Calibration,Medium,In Progress,11996.97
+MT00672,M0135,2026-01-06,2026-01-17,Meter Replacement,Medium,Closed,22040.01
+MT00673,M0042,2026-03-11,2026-03-23,Voltage Fluctuation,High,Closed,
+MT00674,M0128,2026-08-18,,Voltage Fluctuation,High,Open,18667.45
+MT00675,M0057,2026-07-25,,Communication Failure,Medium,Open,
+MT00676,M0106,2026-04-02,2026-04-08,Communication Failure,Low,Closed,3743.22
+MT00677,M0023,2026-08-18,2026-09-03,Meter Replacement,Medium,Closed,19652.4
+MT00678,M0125,2026-03-26,,Voltage Fluctuation,High,In Progress,13943.11
+MT00679,M0029,2026-07-05,2026-07-17,Voltage Fluctuation,Medium,Closed,2197.08
+MT00680,M0052,2026-08-04,,Meter Replacement,Critical,Open,18669.92
+MT00681,M0017,2026-07-31,,Sensor Calibration,Low,Open,12708.73
+MT00682,M0089,2026-01-06,2026-01-20,Physical Inspection,High,Closed,4570.54
+MT00683,M0090,2026-03-06,2026-03-16,Communication Failure,Medium,Closed,5870.78
+MT00684,M0048,2026-05-28,2026-05-29,Communication Failure,High,Closed,6421.21
+MT00685,M0104,2026-03-29,,Communication Failure,Medium,In Progress,20531.92
+MT00686,M0029,2026-02-05,2026-02-12,Communication Failure,High,Closed,14038.24
+MT00687,M0065,2026-02-20,2026-03-04,Voltage Fluctuation,High,Closed,10609.54
+MT00688,M0135,2026-07-06,2026-07-17,Voltage Fluctuation,High,Closed,2631.64
+MT00689,M0055,2026-02-04,2026-02-05,Meter Replacement,Medium,Closed,11977.73
+MT00690,M0034,2026-06-08,,Physical Inspection,Medium,In Progress,17862.65
+MT00691,M0093,2026-08-29,2026-08-31,Sensor Calibration,Medium,Closed,1419.21
+MT00692,M0097,2026-07-19,,Voltage Fluctuation,High,Open,
+MT00693,M0033,2026-05-19,2026-05-27,Voltage Fluctuation,Low,Closed,19913.25
+MT00694,M0098,2026-08-05,2026-08-07,Meter Replacement,Medium,Closed,
+MT00695,M0066,2026-05-01,2026-05-09,Sensor Calibration,Medium,Closed,13334.77
+MT00696,M0149,2026-08-16,,Sensor Calibration,High,In Progress,14848.71
+MT00697,M0083,2026-02-21,2026-03-06,Voltage Fluctuation,Low,Closed,9542.15
+MT00698,M0119,2026-08-27,2026-08-30,Sensor Calibration,Low,Closed,21977.92
+MT00699,M0084,2026-07-10,2026-07-15,Sensor Calibration,Low,Closed,7162.49
+MT00700,M0012,2026-03-18,2026-03-26,Physical Inspection,Medium,Closed,7444.67
+MT00701,M0128,2026-02-14,2026-02-27,Sensor Calibration,High,Closed,12027.51
+MT00702,M0097,2026-04-30,2026-05-01,Voltage Fluctuation,Medium,Closed,21725.43
+MT00703,M0090,2026-07-16,,Power Quality,Medium,Open,8403.65
+MT00704,M0006,2026-02-21,2026-03-06,Physical Inspection,Critical,Closed,11399.31
+MT00705,M0150,2026-07-28,2026-08-09,Communication Failure,Low,Closed,11246.37
+MT00706,M0061,2026-08-26,2026-08-28,Communication Failure,High,Closed,
+MT00707,M0096,2026-08-19,2026-09-03,Sensor Calibration,Low,Closed,3052.66
+MT00708,M0089,2026-04-22,,Voltage Fluctuation,Critical,In Progress,23923.83
+MT00709,M0103,2026-01-09,,Meter Replacement,Low,In Progress,13432.85
+MT00710,M0112,2026-08-10,2026-08-24,Communication Failure,Medium,Closed,12726.52
+MT00711,M0110,2026-06-16,,Sensor Calibration,Low,In Progress,14825.41
+MT00712,M0030,2026-01-25,2026-02-09,Meter Replacement,High,Closed,18555.13
+MT00713,M0058,2026-05-10,,Meter Replacement,Medium,In Progress,18253.92
+MT00714,M0064,2026-06-05,2026-06-18,Voltage Fluctuation,Medium,Closed,871.46
+MT00715,M0017,2026-03-08,2026-03-23,Physical Inspection,Low,Closed,10056.37
+MT00716,M0111,2026-06-05,2026-06-21,Sensor Calibration,Medium,Closed,16500.08
+MT00717,M0052,2026-08-21,,Power Quality,Medium,In Progress,13439.25
+MT00718,M0099,2026-07-23,,Power Quality,Medium,In Progress,
+MT00719,M0053,2026-07-23,,Meter Replacement,High,Open,19292.36
+MT00720,M0143,2026-07-17,,Power Quality,Low,In Progress,22217.6
+MT00721,M0095,2026-04-15,2026-04-24,Power Quality,Medium,Closed,6109.64
+MT00722,M0080,2026-06-10,2026-06-13,Meter Replacement,Low,Closed,16770.09
+MT00723,M0141,2026-03-17,2026-03-25,Physical Inspection,High,Closed,6636.85
+MT00724,M0073,2026-08-29,,Sensor Calibration,High,Open,
+MT00725,M0027,2026-05-22,2026-06-07,Voltage Fluctuation,High,Closed,23161.49
+MT00726,M0107,2026-01-22,,Meter Replacement,Low,In Progress,4331.55
+MT00727,M0132,2026-05-06,2026-05-19,Voltage Fluctuation,Medium,Closed,6451.67
+MT00728,M0034,2026-03-23,2026-03-28,Power Quality,Low,Closed,
+MT00729,M0039,2026-03-20,2026-04-06,Physical Inspection,Critical,Closed,18785.05
+MT00730,M0058,2026-05-04,,Physical Inspection,Medium,In Progress,22364.2
+MT00731,M0036,2026-02-11,2026-02-14,Sensor Calibration,Medium,Closed,17989.63
+MT00732,M0023,2026-02-17,2026-03-05,Communication Failure,High,Closed,19809.15
+MT00733,M0082,2026-07-01,2026-07-15,Meter Replacement,Medium,Closed,19750.93
+MT00734,M0026,2026-08-25,,Voltage Fluctuation,High,In Progress,19722.24
+MT00735,M0101,2026-06-23,2026-07-02,Power Quality,Medium,Closed,11500.13
+MT00736,M0107,2026-01-23,,Meter Replacement,Medium,In Progress,1549.36
+MT00737,M0045,2026-08-31,2026-09-03,Communication Failure,High,Closed,18212.91
+MT00738,M0084,2026-03-12,2026-03-18,Physical Inspection,Medium,Closed,16509.56
+MT00739,M0004,2026-08-10,2026-08-13,Communication Failure,High,Closed,5453.55
+MT00740,M0083,2026-02-20,,Sensor Calibration,Medium,In Progress,17448.6
+MT00741,M0100,2026-08-19,2026-08-22,Meter Replacement,High,Closed,7941.24
+MT00742,M0052,2026-08-06,,Sensor Calibration,Medium,Open,1514.81
+MT00743,M0096,2026-03-08,,Sensor Calibration,Medium,Open,17471.34
+MT00744,M0002,2026-03-02,2026-03-05,Voltage Fluctuation,High,Closed,22086.58
+MT00745,M0049,2026-08-11,2026-08-24,Physical Inspection,Low,Closed,13599.02
+MT00746,M0048,2026-04-23,2026-05-05,Power Quality,High,Closed,8066.48
+MT00747,M0138,2026-05-05,,Communication Failure,High,In Progress,2856.37
+MT00748,M0134,2026-07-05,,Voltage Fluctuation,Critical,In Progress,2652.37
+MT00749,M0040,2026-05-27,,Power Quality,Low,Open,
+MT00750,M0043,2026-02-03,,Communication Failure,Medium,In Progress,18100.78
+MT00751,M0065,2026-03-31,2026-04-15,Meter Replacement,Medium,Closed,18106.29
+MT00752,M0019,2026-02-03,2026-02-05,Sensor Calibration,Medium,Closed,14756.41
+MT00753,M0143,2026-02-03,,Communication Failure,Low,In Progress,22162.76
+MT00754,M0061,2026-08-31,,Meter Replacement,Low,In Progress,5863.09
+MT00755,M0037,2026-08-04,2026-08-12,Power Quality,Medium,Closed,12411.26
+MT00756,M0014,2026-02-13,,Power Quality,High,In Progress,11177.4
+MT00757,M0060,2026-02-12,2026-02-19,Meter Replacement,Low,Closed,18637.68
+MT00758,M0095,2026-08-03,2026-08-15,Physical Inspection,Critical,Closed,1839.24
+MT00759,M0130,2026-05-18,,Communication Failure,Low,In Progress,23570.56
+MT00760,M0105,2026-04-25,,Voltage Fluctuation,Medium,In Progress,24420.25
+MT00761,M0005,2026-01-29,2026-02-08,Meter Replacement,Low,Closed,2587.57
+MT00762,M0041,2026-01-24,2026-01-25,Voltage Fluctuation,Low,Closed,8268.62
+MT00763,M0150,2026-04-14,2026-05-01,Voltage Fluctuation,Low,Closed,11871.44
+MT00764,M0124,2026-06-05,2026-06-17,Meter Replacement,Low,Closed,9150.68
+MT00765,M0084,2026-06-06,2026-06-13,Communication Failure,Critical,Closed,14012.52
+MT00766,M0045,2026-04-05,2026-04-06,Power Quality,Medium,Closed,19914.08
+MT00767,M0084,2026-08-07,,Power Quality,Low,Open,18325.96
+MT00768,M0033,2026-03-03,2026-03-19,Sensor Calibration,Medium,Closed,9137.87
+MT00769,M0065,2026-08-21,,Voltage Fluctuation,Critical,In Progress,21545.65
+MT00770,M0029,2026-03-28,2026-04-08,Voltage Fluctuation,Medium,Closed,1197.66
+MT00771,M0118,2026-04-08,2026-04-16,Meter Replacement,Medium,Closed,8789.06
+MT00772,M0115,2026-02-26,2026-03-15,Power Quality,Low,Closed,2407.82
+MT00773,M0150,2026-07-31,2026-08-12,Voltage Fluctuation,Low,Closed,15870.78
+MT00774,M0060,2026-03-11,2026-03-25,Sensor Calibration,Low,Closed,24180.1
+MT00775,M0085,2026-01-15,2026-01-18,Sensor Calibration,High,Closed,21939.77
+MT00776,M0134,2026-07-04,2026-07-07,Communication Failure,Low,Closed,24929.21
+MT00777,M0028,2026-04-15,,Voltage Fluctuation,Medium,In Progress,
+MT00778,M0149,2026-02-28,2026-03-14,Meter Replacement,Low,Closed,18545.75
+MT00779,M0140,2026-02-25,2026-03-02,Physical Inspection,High,Closed,11543.0
+MT00780,M0145,2026-08-02,2026-08-13,Meter Replacement,Medium,Closed,8849.47
+MT00781,M0103,2026-06-20,2026-07-07,Sensor Calibration,Medium,Closed,2430.26
+MT00782,M0037,2026-05-10,,Meter Replacement,Medium,Open,21464.36
+MT00783,M0044,2026-08-08,2026-08-12,Voltage Fluctuation,High,Closed,11636.09
+MT00784,M0027,2026-05-22,2026-05-29,Voltage Fluctuation,Low,Closed,3855.32
+MT00785,M0128,2026-07-16,2026-07-20,Physical Inspection,Medium,Closed,1516.79
+MT00786,M0031,2026-08-31,2026-09-11,Sensor Calibration,High,Closed,17655.69
+MT00787,M0090,2026-01-30,,Meter Replacement,High,Open,2165.05
+MT00788,M0038,2026-03-07,,Meter Replacement,Low,In Progress,5488.65
+MT00789,M0106,2026-05-30,2026-06-07,Communication Failure,Low,Closed,6925.71
+MT00790,M0107,2026-01-24,2026-01-26,Power Quality,Low,Closed,20644.57
+MT00791,M0149,2026-08-20,2026-09-05,Sensor Calibration,High,Closed,18548.27
+MT00792,M0102,2026-06-11,2026-06-21,Power Quality,Medium,Closed,12443.31
+MT00793,M0066,2026-08-02,2026-08-08,Communication Failure,Low,Closed,24566.49
+MT00794,M0050,2026-03-12,2026-03-24,Communication Failure,Critical,Closed,14238.32
+MT00795,M0082,2026-08-07,2026-08-22,Meter Replacement,Medium,Closed,22821.75
+MT00796,M0012,2026-05-23,,Sensor Calibration,Medium,In Progress,12159.06
+MT00797,M0116,2026-02-07,2026-02-17,Meter Replacement,Medium,Closed,19715.27
+MT00798,M0133,2026-04-09,2026-04-22,Communication Failure,High,Closed,16890.27
+MT00799,M0087,2026-02-28,2026-03-14,Meter Replacement,Low,Closed,16613.97
+MT00800,M0065,2026-03-29,2026-04-03,Sensor Calibration,Medium,Closed,23414.44
+MT00801,M0125,2026-02-18,2026-03-01,Voltage Fluctuation,High,Closed,15898.6
+MT00802,M0122,2026-01-27,2026-02-07,Meter Replacement,High,Closed,11087.35
+MT00803,M0095,2026-05-28,,Physical Inspection,Medium,In Progress,17375.05
+MT00804,M0050,2026-07-02,,Voltage Fluctuation,High,Open,5791.51
+MT00805,M0041,2026-03-04,2026-03-21,Sensor Calibration,Low,Closed,22598.34
+MT00806,M0038,2026-06-07,2026-06-16,Physical Inspection,Low,Closed,4221.47
+MT00807,M0045,2026-01-12,2026-01-14,Sensor Calibration,High,Closed,5656.46
+MT00808,M0066,2026-06-07,2026-06-21,Meter Replacement,Medium,Closed,744.12
+MT00809,M0108,2026-02-19,2026-03-06,Communication Failure,Critical,Closed,8626.43
+MT00810,M0104,2026-08-21,,Power Quality,Low,In Progress,1875.47
+MT00811,M0147,2026-08-20,2026-08-31,Power Quality,Low,Closed,4930.01
+MT00812,M0001,2026-08-24,2026-08-26,Power Quality,Medium,Closed,18834.98
+MT00813,M0047,2026-03-29,2026-03-30,Meter Replacement,Low,Closed,18137.29
+MT00814,M0093,2026-04-06,2026-04-10,Sensor Calibration,Low,Closed,5548.62
+MT00815,M0027,2026-03-03,,Meter Replacement,High,Open,
+MT00816,M0080,2026-07-27,2026-08-05,Meter Replacement,Medium,Closed,11494.14
+MT00817,M0052,2026-05-13,2026-05-28,Meter Replacement,Medium,Closed,4581.59
+MT00818,M0110,2026-08-23,2026-09-01,Communication Failure,High,Closed,7982.0
+MT00819,M0065,2026-07-18,2026-07-20,Communication Failure,Critical,Closed,4930.11
+MT00820,M0117,2026-05-10,2026-05-26,Sensor Calibration,High,Closed,7468.52
+MT00821,M0105,2026-05-19,,Voltage Fluctuation,Medium,In Progress,7160.04
+MT00822,M0150,2026-04-21,2026-04-26,Power Quality,Low,Closed,12400.48
+MT00823,M0001,2026-06-03,2026-06-07,Sensor Calibration,Medium,Closed,10519.44
+MT00824,M0106,2026-01-26,2026-02-02,Communication Failure,Medium,Closed,18321.53
+MT00825,M0026,2026-01-11,2026-01-27,Communication Failure,High,Closed,12080.67
+MT00826,M0135,2026-05-13,2026-05-18,Meter Replacement,Medium,Closed,20625.0
+MT00827,M0081,2026-08-22,2026-08-29,Sensor Calibration,Medium,Closed,6723.94
+MT00828,M0036,2026-05-25,2026-06-11,Sensor Calibration,High,Closed,16044.95
+MT00829,M0088,2026-06-05,2026-06-06,Sensor Calibration,Low,Closed,4688.92
+MT00830,M0049,2026-01-20,2026-01-26,Power Quality,Medium,Closed,8707.46
+MT00831,M0105,2026-02-19,2026-03-05,Sensor Calibration,Medium,Closed,15074.29
+MT00832,M0075,2026-05-04,,Voltage Fluctuation,Low,Open,2451.92
+MT00833,M0047,2026-01-16,2026-01-29,Physical Inspection,High,Closed,867.87
+MT00834,M0004,2026-05-12,2026-05-28,Voltage Fluctuation,Critical,Closed,21930.62
+MT00835,M0081,2026-06-27,2026-07-14,Power Quality,Critical,Closed,3283.65
+MT00836,M0072,2026-08-09,,Sensor Calibration,Low,In Progress,
+MT00837,M0145,2026-01-26,2026-01-31,Voltage Fluctuation,Low,Closed,15166.62
+MT00838,M0060,2026-02-23,2026-03-06,Physical Inspection,Critical,Closed,5916.21
+MT00839,M0016,2026-08-04,2026-08-16,Voltage Fluctuation,Low,Closed,23463.8
+MT00840,M0072,2026-04-09,,Sensor Calibration,Medium,In Progress,1261.45
+MT00841,M0077,2026-08-07,2026-08-22,Meter Replacement,High,Closed,
+MT00842,M0011,2026-05-22,2026-06-04,Voltage Fluctuation,Low,Closed,12321.6
+MT00843,M0048,2026-08-27,2026-09-13,Meter Replacement,Medium,Closed,13700.88
+MT00844,M0105,2026-08-23,2026-08-30,Meter Replacement,High,Closed,23188.23
+MT00845,M0092,2026-04-27,,Voltage Fluctuation,High,Open,2505.58
+MT00846,M0133,2026-07-02,,Physical Inspection,Low,In Progress,9312.0
+MT00847,M0031,2026-04-18,,Power Quality,Low,Open,
+MT00848,M0070,2026-05-16,2026-05-26,Physical Inspection,Medium,Closed,10610.32
+MT00849,M0001,2026-03-06,2026-03-16,Meter Replacement,Low,Closed,5842.01
+MT00850,M0080,2026-01-04,2026-01-17,Physical Inspection,Medium,Closed,19629.05
+MT00851,M0110,2026-02-22,,Communication Failure,Medium,In Progress,14445.73
+MT00852,M0100,2026-05-15,2026-05-16,Voltage Fluctuation,High,Closed,9268.72
+MT00853,M0009,2026-03-10,2026-03-21,Communication Failure,Medium,Closed,7862.46
+MT00854,M0045,2026-08-26,2026-08-31,Communication Failure,Low,Closed,23905.86
+MT00855,M0020,2026-07-14,,Voltage Fluctuation,Critical,In Progress,6273.06
+MT00856,M0037,2026-04-07,,Power Quality,Medium,In Progress,1462.31
+MT00857,M0054,2026-02-20,,Sensor Calibration,Low,In Progress,8624.07
+MT00858,M0072,2026-05-04,,Meter Replacement,High,Open,7076.65
+MT00859,M0012,2026-07-26,2026-07-29,Power Quality,Low,Closed,2173.1
+MT00860,M0016,2026-04-11,,Meter Replacement,High,Open,21055.9
+MT00861,M0070,2026-05-31,2026-06-10,Communication Failure,High,Closed,11952.6
+MT00862,M0047,2026-04-08,,Meter Replacement,Medium,In Progress,20715.3
+MT00863,M0059,2026-01-18,,Meter Replacement,Low,In Progress,3004.51
+MT00864,M0039,2026-08-05,,Voltage Fluctuation,Low,Open,10907.05
+MT00865,M0093,2026-03-28,2026-04-06,Meter Replacement,Low,Closed,535.56
+MT00866,M0146,2026-05-31,2026-06-14,Communication Failure,Low,Closed,2158.01
+MT00867,M0148,2026-05-12,2026-05-17,Communication Failure,High,Closed,1056.8
+MT00868,M0018,2026-05-22,2026-06-01,Voltage Fluctuation,Medium,Closed,18465.19
+MT00869,M0031,2026-08-23,2026-09-08,Physical Inspection,Medium,Closed,20731.82
+MT00870,M0063,2026-03-18,2026-03-20,Voltage Fluctuation,Medium,Closed,2189.17
+MT00871,M0018,2026-05-04,2026-05-21,Sensor Calibration,Medium,Closed,1879.55
+MT00872,M0106,2026-01-14,2026-01-30,Sensor Calibration,Low,Closed,23295.05
+MT00873,M0022,2026-05-26,2026-06-11,Voltage Fluctuation,High,Closed,2954.83
+MT00874,M0119,2026-08-23,2026-08-26,Communication Failure,High,Closed,20354.63
+MT00875,M0115,2026-03-08,2026-03-10,Power Quality,Medium,Closed,15396.65
+MT00876,M0067,2026-06-02,2026-06-04,Voltage Fluctuation,Low,Closed,
+MT00877,M0020,2026-05-05,2026-05-18,Meter Replacement,Medium,Closed,8267.43
+MT00878,M0007,2026-04-21,,Sensor Calibration,Medium,In Progress,15493.45
+MT00879,M0134,2026-06-15,2026-06-28,Power Quality,Medium,Closed,22847.29
+MT00880,M0073,2026-01-12,,Meter Replacement,Medium,In Progress,17556.25
+MT00881,M0027,2026-06-22,2026-07-04,Physical Inspection,Medium,Closed,17131.96
+MT00882,M0021,2026-03-11,2026-03-21,Voltage Fluctuation,Medium,Closed,3992.78
+MT00883,M0034,2026-05-17,2026-05-30,Sensor Calibration,Medium,Closed,5168.28
+MT00884,M0103,2026-08-26,2026-09-12,Power Quality,Low,Closed,24527.01
+MT00885,M0076,2026-08-14,,Physical Inspection,Critical,Open,5417.67
+MT00886,M0071,2026-03-19,2026-03-21,Physical Inspection,Low,Closed,1580.8
+MT00887,M0082,2026-06-14,,Meter Replacement,High,Open,12870.39
+MT00888,M0012,2026-06-01,2026-06-15,Sensor Calibration,Low,Closed,4111.88
+MT00889,M0058,2026-01-09,2026-01-25,Physical Inspection,Medium,Closed,22007.43
+MT00890,M0024,2026-03-05,,Sensor Calibration,High,In Progress,13349.11
+MT00891,M0031,2026-06-09,2026-06-16,Physical Inspection,High,Closed,6427.01
+MT00892,M0057,2026-05-01,,Communication Failure,Medium,Open,6730.97
+MT00893,M0071,2026-01-30,,Communication Failure,High,Open,8267.62
+MT00894,M0098,2026-02-27,2026-03-08,Physical Inspection,Low,Closed,2652.85
+MT00895,M0090,2026-08-09,2026-08-26,Physical Inspection,High,Closed,
+MT00896,M0030,2026-05-06,2026-05-15,Sensor Calibration,Medium,Closed,2874.93
+MT00897,M0070,2026-08-05,,Physical Inspection,Medium,Open,5796.81
+MT00898,M0147,2026-01-04,2026-01-08,Sensor Calibration,Low,Closed,18093.83
+MT00899,M0072,2026-08-26,,Voltage Fluctuation,Medium,In Progress,13935.64
+MT00900,M0089,2026-06-20,,Meter Replacement,Critical,In Progress,8014.34
+MT00901,M0043,2026-08-28,2026-09-11,Voltage Fluctuation,Medium,Closed,15169.04
+MT00902,M0069,2026-06-10,2026-06-21,Physical Inspection,High,Closed,21055.4
+MT00903,M0051,2026-05-20,2026-05-22,Meter Replacement,Medium,Closed,772.85
+MT00904,M0014,2026-07-13,,Power Quality,Medium,Open,21520.33
+MT00905,M0147,2026-07-16,2026-07-29,Meter Replacement,High,Closed,14248.61
+MT00906,M0043,2026-05-31,2026-06-11,Sensor Calibration,Critical,Closed,24519.17
+MT00907,M0084,2026-03-30,2026-04-06,Power Quality,Low,Closed,9904.49
+MT00908,M0036,2026-06-17,2026-06-23,Meter Replacement,Low,Closed,18596.34
+MT00909,M0097,2026-03-02,2026-03-10,Voltage Fluctuation,High,Closed,3703.26
+MT00910,M0114,2026-04-23,,Meter Replacement,Low,In Progress,22411.96
+MT00911,M0082,2026-05-24,2026-06-04,Communication Failure,Medium,Closed,3031.38
+MT00912,M0018,2026-06-28,2026-07-12,Voltage Fluctuation,Medium,Closed,
+MT00913,M0044,2026-06-07,,Voltage Fluctuation,Medium,In Progress,10151.23
+MT00914,M0020,2026-03-06,2026-03-19,Sensor Calibration,Medium,Closed,2858.81
+MT00915,M0136,2026-01-28,2026-01-29,Communication Failure,Medium,Closed,5444.52
+MT00916,M0127,2026-06-03,2026-06-06,Sensor Calibration,High,Closed,18051.83
+MT00917,M0069,2026-06-24,,Sensor Calibration,High,In Progress,17542.38
+MT00918,M0095,2026-01-04,,Sensor Calibration,High,In Progress,7864.4
+MT00919,M0119,2026-07-25,2026-08-10,Voltage Fluctuation,Critical,Closed,7783.51
+MT00920,M0029,2026-02-28,2026-03-15,Power Quality,Medium,Closed,23630.17
+MT00921,M0111,2026-02-21,2026-02-22,Physical Inspection,Low,Closed,22490.09
+MT00922,M0029,2026-01-22,2026-01-27,Sensor Calibration,High,Closed,15718.3
+MT00923,M0150,2026-03-26,2026-04-04,Voltage Fluctuation,High,Closed,9917.48
+MT00924,M0080,2026-05-21,,Voltage Fluctuation,Medium,In Progress,8877.67
+MT00925,M0086,2026-05-17,2026-05-26,Voltage Fluctuation,Low,Closed,
+MT00926,M0054,2026-03-04,2026-03-16,Communication Failure,Low,Closed,3284.73
+MT00927,M0013,2026-01-28,,Sensor Calibration,Medium,In Progress,24177.01
+MT00928,M0041,2026-02-15,2026-03-04,Voltage Fluctuation,Medium,Closed,19433.73
+MT00929,M0009,2026-04-02,2026-04-14,Physical Inspection,High,Closed,6477.11
+MT00930,M0079,2026-08-22,2026-08-24,Communication Failure,Medium,Closed,1136.89
+MT00931,M0041,2026-01-07,2026-01-23,Meter Replacement,High,Closed,9142.61
+MT00932,M0025,2026-02-15,2026-02-22,Meter Replacement,Medium,Closed,17303.82
+MT00933,M0127,2026-03-03,,Physical Inspection,Medium,Open,6643.7
+MT00934,M0026,2026-03-19,2026-04-01,Physical Inspection,Medium,Closed,2075.62
+MT00935,M0112,2026-03-29,2026-03-30,Power Quality,Medium,Closed,3358.73
+MT00936,M0134,2026-04-02,2026-04-13,Power Quality,Medium,Closed,6560.95
+MT00937,M0129,2026-08-04,2026-08-13,Power Quality,Critical,Closed,6696.32
+MT00938,M0121,2026-01-27,2026-02-12,Power Quality,Low,Closed,19627.13
+MT00939,M0032,2026-08-03,2026-08-04,Power Quality,High,Closed,5847.1
+MT00940,M0039,2026-05-28,2026-05-29,Sensor Calibration,Low,Closed,16927.92
+MT00941,M0018,2026-04-05,,Sensor Calibration,Medium,Open,15428.16
+MT00942,M0137,2026-06-19,,Power Quality,Low,In Progress,11986.74
+MT00943,M0103,2026-04-23,2026-04-28,Meter Replacement,High,Closed,6912.49
+MT00944,M0104,2026-08-02,2026-08-14,Sensor Calibration,Low,Closed,23177.71
+MT00945,M0073,2026-04-28,2026-05-08,Voltage Fluctuation,Low,Closed,12242.4
+MT00946,M0085,2026-08-07,,Communication Failure,Medium,In Progress,8976.01
+MT00947,M0071,2026-05-23,2026-06-05,Voltage Fluctuation,Medium,Closed,6194.96
+MT00948,M0067,2026-07-19,2026-07-24,Physical Inspection,Low,Closed,14452.15
+MT00949,M0018,2026-05-30,2026-06-01,Communication Failure,High,Closed,13103.86
+MT00950,M0058,2026-03-27,,Power Quality,Medium,In Progress,10307.99
+MT00951,M0004,2026-01-20,,Meter Replacement,High,Open,2075.77
+MT00952,M0106,2026-06-07,,Communication Failure,Critical,Open,18969.63
+MT00953,M0085,2026-08-17,,Power Quality,Medium,In Progress,456.01
+MT00954,M0148,2026-06-03,2026-06-04,Sensor Calibration,Low,Closed,19733.9
+MT00955,M0003,2026-01-05,2026-01-14,Sensor Calibration,Critical,Closed,23519.74
+MT00956,M0138,2026-07-27,,Sensor Calibration,Low,In Progress,9936.18
+MT00957,M0037,2026-05-19,,Voltage Fluctuation,Medium,In Progress,7095.17
+MT00958,M0090,2026-02-02,2026-02-12,Communication Failure,High,Closed,10753.68
+MT00959,M0022,2026-03-16,,Communication Failure,Low,Open,22080.13
+MT00960,M0035,2026-07-28,2026-08-10,Power Quality,Critical,Closed,13661.75
+MT00961,M0125,2026-04-16,2026-04-24,Sensor Calibration,Medium,Closed,22621.36
+MT00962,M0036,2026-02-23,,Communication Failure,Medium,In Progress,
+MT00963,M0086,2026-06-14,2026-06-19,Communication Failure,Medium,Closed,9312.15
+MT00964,M0036,2026-04-20,2026-05-01,Physical Inspection,Low,Closed,7695.43
+MT00965,M0045,2026-06-25,2026-07-06,Voltage Fluctuation,Medium,Closed,6429.69
+MT00966,M0087,2026-02-26,,Sensor Calibration,High,In Progress,4394.66
+MT00967,M0132,2026-01-08,2026-01-10,Voltage Fluctuation,Critical,Closed,5550.25
+MT00968,M0039,2026-06-30,2026-07-15,Communication Failure,Medium,Closed,22463.02
+MT00969,M0069,2026-08-02,,Communication Failure,Low,In Progress,
+MT00970,M0020,2026-04-07,,Sensor Calibration,Medium,In Progress,12386.5
+MT00971,M0081,2026-05-18,,Physical Inspection,High,In Progress,23435.62
+MT00972,M0045,2026-06-07,2026-06-09,Power Quality,Critical,Closed,17178.36
+MT00973,M0081,2026-06-10,2026-06-24,Power Quality,High,Closed,9415.41
+MT00974,M0117,2026-02-25,2026-03-09,Communication Failure,Medium,Closed,4478.9
+MT00975,M0124,2026-06-23,2026-07-01,Voltage Fluctuation,Medium,Closed,11817.73
+MT00976,M0080,2026-05-13,2026-05-30,Meter Replacement,Medium,Closed,18767.11
+MT00977,M0094,2026-01-19,2026-01-22,Power Quality,Low,Closed,7561.38
+MT00978,M0072,2026-03-05,2026-03-06,Sensor Calibration,Low,Closed,21514.99
+MT00979,M0115,2026-04-24,2026-05-04,Communication Failure,Low,Closed,9893.92
+MT00980,M0150,2026-06-02,2026-06-07,Meter Replacement,High,Closed,2402.68
+MT00981,M0085,2026-08-16,,Voltage Fluctuation,High,In Progress,7875.94
+MT00982,M0079,2026-03-24,2026-04-01,Voltage Fluctuation,Medium,Closed,995.96
+MT00983,M0021,2026-02-24,2026-03-04,Communication Failure,Medium,Closed,24628.67
+MT00984,M0134,2026-02-20,2026-03-05,Physical Inspection,Low,Closed,5856.47
+MT00985,M0119,2026-03-31,,Physical Inspection,Medium,In Progress,15919.6
+MT00986,M0016,2026-03-01,,Physical Inspection,Medium,In Progress,22017.68
+MT00987,M0030,2026-05-29,2026-06-02,Communication Failure,Medium,Closed,14468.79
+MT00988,M0137,2026-01-12,2026-01-29,Physical Inspection,Medium,Closed,12420.77
+MT00989,M0009,2026-07-13,,Power Quality,Low,Open,5345.4
+MT00990,M0133,2026-04-25,2026-05-03,Physical Inspection,Critical,Closed,3537.54
+MT00991,M0003,2026-03-07,2026-03-24,Communication Failure,Critical,Closed,11363.41
+MT00992,M0049,2026-04-13,2026-04-27,Communication Failure,Critical,Closed,6495.62
+MT00993,M0016,2026-02-05,2026-02-18,Meter Replacement,High,Closed,13954.52
+MT00994,M0137,2026-03-12,2026-03-27,Physical Inspection,Low,Closed,7305.31
+MT00995,M0102,2026-06-25,,Voltage Fluctuation,High,Open,12932.48
+MT00996,M0090,2026-06-02,,Physical Inspection,Low,Open,17550.78
+MT00997,M0110,2026-08-31,2026-09-02,Meter Replacement,Medium,Closed,22231.2
+MT00998,M0023,2026-01-31,,Meter Replacement,Critical,Open,14541.66
+MT00999,M0104,2026-04-25,2026-05-10,Power Quality,Low,Closed,
+MT01000,M0125,2026-02-25,2026-03-03,Sensor Calibration,Critical,Closed,15892.07
+MT01001,M0125,2026-05-06,2026-05-17,Physical Inspection,Medium,Closed,24975.96
+MT01002,M0101,2026-06-17,,Sensor Calibration,Medium,In Progress,19665.01
+MT01003,M0092,2026-03-09,,Sensor Calibration,Medium,Open,21247.06
+MT01004,M0048,2026-08-27,2026-09-12,Physical Inspection,Low,Closed,20255.03
+MT01005,M0025,2026-07-04,2026-07-15,Voltage Fluctuation,Medium,Closed,16413.69
+MT01006,M0120,2026-05-13,2026-05-24,Sensor Calibration,Medium,Closed,7446.74
+MT01007,M0095,2026-08-16,2026-08-20,Physical Inspection,Medium,Closed,2248.14
+MT01008,M0119,2026-06-04,,Voltage Fluctuation,High,Open,13936.13
+MT01009,M0017,2026-03-11,2026-03-20,Voltage Fluctuation,Critical,Closed,17956.63
+MT01010,M0149,2026-08-11,2026-08-16,Sensor Calibration,Medium,Closed,4630.42
+MT01011,M0108,2026-05-10,2026-05-19,Power Quality,Medium,Closed,13134.11
+MT01012,M0045,2026-08-03,2026-08-05,Power Quality,High,Closed,6261.66
+MT01013,M0028,2026-01-18,2026-01-21,Physical Inspection,High,Closed,22156.24
+MT01014,M0106,2026-07-08,2026-07-12,Communication Failure,High,Closed,16845.37
+MT01015,M0081,2026-03-22,2026-04-04,Sensor Calibration,Medium,Closed,11402.98
+MT01016,M0016,2026-07-07,,Communication Failure,Medium,Open,17331.57
+MT01017,M0059,2026-05-05,2026-05-22,Communication Failure,Low,Closed,3959.86
+MT01018,M0090,2026-04-15,,Meter Replacement,Medium,In Progress,15710.19
+MT01019,M0075,2026-08-12,2026-08-22,Voltage Fluctuation,Low,Closed,16111.16
+MT01020,M0084,2026-06-08,,Voltage Fluctuation,High,In Progress,2292.24
+MT01021,M0147,2026-04-14,2026-04-24,Physical Inspection,High,Closed,7426.16
+MT01022,M0088,2026-08-19,,Physical Inspection,Low,Open,13142.77
+MT01023,M0150,2026-06-06,2026-06-09,Communication Failure,Low,Closed,3891.38
+MT01024,M0076,2026-01-13,2026-01-23,Power Quality,Low,Closed,1501.05
+MT01025,M0065,2026-04-30,2026-05-09,Power Quality,Medium,Closed,18161.08
+MT01026,M0147,2026-02-08,2026-02-16,Meter Replacement,Low,Closed,8524.57
+MT01027,M0024,2026-01-19,2026-01-27,Communication Failure,Low,Closed,1837.5
+MT01028,M0034,2026-07-07,2026-07-12,Sensor Calibration,Medium,Closed,
+MT01029,M0091,2026-05-10,2026-05-17,Sensor Calibration,Critical,Closed,
+MT01030,M0112,2026-03-29,2026-04-14,Voltage Fluctuation,Medium,Closed,1749.54
+MT01031,M0134,2026-08-27,,Communication Failure,Medium,In Progress,14911.41
+MT01032,M0040,2026-06-21,,Voltage Fluctuation,Medium,In Progress,
+MT01033,M0065,2026-06-15,2026-06-28,Power Quality,Low,Closed,3191.64
+MT01034,M0083,2026-04-10,,Physical Inspection,High,Open,11463.89
+MT01035,M0062,2026-06-21,2026-07-04,Voltage Fluctuation,Medium,Closed,7780.31
+MT01036,M0149,2026-04-21,2026-04-23,Voltage Fluctuation,Low,Closed,16011.21
+MT01037,M0107,2026-02-15,,Voltage Fluctuation,Medium,In Progress,13024.36
+MT01038,M0095,2026-04-26,2026-04-29,Physical Inspection,High,Closed,11740.65
+MT01039,M0080,2026-05-04,2026-05-09,Voltage Fluctuation,Low,Closed,1359.78
+MT01040,M0078,2026-08-20,2026-09-04,Voltage Fluctuation,Low,Closed,6274.6
+MT01041,M0072,2026-08-06,2026-08-20,Physical Inspection,Medium,Closed,22939.95
+MT01042,M0092,2026-04-12,2026-04-29,Power Quality,High,Closed,18710.61
+MT01043,M0140,2026-03-16,2026-03-31,Physical Inspection,High,Closed,
+MT01044,M0070,2026-01-02,2026-01-09,Physical Inspection,Low,Closed,4853.11
+MT01045,M0116,2026-03-17,2026-03-25,Physical Inspection,High,Closed,13982.69
+MT01046,M0102,2026-06-08,2026-06-21,Meter Replacement,High,Closed,1753.72
+MT01047,M0142,2026-01-14,2026-01-26,Communication Failure,Medium,Closed,
+MT01048,M0076,2026-04-01,,Physical Inspection,Medium,Open,9175.48
+MT01049,M0001,2026-01-13,2026-01-19,Communication Failure,Low,Closed,24085.09
+MT01050,M0087,2026-07-05,2026-07-15,Voltage Fluctuation,Medium,Closed,11137.05
+MT01051,M0145,2026-02-02,2026-02-06,Voltage Fluctuation,Low,Closed,8515.89
+MT01052,M0048,2026-04-16,,Voltage Fluctuation,Medium,In Progress,2100.22
+MT01053,M0101,2026-01-05,2026-01-09,Communication Failure,Low,Closed,23829.66
+MT01054,M0080,2026-01-01,2026-01-04,Sensor Calibration,Critical,Closed,7907.76
+MT01055,M0135,2026-06-26,2026-07-02,Communication Failure,Medium,Closed,7600.62
+MT01056,M0028,2026-08-26,2026-08-29,Power Quality,Medium,Closed,18853.19
+MT01057,M0132,2026-07-07,,Sensor Calibration,Low,In Progress,7581.36
+MT01058,M0018,2026-08-22,,Communication Failure,Medium,Open,6774.65
+MT01059,M0093,2026-05-17,2026-05-31,Sensor Calibration,High,Closed,2091.31
+MT01060,M0089,2026-05-15,2026-05-30,Voltage Fluctuation,High,Closed,1614.0
+MT01061,M0041,2026-06-29,2026-07-03,Voltage Fluctuation,Low,Closed,2149.21
+MT01062,M0120,2026-08-13,,Communication Failure,Low,In Progress,7313.34
+MT01063,M0144,2026-04-12,2026-04-29,Sensor Calibration,Low,Closed,19509.16
+MT01064,M0146,2026-02-20,2026-02-26,Physical Inspection,Medium,Closed,15037.21
+MT01065,M0150,2026-07-18,2026-08-04,Sensor Calibration,Low,Closed,15463.91
+MT01066,M0022,2026-04-19,,Power Quality,Low,In Progress,7743.65
+MT01067,M0109,2026-02-09,,Physical Inspection,Medium,Open,1229.14
+MT01068,M0063,2026-03-20,2026-04-02,Communication Failure,Medium,Closed,21916.74
+MT01069,M0072,2026-02-02,2026-02-13,Physical Inspection,Low,Closed,21238.06
+MT01070,M0073,2026-03-27,2026-04-11,Meter Replacement,Medium,Closed,7217.62
+MT01071,M0047,2026-08-17,2026-08-24,Sensor Calibration,Medium,Closed,7373.25
+MT01072,M0120,2026-06-10,,Sensor Calibration,Medium,In Progress,5865.8
+MT01073,M0062,2026-06-25,2026-07-12,Voltage Fluctuation,High,Closed,10949.02
+MT01074,M0046,2026-05-22,2026-06-01,Physical Inspection,Low,Closed,15150.03
+MT01075,M0081,2026-07-06,2026-07-11,Meter Replacement,High,Closed,2176.08
+MT01076,M0053,2026-07-31,2026-08-15,Sensor Calibration,Medium,Closed,11007.13
+MT01077,M0020,2026-07-27,,Physical Inspection,Low,Open,
+MT01078,M0001,2026-03-08,2026-03-18,Voltage Fluctuation,Medium,Closed,6419.32
+MT01079,M0133,2026-01-14,2026-01-19,Voltage Fluctuation,Medium,Closed,7459.68
+MT01080,M0063,2026-01-23,2026-01-25,Physical Inspection,High,Closed,5699.38
+MT01081,M0138,2026-08-18,,Sensor Calibration,High,Open,13636.89
+MT01082,M0022,2026-08-09,,Meter Replacement,Low,In Progress,3195.51
+MT01083,M0076,2026-01-03,2026-01-16,Physical Inspection,Low,Closed,10346.13
+MT01084,M0024,2026-03-30,2026-04-09,Sensor Calibration,Low,Closed,7111.36
+MT01085,M0069,2026-07-12,2026-07-25,Communication Failure,Critical,Closed,19766.03
+MT01086,M0056,2026-02-02,2026-02-13,Sensor Calibration,Low,Closed,4208.15
+MT01087,M0070,2026-01-10,2026-01-12,Meter Replacement,Medium,Closed,18403.79
+MT01088,M0042,2026-07-17,2026-07-27,Voltage Fluctuation,High,Closed,4103.21
+MT01089,M0015,2026-06-22,2026-06-29,Power Quality,Critical,Closed,4924.77
+MT01090,M0149,2026-08-13,2026-08-18,Physical Inspection,Medium,Closed,5578.25
+MT01091,M0021,2026-08-08,2026-08-18,Voltage Fluctuation,Low,Closed,9419.39
+MT01092,M0097,2026-06-04,2026-06-17,Power Quality,High,Closed,2826.41
+MT01093,M0097,2026-03-14,2026-03-21,Sensor Calibration,Low,Closed,2347.91
+MT01094,M0002,2026-08-05,,Power Quality,Medium,In Progress,20191.31
+MT01095,M0120,2026-04-07,2026-04-14,Voltage Fluctuation,Medium,Closed,17888.55
+MT01096,M0041,2026-05-23,2026-05-28,Sensor Calibration,Medium,Closed,
+MT01097,M0140,2026-06-04,,Meter Replacement,High,In Progress,
+MT01098,M0107,2026-02-28,,Meter Replacement,Medium,In Progress,1309.96
+MT01099,M0021,2026-06-02,,Sensor Calibration,Low,Open,20584.09
+MT01100,M0098,2026-07-30,,Voltage Fluctuation,Medium,Open,3965.34
+MT01101,M0118,2026-03-19,,Meter Replacement,Medium,Open,12912.0
+MT01102,M0098,2026-06-11,2026-06-26,Voltage Fluctuation,Low,Closed,3421.32
+MT01103,M0014,2026-05-11,2026-05-28,Meter Replacement,Low,Closed,
+MT01104,M0126,2026-07-30,2026-08-04,Sensor Calibration,Low,Closed,24774.07
+MT01105,M0063,2026-06-25,2026-07-05,Communication Failure,Medium,Closed,
+MT01106,M0065,2026-02-22,2026-03-04,Voltage Fluctuation,High,Closed,
+MT01107,M0120,2026-02-02,,Communication Failure,Low,Open,18217.53
+MT01108,M0022,2026-01-28,2026-02-02,Meter Replacement,Medium,Closed,2072.42
+MT01109,M0126,2026-07-31,2026-08-13,Power Quality,High,Closed,12598.65
+MT01110,M0003,2026-01-23,2026-02-07,Communication Failure,Medium,Closed,14499.17
+MT01111,M0034,2026-01-17,2026-01-24,Voltage Fluctuation,Low,Closed,7544.61
+MT01112,M0110,2026-04-15,,Communication Failure,Low,In Progress,11072.79
+MT01113,M0059,2026-02-18,2026-03-04,Sensor Calibration,Low,Closed,5175.73
+MT01114,M0002,2026-04-25,2026-05-01,Physical Inspection,Medium,Closed,4450.42
+MT01115,M0134,2026-01-19,2026-02-04,Communication Failure,Low,Closed,23071.42
+MT01116,M0142,2026-02-09,,Voltage Fluctuation,Medium,Open,12726.2
+MT01117,M0013,2026-05-03,,Power Quality,High,In Progress,6899.04
+MT01118,M0017,2026-03-22,2026-03-28,Communication Failure,High,Closed,16445.45
+MT01119,M0049,2026-02-27,2026-03-16,Sensor Calibration,High,Closed,11051.92
+MT01120,M0111,2026-02-05,2026-02-12,Physical Inspection,High,Closed,4704.98
+MT01121,M0065,2026-05-20,,Power Quality,High,In Progress,22287.34
+MT01122,M0091,2026-02-18,,Voltage Fluctuation,Medium,Open,7087.52
+MT01123,M0133,2026-01-07,2026-01-22,Voltage Fluctuation,Medium,Closed,4526.94
+MT01124,M0048,2026-07-01,,Voltage Fluctuation,Medium,In Progress,23175.17
+MT01125,M0144,2026-01-06,2026-01-23,Power Quality,High,Closed,14379.63
+MT01126,M0048,2026-08-27,2026-09-03,Power Quality,Low,Closed,21717.98
+MT01127,M0032,2026-01-07,2026-01-23,Voltage Fluctuation,Medium,Closed,13809.44
+MT01128,M0019,2026-06-18,,Communication Failure,High,Open,8883.56
+MT01129,M0115,2026-04-06,,Power Quality,Medium,In Progress,5819.2
+MT01130,M0032,2026-01-30,2026-02-03,Power Quality,High,Closed,20945.02
+MT01131,M0115,2026-07-19,2026-07-31,Voltage Fluctuation,Low,Closed,23340.22
+MT01132,M0109,2026-07-10,2026-07-14,Sensor Calibration,Critical,Closed,17298.09
+MT01133,M0021,2026-07-06,2026-07-21,Sensor Calibration,Medium,Closed,6154.84
+MT01134,M0088,2026-04-05,2026-04-16,Meter Replacement,Low,Closed,4218.44
+MT01135,M0098,2026-03-14,2026-03-20,Power Quality,High,Closed,1786.31
+MT01136,M0104,2026-01-26,2026-02-09,Power Quality,Low,Closed,16573.01
+MT01137,M0149,2026-04-25,2026-05-11,Communication Failure,Medium,Closed,
+MT01138,M0053,2026-07-24,2026-08-10,Voltage Fluctuation,Medium,Closed,23311.67
+MT01139,M0094,2026-05-18,2026-05-27,Voltage Fluctuation,Medium,Closed,19280.4
+MT01140,M0086,2026-03-19,2026-04-01,Power Quality,Low,Closed,
+MT01141,M0062,2026-05-27,,Sensor Calibration,Medium,In Progress,
+MT01142,M0099,2026-07-09,2026-07-23,Voltage Fluctuation,Low,Closed,16424.47
+MT01143,M0136,2026-01-14,2026-01-21,Meter Replacement,Critical,Closed,10822.59
+MT01144,M0015,2026-01-23,,Communication Failure,Low,In Progress,12774.71
+MT01145,M0060,2026-08-06,2026-08-09,Power Quality,Low,Closed,8976.83
+MT01146,M0033,2026-01-25,2026-02-07,Sensor Calibration,Medium,Closed,24447.28
+MT01147,M0009,2026-04-04,2026-04-11,Communication Failure,Medium,Closed,2517.18
+MT01148,M0063,2026-02-26,2026-03-14,Power Quality,High,Closed,19680.41
+MT01149,M0042,2026-05-25,2026-06-09,Meter Replacement,Low,Closed,1092.12
+MT01150,M0077,2026-06-23,2026-07-10,Communication Failure,High,Closed,
+MT01151,M0052,2026-07-13,,Communication Failure,Medium,In Progress,24386.91
+MT01152,M0029,2026-06-26,,Communication Failure,Low,In Progress,8770.36
+MT01153,M0111,2026-08-03,2026-08-04,Voltage Fluctuation,Medium,Closed,17754.23
+MT01154,M0135,2026-06-19,,Communication Failure,Medium,In Progress,7148.06
+MT01155,M0071,2026-05-29,2026-06-06,Power Quality,Low,Closed,17177.99
+MT01156,M0048,2026-04-12,2026-04-21,Meter Replacement,Low,Closed,678.64
+MT01157,M0055,2026-07-01,2026-07-14,Power Quality,High,Closed,14182.04
+MT01158,M0096,2026-08-10,2026-08-17,Power Quality,High,Closed,17753.13
+MT01159,M0091,2026-02-15,,Communication Failure,Medium,Open,9950.31
+MT01160,M0028,2026-08-03,2026-08-04,Meter Replacement,Low,Closed,15873.71
+MT01161,M0002,2026-05-12,2026-05-26,Voltage Fluctuation,High,Closed,12843.52
+MT01162,M0077,2026-05-11,,Communication Failure,Critical,In Progress,1941.78
+MT01163,M0111,2026-06-18,2026-06-22,Communication Failure,High,Closed,7026.2
+MT01164,M0135,2026-04-20,,Physical Inspection,Medium,In Progress,10621.74
+MT01165,M0020,2026-05-10,2026-05-16,Meter Replacement,High,Closed,
+MT01166,M0030,2026-02-15,2026-02-20,Power Quality,Low,Closed,9593.7
+MT01167,M0090,2026-06-23,2026-06-29,Meter Replacement,Medium,Closed,18371.29
+MT01168,M0119,2026-04-27,2026-05-07,Physical Inspection,High,Closed,1738.89
+MT01169,M0054,2026-04-19,2026-04-22,Sensor Calibration,Low,Closed,
+MT01170,M0059,2026-06-30,2026-07-06,Power Quality,Low,Closed,
+MT01171,M0017,2026-07-12,,Communication Failure,Medium,In Progress,8625.85
+MT01172,M0089,2026-01-16,2026-01-25,Physical Inspection,High,Closed,19527.86
+MT01173,M0055,2026-06-05,,Voltage Fluctuation,High,In Progress,17448.48
+MT01174,M0090,2026-03-25,2026-03-26,Sensor Calibration,Low,Closed,1221.84
+MT01175,M0014,2026-04-28,2026-05-11,Voltage Fluctuation,Low,Closed,16865.11
+MT01176,M0091,2026-06-12,2026-06-13,Physical Inspection,Low,Closed,9515.06
+MT01177,M0068,2026-05-22,2026-05-23,Physical Inspection,Low,Closed,4611.96
+MT01178,M0004,2026-04-15,2026-05-01,Meter Replacement,Low,Closed,15909.6
+MT01179,M0141,2026-04-15,2026-04-20,Communication Failure,High,Closed,8268.69
+MT01180,M0131,2026-01-22,2026-02-02,Sensor Calibration,Medium,Closed,21246.55
+MT01181,M0138,2026-04-04,,Power Quality,Medium,Open,
+MT01182,M0063,2026-03-15,2026-03-20,Meter Replacement,Medium,Closed,18837.76
+MT01183,M0095,2026-03-27,,Voltage Fluctuation,Medium,In Progress,22438.24
+MT01184,M0072,2026-03-13,,Voltage Fluctuation,Critical,In Progress,
+MT01185,M0132,2026-04-08,2026-04-15,Meter Replacement,Medium,Closed,4276.63
+MT01186,M0114,2026-03-12,,Voltage Fluctuation,Medium,In Progress,12016.0
+MT01187,M0005,2026-04-03,2026-04-12,Sensor Calibration,Low,Closed,6787.29
+MT01188,M0098,2026-07-14,,Sensor Calibration,Medium,In Progress,20477.78
+MT01189,M0005,2026-07-23,,Communication Failure,Critical,Open,23511.75
+MT01190,M0096,2026-05-22,2026-06-05,Meter Replacement,High,Closed,2134.48
+MT01191,M0119,2026-07-17,2026-07-18,Power Quality,Low,Closed,11428.95
+MT01192,M0077,2026-06-07,2026-06-22,Physical Inspection,Low,Closed,24744.03
+MT01193,M0099,2026-02-16,2026-02-21,Power Quality,High,Closed,18460.53
+MT01194,M0087,2026-01-15,2026-01-24,Communication Failure,Low,Closed,
+MT01195,M0035,2026-08-04,,Voltage Fluctuation,High,Open,18338.07
+MT01196,M0068,2026-05-10,2026-05-26,Sensor Calibration,Medium,Closed,18440.79
+MT01197,M0124,2026-04-02,2026-04-06,Sensor Calibration,Low,Closed,13576.19
+MT01198,M0080,2026-05-16,2026-05-25,Sensor Calibration,Low,Closed,3559.55
+MT01199,M0069,2026-04-30,2026-05-16,Power Quality,Low,Closed,
+MT01200,M0069,2026-01-21,2026-02-01,Physical Inspection,High,Closed,1834.49
+MT01201,M0028,2026-07-28,,Voltage Fluctuation,Low,Open,12156.56
+MT01202,M0066,2026-02-27,2026-03-01,Meter Replacement,Low,Closed,6937.04
+MT01203,M0058,2026-02-12,,Communication Failure,Medium,In Progress,2079.22
+MT01204,M0047,2026-08-06,2026-08-17,Physical Inspection,Low,Closed,22805.07
+MT01205,M0042,2026-04-13,2026-04-14,Meter Replacement,Medium,Closed,20698.32
+MT01206,M0033,2026-04-06,2026-04-23,Voltage Fluctuation,Medium,Closed,17327.29
+MT01207,M0014,2026-02-28,,Sensor Calibration,Medium,Open,23141.91
+MT01208,M0090,2026-05-25,2026-06-03,Meter Replacement,Medium,Closed,17702.82
+MT01209,M0121,2026-03-16,,Meter Replacement,Low,Open,10864.47
+MT01210,M0143,2026-06-18,,Physical Inspection,High,In Progress,
+MT01211,M0113,2026-06-19,2026-06-26,Physical Inspection,High,Closed,22766.03
+MT01212,M0113,2026-03-31,,Power Quality,Medium,In Progress,10016.13
+MT01213,M0114,2026-06-24,2026-07-03,Physical Inspection,Critical,Closed,
+MT01214,M0016,2026-05-20,2026-05-30,Voltage Fluctuation,Low,Closed,
+MT01215,M0064,2026-08-20,2026-08-26,Sensor Calibration,High,Closed,9361.51
+MT01216,M0119,2026-08-04,,Communication Failure,Medium,Open,20223.89
+MT01217,M0120,2026-03-15,2026-03-22,Power Quality,Low,Closed,23703.94
+MT01218,M0147,2026-04-02,2026-04-10,Physical Inspection,High,Closed,22870.82
+MT01219,M0132,2026-01-06,2026-01-13,Communication Failure,Low,Closed,
+MT01220,M0147,2026-04-10,2026-04-23,Sensor Calibration,High,Closed,22464.18
+MT01221,M0102,2026-08-02,2026-08-03,Meter Replacement,Low,Closed,12778.26
+MT01222,M0005,2026-01-08,,Sensor Calibration,Critical,In Progress,23027.78
+MT01223,M0103,2026-04-18,2026-04-21,Physical Inspection,Low,Closed,20212.36
+MT01224,M0089,2026-02-23,,Physical Inspection,Low,In Progress,19026.73
+MT01225,M0079,2026-08-20,2026-08-22,Communication Failure,Medium,Closed,
+MT01226,M0072,2026-01-07,2026-01-13,Voltage Fluctuation,Low,Closed,18219.71
+MT01227,M0128,2026-02-26,,Power Quality,Critical,Open,9725.51
+MT01228,M0033,2026-08-10,2026-08-14,Sensor Calibration,Medium,Closed,14484.67
+MT01229,M0149,2026-08-30,2026-09-11,Physical Inspection,High,Closed,1022.47
+MT01230,M0133,2026-05-07,,Physical Inspection,Medium,In Progress,7555.4
+MT01231,M0087,2026-06-17,2026-06-29,Sensor Calibration,Low,Closed,7222.98
+MT01232,M0009,2026-01-13,2026-01-27,Power Quality,Medium,Closed,8643.49
+MT01233,M0118,2026-06-08,,Physical Inspection,Low,Open,2314.36
+MT01234,M0086,2026-06-29,,Power Quality,Low,Open,14705.39
+MT01235,M0072,2026-04-12,2026-04-19,Communication Failure,Low,Closed,17188.39
+MT01236,M0117,2026-02-10,2026-02-19,Physical Inspection,Medium,Closed,8323.3
+MT01237,M0036,2026-06-03,,Meter Replacement,Medium,Open,
+MT01238,M0006,2026-08-29,,Communication Failure,High,Open,5128.19
+MT01239,M0061,2026-02-23,2026-03-09,Physical Inspection,Medium,Closed,
+MT01240,M0042,2026-07-24,2026-07-30,Physical Inspection,Critical,Closed,6255.21
+MT01241,M0104,2026-05-25,2026-06-06,Communication Failure,Critical,Closed,18207.39
+MT01242,M0116,2026-05-20,2026-05-22,Power Quality,Critical,Closed,22396.26
+MT01243,M0108,2026-01-05,2026-01-08,Physical Inspection,Low,Closed,6761.56
+MT01244,M0021,2026-03-22,2026-03-24,Physical Inspection,High,Closed,1149.85
+MT01245,M0010,2026-07-02,2026-07-18,Meter Replacement,Medium,Closed,6282.78
+MT01246,M0147,2026-02-03,2026-02-09,Voltage Fluctuation,High,Closed,1620.43
+MT01247,M0124,2026-01-08,,Sensor Calibration,Medium,In Progress,20129.07
+MT01248,M0074,2026-01-13,2026-01-16,Sensor Calibration,Medium,Closed,4304.19
+MT01249,M0092,2026-05-11,2026-05-28,Power Quality,Low,Closed,3496.9
+MT01250,M0069,2026-08-08,2026-08-18,Power Quality,Low,Closed,19133.36
+MT01251,M0090,2026-06-08,2026-06-22,Voltage Fluctuation,Low,Closed,22176.48
+MT01252,M0048,2026-03-19,,Meter Replacement,Low,Open,
+MT01253,M0108,2026-08-10,2026-08-15,Voltage Fluctuation,High,Closed,2286.38
+MT01254,M0028,2026-08-25,,Power Quality,High,In Progress,15360.08
+MT01255,M0135,2026-08-13,2026-08-20,Power Quality,Medium,Closed,23602.6
+MT01256,M0015,2026-07-09,,Physical Inspection,Low,Open,12194.68
+MT01257,M0046,2026-01-27,2026-02-02,Physical Inspection,High,Closed,12133.06
+MT01258,M0013,2026-03-29,,Meter Replacement,High,Open,15594.08
+MT01259,M0045,2026-02-02,,Communication Failure,Critical,In Progress,5798.56
+MT01260,M0064,2026-05-23,2026-06-06,Power Quality,Low,Closed,1937.25
+MT01261,M0036,2026-06-15,,Communication Failure,Low,In Progress,4230.27
+MT01262,M0074,2026-06-27,,Meter Replacement,Medium,In Progress,5551.98
+MT01263,M0091,2026-02-17,2026-03-02,Voltage Fluctuation,Medium,Closed,20497.31
+MT01264,M0072,2026-04-09,,Physical Inspection,Critical,In Progress,1752.56
+MT01265,M0078,2026-03-29,2026-04-10,Sensor Calibration,Low,Closed,5383.87
+MT01266,M0029,2026-01-12,2026-01-14,Power Quality,High,Closed,5419.27
+MT01267,M0070,2026-03-03,,Power Quality,Medium,In Progress,14589.41
+MT01268,M0029,2026-04-07,,Meter Replacement,High,Open,20552.21
+MT01269,M0065,2026-02-04,2026-02-20,Communication Failure,Medium,Closed,17185.51
+MT01270,M0053,2026-04-24,2026-05-02,Power Quality,Critical,Closed,12665.1
+MT01271,M0088,2026-06-17,,Physical Inspection,Low,In Progress,16554.24
+MT01272,M0066,2026-06-03,2026-06-06,Communication Failure,Low,Closed,824.28
+MT01273,M0136,2026-01-07,,Physical Inspection,Medium,In Progress,8608.17
+MT01274,M0141,2026-03-23,2026-04-07,Physical Inspection,Low,Closed,3049.17
+MT01275,M0041,2026-07-11,2026-07-23,Meter Replacement,High,Closed,961.98
+MT01276,M0096,2026-07-17,,Power Quality,High,In Progress,12775.72
+MT01277,M0001,2026-08-19,2026-08-27,Meter Replacement,Low,Closed,17343.23
+MT01278,M0046,2026-03-26,,Physical Inspection,Low,In Progress,12561.65
+MT01279,M0051,2026-01-12,2026-01-13,Meter Replacement,Medium,Closed,20048.17
+MT01280,M0129,2026-04-02,,Physical Inspection,High,In Progress,23001.93
+MT01281,M0084,2026-02-15,,Meter Replacement,Low,Open,12441.24
+MT01282,M0030,2026-08-13,2026-08-21,Power Quality,High,Closed,12223.32
+MT01283,M0116,2026-02-02,,Communication Failure,High,In Progress,9338.74
+MT01284,M0041,2026-05-16,2026-05-25,Sensor Calibration,Low,Closed,9747.16
+MT01285,M0045,2026-07-14,2026-07-15,Meter Replacement,Critical,Closed,3062.26
+MT01286,M0121,2026-05-29,2026-05-31,Voltage Fluctuation,Low,Closed,3152.17
+MT01287,M0063,2026-07-09,2026-07-19,Voltage Fluctuation,Low,Closed,4610.95
+MT01288,M0135,2026-08-12,2026-08-14,Communication Failure,High,Closed,8587.79
+MT01289,M0068,2026-08-17,,Power Quality,High,Open,23799.91
+MT01290,M0007,2026-06-06,2026-06-19,Power Quality,Low,Closed,
+MT01291,M0043,2026-07-13,2026-07-14,Power Quality,High,Closed,11336.78
+MT01292,M0045,2026-03-10,,Physical Inspection,Medium,Open,
+MT01293,M0062,2026-04-13,2026-04-22,Meter Replacement,Medium,Closed,6424.47
+MT01294,M0072,2026-05-01,2026-05-05,Meter Replacement,Low,Closed,8120.74
+MT01295,M0060,2026-02-19,2026-02-24,Sensor Calibration,Low,Closed,5407.36
+MT01296,M0101,2026-05-05,,Meter Replacement,High,In Progress,4347.49
+MT01297,M0012,2026-06-10,,Voltage Fluctuation,Medium,In Progress,19067.25
+MT01298,M0141,2026-06-26,2026-07-03,Physical Inspection,Medium,Closed,11447.05
+MT01299,M0003,2026-04-08,,Physical Inspection,Medium,In Progress,7441.41
+MT01300,M0092,2026-08-23,2026-09-06,Power Quality,High,Closed,
+MT01301,M0033,2026-07-11,2026-07-27,Meter Replacement,Medium,Closed,15093.24
+MT01302,M0128,2026-08-19,2026-09-02,Communication Failure,High,Closed,4213.95
+MT01303,M0114,2026-02-12,,Sensor Calibration,Medium,In Progress,13130.01
+MT01304,M0049,2026-06-16,2026-06-21,Voltage Fluctuation,Medium,Closed,5417.95
+MT01305,M0071,2026-07-19,2026-07-29,Sensor Calibration,High,Closed,13029.04
+MT01306,M0136,2026-04-13,2026-04-25,Meter Replacement,Low,Closed,18298.95
+MT01307,M0084,2026-04-08,2026-04-12,Meter Replacement,Medium,Closed,13359.97
+MT01308,M0016,2026-04-02,2026-04-10,Sensor Calibration,High,Closed,17018.41
+MT01309,M0145,2026-08-04,2026-08-12,Communication Failure,High,Closed,19770.21
+MT01310,M0113,2026-07-20,,Physical Inspection,Medium,Open,7106.53
+MT01311,M0138,2026-01-28,,Meter Replacement,Critical,Open,2873.12
+MT01312,M0057,2026-07-30,2026-08-16,Power Quality,Low,Closed,4522.8
+MT01313,M0111,2026-07-12,,Meter Replacement,Medium,Open,7910.79
+MT01314,M0138,2026-07-25,2026-08-10,Sensor Calibration,Medium,Closed,22863.38
+MT01315,M0020,2026-01-16,,Sensor Calibration,Medium,In Progress,5945.49
+MT01316,M0068,2026-06-21,2026-07-05,Meter Replacement,High,Closed,23577.32
+MT01317,M0056,2026-05-22,,Meter Replacement,Medium,In Progress,11079.27
+MT01318,M0065,2026-07-29,2026-08-09,Physical Inspection,Medium,Closed,14833.15
+MT01319,M0041,2026-04-30,2026-05-07,Sensor Calibration,Medium,Closed,6585.22
+MT01320,M0021,2026-07-02,,Voltage Fluctuation,Low,In Progress,20298.44
+MT01321,M0067,2026-03-01,,Sensor Calibration,Medium,In Progress,19079.28
+MT01322,M0051,2026-07-10,2026-07-26,Voltage Fluctuation,High,Closed,12321.88
+MT01323,M0076,2026-06-29,2026-07-10,Meter Replacement,Medium,Closed,
+MT01324,M0059,2026-07-29,2026-08-10,Voltage Fluctuation,Medium,Closed,11632.48
+MT01325,M0033,2026-03-14,2026-03-21,Communication Failure,Low,Closed,494.9
+MT01326,M0005,2026-07-07,2026-07-18,Voltage Fluctuation,Critical,Closed,
+MT01327,M0104,2026-07-30,,Sensor Calibration,Low,Open,776.52
+MT01328,M0126,2026-05-29,,Physical Inspection,Medium,In Progress,15927.81
+MT01329,M0067,2026-02-25,2026-02-28,Meter Replacement,Medium,Closed,20352.06
+MT01330,M0074,2026-08-13,2026-08-17,Communication Failure,Medium,Closed,15528.01
+MT01331,M0018,2026-08-28,,Power Quality,High,Open,
+MT01332,M0050,2026-04-19,2026-05-04,Communication Failure,Medium,Closed,10677.6
+MT01333,M0030,2026-07-29,2026-08-14,Physical Inspection,Low,Closed,2795.98
+MT01334,M0136,2026-07-13,2026-07-15,Power Quality,Medium,Closed,20006.8
+MT01335,M0085,2026-08-10,2026-08-19,Communication Failure,Low,Closed,4498.21
+MT01336,M0039,2026-01-07,,Physical Inspection,Critical,In Progress,14866.89
+MT01337,M0052,2026-03-12,,Sensor Calibration,High,In Progress,20201.94
+MT01338,M0028,2026-07-15,2026-07-20,Sensor Calibration,High,Closed,16376.71
+MT01339,M0117,2026-06-27,2026-07-14,Voltage Fluctuation,Medium,Closed,16640.5
+MT01340,M0126,2026-05-20,2026-05-25,Power Quality,Medium,Closed,17866.01
+MT01341,M0082,2026-04-23,2026-04-27,Communication Failure,Medium,Closed,885.92
+MT01342,M0081,2026-07-15,2026-07-25,Voltage Fluctuation,Medium,Closed,22117.55
+MT01343,M0036,2026-08-21,2026-08-27,Meter Replacement,High,Closed,4800.35
+MT01344,M0080,2026-01-27,2026-02-08,Communication Failure,Low,Closed,22104.7
+MT01345,M0133,2026-08-21,2026-08-29,Physical Inspection,Medium,Closed,23625.02
+MT01346,M0135,2026-01-07,2026-01-09,Power Quality,Low,Closed,6467.27
+MT01347,M0027,2026-03-20,2026-03-21,Physical Inspection,High,Closed,489.21
+MT01348,M0093,2026-02-03,2026-02-04,Physical Inspection,Low,Closed,7806.47
+MT01349,M0031,2026-02-26,2026-02-27,Communication Failure,Low,Closed,18537.95
+MT01350,M0085,2026-02-19,2026-03-04,Meter Replacement,Medium,Closed,5021.1
+MT01351,M0120,2026-01-02,2026-01-10,Power Quality,Medium,Closed,6148.87
+MT01352,M0048,2026-07-06,2026-07-22,Power Quality,Medium,Closed,21628.43
+MT01353,M0106,2026-04-19,2026-05-05,Communication Failure,Low,Closed,23305.34
+MT01354,M0086,2026-02-25,2026-03-11,Physical Inspection,Low,Closed,15437.5
+MT01355,M0097,2026-04-30,,Physical Inspection,High,In Progress,16888.39
+MT01356,M0150,2026-06-30,,Voltage Fluctuation,Low,In Progress,3784.77
+MT01357,M0123,2026-04-03,,Power Quality,High,In Progress,7224.07
+MT01358,M0034,2026-07-10,2026-07-14,Communication Failure,Low,Closed,1503.45
+MT01359,M0098,2026-01-21,2026-01-22,Power Quality,Low,Closed,8922.21
+MT01360,M0149,2026-07-19,2026-07-30,Voltage Fluctuation,Medium,Closed,12473.35
+MT01361,M0149,2026-08-22,,Communication Failure,Medium,In Progress,2360.93
+MT01362,M0118,2026-07-15,2026-07-19,Meter Replacement,Low,Closed,17213.21
+MT01363,M0037,2026-05-10,,Sensor Calibration,Medium,In Progress,16666.08
+MT01364,M0037,2026-05-10,2026-05-20,Meter Replacement,Low,Closed,3658.12
+MT01365,M0124,2026-04-29,,Meter Replacement,Low,Open,9900.6
+MT01366,M0049,2026-07-14,2026-07-30,Physical Inspection,High,Closed,21757.83
+MT01367,M0001,2026-03-20,,Power Quality,Low,In Progress,10632.25
+MT01368,M0018,2026-06-28,2026-07-05,Physical Inspection,Low,Closed,8220.38
+MT01369,M0084,2026-04-03,2026-04-08,Communication Failure,High,Closed,
+MT01370,M0047,2026-01-14,,Communication Failure,Medium,Open,414.77
+MT01371,M0017,2026-05-03,2026-05-12,Meter Replacement,Medium,Closed,5369.44
+MT01372,M0080,2026-01-24,2026-01-30,Communication Failure,High,Closed,
+MT01373,M0138,2026-04-20,,Physical Inspection,High,In Progress,18846.61
+MT01374,M0130,2026-03-22,2026-03-24,Physical Inspection,Low,Closed,11682.97
+MT01375,M0015,2026-06-19,2026-07-05,Communication Failure,Medium,Closed,16591.92
+MT01376,M0091,2026-08-02,2026-08-18,Meter Replacement,Medium,Closed,14272.03
+MT01377,M0112,2026-07-28,2026-08-13,Sensor Calibration,High,Closed,19129.44
+MT01378,M0135,2026-03-08,,Sensor Calibration,Medium,Open,3623.01
+MT01379,M0033,2026-02-18,,Sensor Calibration,Low,Open,3532.96
+MT01380,M0057,2026-06-01,2026-06-04,Meter Replacement,High,Closed,17559.5
+MT01381,M0140,2026-02-25,2026-02-26,Meter Replacement,Medium,Closed,4291.61
+MT01382,M0111,2026-02-22,2026-03-07,Voltage Fluctuation,Medium,Closed,12001.0
+MT01383,M0025,2026-01-18,2026-01-26,Sensor Calibration,High,Closed,12856.04
+MT01384,M0129,2026-04-06,2026-04-07,Power Quality,High,Closed,21602.33
+MT01385,M0056,2026-03-03,2026-03-19,Voltage Fluctuation,Medium,Closed,20647.16
+MT01386,M0083,2026-07-15,2026-07-17,Voltage Fluctuation,Medium,Closed,17399.32
+MT01387,M0083,2026-04-17,2026-04-30,Voltage Fluctuation,Low,Closed,
+MT01388,M0053,2026-02-10,2026-02-24,Sensor Calibration,High,Closed,8068.99
+MT01389,M0101,2026-05-23,,Meter Replacement,Medium,In Progress,23873.03
+MT01390,M0069,2026-05-03,,Sensor Calibration,Medium,Open,15722.71
+MT01391,M0148,2026-06-23,2026-06-26,Communication Failure,Medium,Closed,
+MT01392,M0121,2026-01-28,2026-02-03,Meter Replacement,Low,Closed,13163.91
+MT01393,M0069,2026-07-26,2026-08-09,Sensor Calibration,Low,Closed,12363.26
+MT01394,M0007,2026-02-11,,Sensor Calibration,High,Open,2673.37
+MT01395,M0071,2026-02-03,2026-02-15,Power Quality,Medium,Closed,16662.8
+MT01396,M0102,2026-07-19,2026-07-26,Communication Failure,High,Closed,9160.11
+MT01397,M0105,2026-06-10,2026-06-18,Physical Inspection,Medium,Closed,12976.68
+MT01398,M0099,2026-05-28,2026-06-03,Power Quality,Low,Closed,3605.14
+MT01399,M0093,2026-04-28,,Physical Inspection,Low,Open,9605.52
+MT01400,M0004,2026-01-14,2026-01-19,Voltage Fluctuation,High,Closed,1677.82
+MT01401,M0023,2026-03-10,2026-03-16,Voltage Fluctuation,Low,Closed,10741.18
+MT01402,M0121,2026-08-02,2026-08-07,Meter Replacement,High,Closed,4904.52
+MT01403,M0062,2026-03-23,,Power Quality,Medium,In Progress,7530.23
+MT01404,M0117,2026-05-09,2026-05-10,Power Quality,High,Closed,
+MT01405,M0121,2026-04-29,2026-05-03,Communication Failure,Medium,Closed,1252.14
+MT01406,M0112,2026-03-30,,Physical Inspection,Low,Open,
+MT01407,M0070,2026-07-27,,Power Quality,Low,In Progress,18569.45
+MT01408,M0009,2026-03-09,2026-03-12,Voltage Fluctuation,Low,Closed,22472.11
+MT01409,M0027,2026-02-04,,Sensor Calibration,Low,In Progress,18043.95
+MT01410,M0120,2026-06-12,,Voltage Fluctuation,Medium,Open,8449.24
+MT01411,M0134,2026-07-02,,Power Quality,High,Open,23075.88
+MT01412,M0013,2026-01-23,2026-02-04,Physical Inspection,Medium,Closed,21736.95
+MT01413,M0020,2026-05-26,2026-06-10,Meter Replacement,Medium,Closed,7816.19
+MT01414,M0049,2026-01-28,2026-02-10,Voltage Fluctuation,Medium,Closed,12976.41
+MT01415,M0062,2026-08-06,2026-08-23,Meter Replacement,High,Closed,1374.6
+MT01416,M0128,2026-06-03,2026-06-14,Sensor Calibration,Critical,Closed,7132.32
+MT01417,M0101,2026-05-28,,Voltage Fluctuation,High,Open,10159.6
+MT01418,M0009,2026-06-03,2026-06-09,Physical Inspection,Critical,Closed,9880.77
+MT01419,M0067,2026-03-25,,Power Quality,High,In Progress,23456.88
+MT01420,M0084,2026-05-20,,Meter Replacement,High,Open,17007.75
+MT01421,M0027,2026-07-31,2026-08-15,Voltage Fluctuation,High,Closed,801.21
+MT01422,M0076,2026-05-15,2026-05-19,Physical Inspection,Medium,Closed,11377.12
+MT01423,M0063,2026-06-13,2026-06-29,Communication Failure,High,Closed,17087.56
+MT01424,M0112,2026-01-11,,Voltage Fluctuation,Low,In Progress,6480.86
+MT01425,M0120,2026-02-12,2026-02-21,Sensor Calibration,High,Closed,14581.82
+MT01426,M0021,2026-04-07,,Physical Inspection,Low,In Progress,11314.38
+MT01427,M0138,2026-07-19,2026-07-31,Communication Failure,Low,Closed,19889.88
+MT01428,M0011,2026-07-15,2026-07-16,Voltage Fluctuation,Medium,Closed,6737.27
+MT01429,M0061,2026-04-30,2026-05-12,Power Quality,Medium,Closed,9116.78
+MT01430,M0140,2026-03-19,2026-03-31,Sensor Calibration,High,Closed,1439.78
+MT01431,M0095,2026-04-21,2026-05-05,Voltage Fluctuation,Medium,Closed,16522.41
+MT01432,M0065,2026-05-31,2026-06-17,Physical Inspection,Medium,Closed,5027.52
+MT01433,M0072,2026-01-17,2026-01-23,Sensor Calibration,High,Closed,10880.93
+MT01434,M0035,2026-08-02,2026-08-14,Sensor Calibration,Low,Closed,9642.96
+MT01435,M0073,2026-04-10,2026-04-26,Power Quality,Low,Closed,13482.03
+MT01436,M0144,2026-01-02,2026-01-12,Power Quality,High,Closed,23102.43
+MT01437,M0133,2026-04-22,2026-05-09,Sensor Calibration,Critical,Closed,13075.76
+MT01438,M0031,2026-04-13,2026-04-28,Sensor Calibration,Low,Closed,7352.55
+MT01439,M0034,2026-01-10,2026-01-20,Sensor Calibration,High,Closed,2855.17
+MT01440,M0108,2026-03-15,2026-03-27,Power Quality,Medium,Closed,4091.17
+MT01441,M0111,2026-08-14,,Voltage Fluctuation,Medium,In Progress,6430.71
+MT01442,M0143,2026-01-08,,Meter Replacement,Low,Open,6314.13
+MT01443,M0001,2026-02-08,,Communication Failure,Low,Open,13844.87
+MT01444,M0003,2026-08-06,2026-08-16,Sensor Calibration,Low,Closed,
+MT01445,M0084,2026-03-19,,Voltage Fluctuation,Medium,In Progress,14000.5
+MT01446,M0107,2026-05-30,,Voltage Fluctuation,Low,In Progress,5343.98
+MT01447,M0081,2026-08-01,,Meter Replacement,Critical,In Progress,
+MT01448,M0082,2026-03-02,2026-03-07,Physical Inspection,High,Closed,15431.18
+MT01449,M0029,2026-01-27,2026-02-04,Meter Replacement,Low,Closed,14069.12
+MT01450,M0070,2026-07-30,2026-08-12,Meter Replacement,Low,Closed,15299.52
+MT01451,M0058,2026-08-21,2026-08-24,Communication Failure,High,Closed,24011.86
+MT01452,M0059,2026-03-14,2026-03-15,Sensor Calibration,Medium,Closed,22062.87
+MT01453,M0075,2026-05-17,2026-05-20,Communication Failure,Medium,Closed,20924.91
+MT01454,M0121,2026-05-20,2026-06-01,Voltage Fluctuation,Medium,Closed,19877.06
+MT01455,M0061,2026-08-01,2026-08-08,Meter Replacement,Medium,Closed,3711.18
+MT01456,M0085,2026-02-27,2026-02-28,Voltage Fluctuation,Medium,Closed,6157.05
+MT01457,M0032,2026-07-10,2026-07-25,Voltage Fluctuation,Medium,Closed,15511.1
+MT01458,M0076,2026-01-29,,Physical Inspection,Medium,Open,8878.56
+MT01459,M0129,2026-05-12,2026-05-17,Communication Failure,Medium,Closed,14061.2
+MT01460,M0133,2026-03-08,2026-03-20,Sensor Calibration,Medium,Closed,13082.45
+MT01461,M0085,2026-07-19,,Power Quality,Low,In Progress,23134.81
+MT01462,M0060,2026-02-22,,Meter Replacement,Medium,In Progress,5286.08
+MT01463,M0048,2026-07-29,2026-08-13,Meter Replacement,Medium,Closed,5490.67
+MT01464,M0005,2026-04-06,,Voltage Fluctuation,High,In Progress,3281.41
+MT01465,M0128,2026-02-07,,Communication Failure,Low,In Progress,17244.26
+MT01466,M0054,2026-05-05,2026-05-09,Meter Replacement,Medium,Closed,5529.05
+MT01467,M0142,2026-08-25,2026-09-06,Sensor Calibration,Medium,Closed,15867.88
+MT01468,M0049,2026-07-05,2026-07-22,Communication Failure,Medium,Closed,12968.82
+MT01469,M0141,2026-06-18,2026-07-04,Physical Inspection,Medium,Closed,18129.89
+MT01470,M0140,2026-08-05,2026-08-08,Communication Failure,Low,Closed,
+MT01471,M0037,2026-04-10,2026-04-19,Communication Failure,High,Closed,3841.26
+MT01472,M0111,2026-06-01,2026-06-15,Voltage Fluctuation,Medium,Closed,24373.84
+MT01473,M0078,2026-05-11,2026-05-14,Voltage Fluctuation,Medium,Closed,23561.02
+MT01474,M0129,2026-03-07,2026-03-22,Physical Inspection,Critical,Closed,14370.11
+MT01475,M0083,2026-01-15,,Communication Failure,Low,Open,9069.28
+MT01476,M0113,2026-05-27,2026-05-28,Communication Failure,Medium,Closed,20912.69
+MT01477,M0112,2026-05-14,2026-05-18,Sensor Calibration,High,Closed,24533.56
+MT01478,M0030,2026-08-11,2026-08-16,Power Quality,Critical,Closed,
+MT01479,M0089,2026-07-02,2026-07-19,Voltage Fluctuation,Medium,Closed,
+MT01480,M0029,2026-04-03,2026-04-13,Meter Replacement,Critical,Closed,6041.62
+MT01481,M0013,2026-05-21,2026-05-28,Physical Inspection,Low,Closed,16758.32
+MT01482,M0120,2026-03-02,2026-03-03,Meter Replacement,Low,Closed,18258.56
+MT01483,M0082,2026-01-23,2026-02-04,Power Quality,High,Closed,1439.98
+MT01484,M0122,2026-05-27,2026-06-11,Physical Inspection,Low,Closed,23314.99
+MT01485,M0107,2026-06-06,,Power Quality,Medium,In Progress,18171.28
+MT01486,M0081,2026-07-04,,Sensor Calibration,High,In Progress,12963.21
+MT01487,M0047,2026-05-09,2026-05-19,Voltage Fluctuation,High,Closed,24388.73
+MT01488,M0108,2026-07-01,,Sensor Calibration,High,In Progress,22105.75
+MT01489,M0010,2026-03-16,,Meter Replacement,Medium,In Progress,11944.53
+MT01490,M0036,2026-07-04,,Sensor Calibration,Medium,In Progress,24588.68
+MT01491,M0032,2026-03-22,2026-03-30,Meter Replacement,High,Closed,15313.68
+MT01492,M0032,2026-02-11,2026-02-19,Physical Inspection,High,Closed,7969.04
+MT01493,M0018,2026-05-20,2026-06-06,Communication Failure,Medium,Closed,16778.66
+MT01494,M0069,2026-06-06,,Power Quality,Medium,Open,12790.38
+MT01495,M0062,2026-04-27,2026-05-14,Sensor Calibration,Medium,Closed,6515.96
+MT01496,M0088,2026-08-20,2026-08-30,Communication Failure,Low,Closed,6660.52
+MT01497,M0127,2026-06-06,2026-06-20,Power Quality,Critical,Closed,3502.39
+MT01498,M0141,2026-03-23,2026-03-25,Meter Replacement,Critical,Closed,17898.58
+MT01499,M0050,2026-05-31,2026-06-15,Communication Failure,Low,Closed,17434.06
+MT01500,M0055,2026-02-02,2026-02-13,Meter Replacement,Medium,Closed,23585.26
+MT01501,M0016,2026-06-08,,Meter Replacement,Medium,In Progress,24043.4
+MT01502,M0066,2026-02-08,,Physical Inspection,High,In Progress,
+MT01503,M0020,2026-04-11,2026-04-26,Power Quality,Low,Closed,24883.87
+MT01504,M0089,2026-03-18,2026-03-29,Physical Inspection,Low,Closed,9234.46
+MT01505,M0143,2026-02-09,2026-02-25,Sensor Calibration,Medium,Closed,11905.8
+MT01506,M0030,2026-02-10,2026-02-14,Voltage Fluctuation,Medium,Closed,20682.87
+MT01507,M0068,2026-08-15,2026-08-23,Communication Failure,Low,Closed,11938.99
+MT01508,M0002,2026-08-10,2026-08-13,Power Quality,Low,Closed,16567.5
+MT01509,M0056,2026-05-30,,Voltage Fluctuation,Low,Open,19679.11
+MT01510,M0068,2026-05-19,2026-06-05,Physical Inspection,High,Closed,20987.08
+MT01511,M0035,2026-08-12,2026-08-15,Sensor Calibration,Medium,Closed,11404.42
+MT01512,M0082,2026-01-20,2026-01-26,Voltage Fluctuation,High,Closed,18928.08
+MT01513,M0032,2026-06-14,2026-07-01,Power Quality,Critical,Closed,4461.45
+MT01514,M0014,2026-06-15,2026-06-26,Physical Inspection,Critical,Closed,6972.98
+MT01515,M0150,2026-07-29,2026-08-01,Voltage Fluctuation,High,Closed,
+MT01516,M0130,2026-04-20,,Communication Failure,Medium,In Progress,12132.98
+MT01517,M0118,2026-04-24,2026-05-04,Sensor Calibration,Medium,Closed,15658.48
+MT01518,M0077,2026-01-15,,Voltage Fluctuation,Medium,Open,11452.68
+MT01519,M0091,2026-04-02,2026-04-05,Physical Inspection,Medium,Closed,5958.01
+MT01520,M0044,2026-07-23,,Power Quality,Medium,In Progress,12340.71
+MT01521,M0125,2026-02-23,,Voltage Fluctuation,Low,Open,5143.97
+MT01522,M0077,2026-03-11,,Sensor Calibration,Medium,In Progress,13066.65
+MT01523,M0101,2026-04-24,,Voltage Fluctuation,Low,Open,4303.68
+MT01524,M0068,2026-07-15,2026-07-16,Sensor Calibration,Low,Closed,17797.12
+MT01525,M0148,2026-05-25,2026-06-02,Meter Replacement,Low,Closed,22879.14
+MT01526,M0012,2026-04-04,,Sensor Calibration,Low,In Progress,1851.48
+MT01527,M0094,2026-07-12,,Communication Failure,Medium,In Progress,21116.54
+MT01528,M0099,2026-08-19,2026-08-30,Power Quality,Critical,Closed,15598.32
+MT01529,M0046,2026-08-22,2026-09-02,Sensor Calibration,Low,Closed,19222.25
+MT01530,M0133,2026-01-11,,Voltage Fluctuation,Medium,In Progress,
+MT01531,M0111,2026-06-28,2026-06-29,Physical Inspection,Critical,Closed,21900.82
+MT01532,M0105,2026-06-04,2026-06-09,Physical Inspection,Critical,Closed,8806.11
+MT01533,M0124,2026-03-02,2026-03-07,Communication Failure,Low,Closed,2067.04
+MT01534,M0061,2026-03-24,,Sensor Calibration,Medium,Open,9643.02
+MT01535,M0145,2026-04-05,,Meter Replacement,Medium,Open,21889.55
+MT01536,M0048,2026-07-19,2026-08-01,Meter Replacement,Critical,Closed,7115.13
+MT01537,M0111,2026-06-03,,Meter Replacement,Low,In Progress,22328.46
+MT01538,M0071,2026-06-10,,Communication Failure,High,In Progress,20496.17
+MT01539,M0091,2026-02-14,2026-02-21,Physical Inspection,Medium,Closed,13001.52
+MT01540,M0065,2026-04-14,2026-04-16,Physical Inspection,Medium,Closed,18319.72
+MT01541,M0094,2026-03-20,2026-03-25,Meter Replacement,Low,Closed,2616.14
+MT01542,M0055,2026-07-24,2026-08-07,Power Quality,Low,Closed,9222.65
+MT01543,M0110,2026-01-01,2026-01-17,Sensor Calibration,Medium,Closed,22235.54
+MT01544,M0088,2026-04-06,,Communication Failure,Low,In Progress,21028.11
+MT01545,M0030,2026-05-01,2026-05-06,Sensor Calibration,Medium,Closed,14347.48
+MT01546,M0135,2026-08-31,,Physical Inspection,Medium,In Progress,9711.65
+MT01547,M0046,2026-04-21,,Communication Failure,Low,In Progress,15475.64
+MT01548,M0136,2026-03-04,2026-03-08,Sensor Calibration,Medium,Closed,23454.69
+MT01549,M0017,2026-08-09,,Power Quality,High,In Progress,12642.18
+MT01550,M0081,2026-06-13,2026-06-14,Physical Inspection,Low,Closed,24376.36
+MT01551,M0064,2026-06-23,,Voltage Fluctuation,Critical,In Progress,12682.88
+MT01552,M0030,2026-01-22,,Voltage Fluctuation,Low,In Progress,14471.56
+MT01553,M0034,2026-01-17,2026-01-26,Physical Inspection,Medium,Closed,3455.7
+MT01554,M0012,2026-05-09,2026-05-19,Power Quality,Low,Closed,19572.59
+MT01555,M0086,2026-03-27,,Voltage Fluctuation,Low,In Progress,7971.82
+MT01556,M0008,2026-07-27,,Physical Inspection,Medium,In Progress,11046.16
+MT01557,M0067,2026-03-02,2026-03-06,Communication Failure,Critical,Closed,20626.39
+MT01558,M0102,2026-06-15,,Power Quality,High,In Progress,21627.04
+MT01559,M0083,2026-01-29,2026-02-15,Meter Replacement,High,Closed,1238.58
+MT01560,M0071,2026-03-01,2026-03-07,Voltage Fluctuation,Low,Closed,18898.1
+MT01561,M0031,2026-05-04,2026-05-14,Meter Replacement,Medium,Closed,21448.97
+MT01562,M0040,2026-01-10,,Power Quality,Medium,In Progress,1979.76
+MT01563,M0119,2026-03-14,,Voltage Fluctuation,Medium,Open,13410.31
+MT01564,M0114,2026-01-11,2026-01-15,Communication Failure,Low,Closed,2357.44
+MT01565,M0120,2026-02-26,,Meter Replacement,High,In Progress,5206.06
+MT01566,M0135,2026-06-22,,Sensor Calibration,Low,Open,10863.55
+MT01567,M0126,2026-06-20,2026-06-28,Meter Replacement,Low,Closed,10523.61
+MT01568,M0014,2026-08-27,2026-09-07,Voltage Fluctuation,Medium,Closed,5280.88
+MT01569,M0060,2026-03-18,2026-03-28,Physical Inspection,High,Closed,15450.11
+MT01570,M0024,2026-02-03,2026-02-10,Voltage Fluctuation,Low,Closed,13086.26
+MT01571,M0027,2026-01-03,2026-01-13,Power Quality,Medium,Closed,7796.42
+MT01572,M0128,2026-03-23,2026-03-24,Communication Failure,Medium,Closed,
+MT01573,M0080,2026-07-02,2026-07-17,Physical Inspection,High,Closed,2798.07
+MT01574,M0043,2026-03-27,2026-04-10,Communication Failure,Critical,Closed,15380.15
+MT01575,M0005,2026-02-26,2026-03-01,Voltage Fluctuation,High,Closed,3953.62
+MT01576,M0097,2026-08-26,2026-09-09,Voltage Fluctuation,High,Closed,16544.37
+MT01577,M0076,2026-01-28,,Sensor Calibration,Critical,Open,9145.21
+MT01578,M0110,2026-01-31,,Meter Replacement,Low,In Progress,11741.78
+MT01579,M0078,2026-03-13,,Meter Replacement,High,In Progress,2875.81
+MT01580,M0141,2026-02-17,2026-02-20,Sensor Calibration,Low,Closed,4705.56
+MT01581,M0084,2026-06-12,,Communication Failure,High,In Progress,14466.76
+MT01582,M0108,2026-07-01,2026-07-02,Physical Inspection,High,Closed,22069.65
+MT01583,M0024,2026-04-02,2026-04-11,Communication Failure,High,Closed,2230.06
+MT01584,M0130,2026-01-22,,Communication Failure,Low,Open,24106.13
+MT01585,M0148,2026-06-27,2026-07-06,Sensor Calibration,High,Closed,
+MT01586,M0043,2026-03-08,,Power Quality,Low,Open,
+MT01587,M0116,2026-04-16,2026-04-23,Voltage Fluctuation,Medium,Closed,4321.25
+MT01588,M0118,2026-01-07,2026-01-14,Physical Inspection,Medium,Closed,12292.58
+MT01589,M0139,2026-07-06,2026-07-10,Physical Inspection,Medium,Closed,3024.17
+MT01590,M0132,2026-01-17,2026-01-27,Physical Inspection,Medium,Closed,18474.46
+MT01591,M0108,2026-07-09,,Voltage Fluctuation,Critical,In Progress,10043.93
+MT01592,M0010,2026-02-10,,Communication Failure,Low,In Progress,992.68
+MT01593,M0061,2026-08-18,,Physical Inspection,Medium,In Progress,19787.99
+MT01594,M0135,2026-03-19,2026-04-05,Physical Inspection,Low,Closed,20806.09
+MT01595,M0115,2026-03-19,2026-04-01,Voltage Fluctuation,Low,Closed,20674.81
+MT01596,M0040,2026-04-15,2026-05-01,Voltage Fluctuation,High,Closed,18282.68
+MT01597,M0079,2026-03-18,2026-03-24,Power Quality,High,Closed,3090.72
+MT01598,M0041,2026-08-03,2026-08-20,Physical Inspection,Medium,Closed,8464.1
+MT01599,M0101,2026-05-31,,Power Quality,Medium,Open,
+MT01600,M0067,2026-06-07,,Communication Failure,High,In Progress,11285.53

@@ -1,0 +1,6 @@
+tariff_id,tariff_name,site_category,rate_per_kwh_inr,monthly_fixed_charge_inr
+T01,Residential Standard,Residential,5.1,90
+T02,Residential Peak,Residential,6.4,120
+T03,Business Flex,Commercial,8.2,350
+T04,Industrial Power,Industrial,9.1,1200
+T05,Public Services,Public Facility,6.7,220

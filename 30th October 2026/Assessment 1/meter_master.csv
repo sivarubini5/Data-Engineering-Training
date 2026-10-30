@@ -1,0 +1,151 @@
+meter_id,substation_id,site_type,tariff_id,installation_date,rated_capacity_kw,meter_status
+M0001,SUB08,Public Facility,T05,2019-09-30,114,Active
+M0002,SUB11,Residential,T02,2017-09-01,6,Active
+M0003,SUB09,Industrial,T04,2017-03-07,265,Active
+M0004,SUB09,Industrial,T04,2020-02-14,208,Active
+M0005,SUB05,Residential,T01,2024-10-08,17,Active
+M0006,SUB12,Industrial,T04,2019-06-05,619,Active
+M0007,SUB08,Residential,T01,2019-04-16,18,Inspection
+M0008,SUB05,Commercial,T03,2017-01-09,84,Active
+M0009,SUB03,Residential,T02,2024-04-13,5,Active
+M0010,SUB03,Residential,T02,2019-10-21,15,Active
+M0011,SUB08,Residential,T02,2017-08-02,18,Active
+M0012,SUB05,Residential,T02,2023-08-21,15,Active
+M0013,SUB10,Commercial,T03,2017-05-04,116,Active
+M0014,SUB11,Industrial,T04,2024-07-22,299,Inspection
+M0015,SUB06,Commercial,T03,2021-08-15,111,Active
+M0016,SUB10,Commercial,T03,2023-01-17,115,Active
+M0017,SUB12,Commercial,T03,2022-02-28,88,Inspection
+M0018,SUB09,Residential,T01,2021-05-12,18,Active
+M0019,SUB07,Commercial,T03,2020-09-21,57,Active
+M0020,SUB05,Residential,T02,2020-07-08,12,Inspection
+M0021,SUB11,Public Facility,T05,2018-01-23,94,Active
+M0022,SUB12,Commercial,T03,2020-02-16,83,Active
+M0023,SUB07,Commercial,T03,2023-02-12,38,Active
+M0024,SUB05,Residential,T01,2021-11-29,5,Active
+M0025,SUB11,Commercial,T03,2021-12-15,33,Active
+M0026,SUB11,Industrial,T04,2020-04-12,159,Active
+M0027,SUB03,Residential,T01,2023-12-26,14,Active
+M0028,SUB08,Residential,T02,2020-01-31,9,Active
+M0029,SUB11,Public Facility,T05,2023-08-16,60,Inspection
+M0030,SUB05,Residential,T02,2023-12-30,5,Active
+M0031,SUB06,Public Facility,T05,2018-01-21,94,Active
+M0032,SUB07,Commercial,T03,2022-07-02,61,Active
+M0033,SUB08,Industrial,T04,2024-07-28,320,Active
+M0034,SUB08,Industrial,T04,2021-07-04,170,Active
+M0035,SUB09,Residential,T02,2024-02-19,19,Active
+M0036,SUB05,Residential,T01,2022-12-18,7,Active
+M0037,SUB10,Residential,T01,2017-09-10,16,Inspection
+M0038,SUB04,Industrial,T04,2023-08-31,423,Active
+M0039,SUB09,Residential,T01,2019-04-12,10,Active
+M0040,SUB04,Commercial,T03,2023-06-14,52,Inspection
+M0041,SUB04,Residential,T02,2018-09-07,17,Active
+M0042,SUB11,Commercial,T03,2019-08-03,71,Active
+M0043,SUB10,Commercial,T03,2018-04-07,40,Active
+M0044,SUB06,Residential,T02,2023-07-25,14,Active
+M0045,SUB06,Residential,T02,2024-04-03,6,Active
+M0046,SUB07,Commercial,T03,2021-03-02,106,Active
+M0047,SUB08,Residential,T02,2019-06-26,12,Active
+M0048,SUB08,Public Facility,T05,2024-10-25,43,Active
+M0049,SUB09,Commercial,T03,2019-01-28,85,Active
+M0050,SUB05,Commercial,T03,2019-10-31,37,Active
+M0051,SUB02,Residential,T02,2019-02-23,12,Active
+M0052,SUB10,Public Facility,T05,2024-08-01,63,Inspection
+M0053,SUB09,Commercial,T03,2020-04-08,28,Active
+M0054,SUB12,Commercial,T03,2020-01-07,90,Inspection
+M0055,SUB09,Public Facility,T05,2022-07-13,43,Active
+M0056,SUB08,Residential,T01,2024-09-08,5,Active
+M0057,SUB10,Commercial,T03,2020-06-18,73,Active
+M0058,SUB10,Industrial,T04,2017-04-06,298,Active
+M0059,SUB10,Public Facility,T05,2022-02-11,102,Active
+M0060,SUB02,Residential,T02,2021-01-19,7,Active
+M0061,SUB10,Residential,T01,2022-06-13,19,Inspection
+M0062,SUB02,Residential,T02,2018-12-11,14,Active
+M0063,SUB09,Commercial,T03,2020-02-17,119,Active
+M0064,SUB04,Commercial,T03,2020-03-18,25,Active
+M0065,SUB07,Commercial,T03,2019-08-03,76,Active
+M0066,SUB01,Residential,T02,2017-02-16,17,Active
+M0067,SUB11,Commercial,T03,2017-10-29,80,Active
+M0068,SUB01,Commercial,T03,2021-06-08,93,Active
+M0069,SUB08,Commercial,T03,2024-10-31,110,Inspection
+M0070,SUB08,Commercial,T03,2018-10-06,69,Active
+M0071,SUB02,Industrial,T04,2018-05-28,566,Active
+M0072,SUB02,Residential,T01,2020-11-15,5,Active
+M0073,SUB03,Commercial,T03,2022-11-20,45,Active
+M0074,SUB09,Industrial,T04,2021-03-28,152,Active
+M0075,SUB01,Residential,T02,2024-09-23,15,Active
+M0076,SUB08,Residential,T02,2021-12-07,15,Inspection
+M0077,SUB12,Residential,T02,2019-11-02,5,Inspection
+M0078,SUB10,Commercial,T03,2020-10-01,41,Inspection
+M0079,SUB01,Residential,T02,2019-05-27,14,Active
+M0080,SUB03,Commercial,T03,2017-10-10,25,Active
+M0081,SUB12,Industrial,T04,2024-06-21,607,Active
+M0082,SUB10,Public Facility,T05,2020-03-20,54,Active
+M0083,SUB10,Residential,T02,2021-05-26,6,Active
+M0084,SUB04,Commercial,T03,2021-07-18,48,Active
+M0085,SUB06,Residential,T01,2018-11-28,9,Inspection
+M0086,SUB03,Residential,T01,2021-12-23,16,Active
+M0087,SUB02,Residential,T01,2022-12-03,16,Active
+M0088,SUB04,Residential,T02,2024-10-28,17,Active
+M0089,SUB08,Residential,T01,2017-04-06,10,Active
+M0090,SUB03,Residential,T01,2019-08-12,10,Active
+M0091,SUB10,Public Facility,T05,2017-11-11,111,Active
+M0092,SUB06,Residential,T02,2019-09-10,17,Active
+M0093,SUB12,Commercial,T03,2020-02-23,48,Active
+M0094,SUB05,Commercial,T03,2017-06-14,89,Active
+M0095,SUB03,Residential,T02,2023-08-15,17,Active
+M0096,SUB03,Commercial,T03,2018-10-13,81,Active
+M0097,SUB09,Industrial,T04,2021-10-24,469,Inspection
+M0098,SUB04,Industrial,T04,2017-04-25,671,Inspection
+M0099,SUB04,Industrial,T04,2023-07-05,405,Active
+M0100,SUB03,Public Facility,T05,2018-01-28,107,Active
+M0101,SUB12,Industrial,T04,2024-07-15,467,Active
+M0102,SUB11,Residential,T02,2017-05-30,16,Active
+M0103,SUB09,Residential,T01,2023-09-27,7,Active
+M0104,SUB09,Commercial,T03,2023-01-27,117,Active
+M0105,SUB10,Residential,T02,2024-01-12,11,Inspection
+M0106,SUB01,Commercial,T03,2022-05-23,48,Inspection
+M0107,SUB09,Commercial,T03,2018-05-06,104,Active
+M0108,SUB04,Public Facility,T05,2023-02-07,40,Inspection
+M0109,SUB04,Residential,T02,2018-08-01,11,Active
+M0110,SUB01,Commercial,T03,2018-05-25,72,Active
+M0111,SUB12,Residential,T01,2018-11-03,16,Active
+M0112,SUB07,Residential,T02,2023-04-06,11,Inspection
+M0113,SUB01,Residential,T01,2021-08-06,11,Active
+M0114,SUB10,Industrial,T04,2022-10-05,398,Active
+M0115,SUB09,Residential,T01,2020-07-11,15,Active
+M0116,SUB04,Commercial,T03,2020-03-14,117,Active
+M0117,SUB05,Residential,T02,2017-11-30,14,Active
+M0118,SUB06,Public Facility,T05,2023-09-30,47,Active
+M0119,SUB10,Public Facility,T05,2024-06-21,27,Active
+M0120,SUB04,Residential,T01,2021-09-24,7,Active
+M0121,SUB12,Industrial,T04,2020-05-20,173,Inspection
+M0122,SUB11,Commercial,T03,2017-04-27,101,Active
+M0123,SUB04,Commercial,T03,2023-08-16,108,Inspection
+M0124,SUB10,Commercial,T03,2024-06-17,70,Inspection
+M0125,SUB12,Commercial,T03,2018-05-23,93,Active
+M0126,SUB06,Industrial,T04,2019-12-06,672,Active
+M0127,SUB09,Commercial,T03,2017-02-20,61,Active
+M0128,SUB06,Industrial,T04,2021-01-24,434,Active
+M0129,SUB04,Public Facility,T05,2022-06-23,107,Inspection
+M0130,SUB01,Commercial,T03,2024-02-14,83,Inspection
+M0131,SUB08,Public Facility,T05,2021-07-21,98,Active
+M0132,SUB09,Public Facility,T05,2022-07-14,128,Inspection
+M0133,SUB02,Public Facility,T05,2017-03-16,114,Active
+M0134,SUB05,Residential,T02,2017-01-04,19,Active
+M0135,SUB12,Commercial,T03,2021-06-24,83,Inspection
+M0136,SUB03,Residential,T02,2021-02-02,13,Active
+M0137,SUB01,Public Facility,T05,2023-10-18,107,Inspection
+M0138,SUB04,Commercial,T03,2019-07-22,34,Active
+M0139,SUB03,Residential,T02,2018-07-02,14,Active
+M0140,SUB01,Residential,T02,2017-11-29,12,Active
+M0141,SUB10,Public Facility,T05,2024-05-30,130,Active
+M0142,SUB10,Industrial,T04,2023-06-05,699,Active
+M0143,SUB09,Commercial,T03,2018-03-03,44,Active
+M0144,SUB08,Industrial,T04,2021-07-25,190,Active
+M0145,SUB02,Industrial,T04,2021-01-24,469,Active
+M0146,SUB04,Residential,T02,2017-11-29,15,Active
+M0147,SUB03,Residential,T02,2020-09-25,16,Active
+M0148,SUB10,Commercial,T03,2021-01-31,36,Active
+M0149,SUB11,Industrial,T04,2023-04-03,559,Active
+M0150,SUB05,Commercial,T03,2024-09-06,42,Active
