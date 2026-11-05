@@ -1,0 +1,128 @@
+1. Database vs Data Warehouse vs Data Lake vs Delta Lake
+  a database is a place where we store data in an organized manner.The database stores details and allows the application to retrieve or modify them.
+  A Data Warehouse is a centralized storage system that collects data from multiple sources, organizes it and stores it mainly for analysis and reporting.
+    It generally follows an ETL process:
+      1. Extract: Collect data from different sources.
+      2. Transform: Clean, filter and organize the data.
+      3. Load: Store the processed data in the warehouse.
+  a data lake is like a large storage area where we can store almost any type of data without needing to structure everything before storing it.
+    Why do we use a Data Lake?
+      1. It can store huge amounts of data.
+      2. It supports different data formats.
+      3. It can store raw data without transforming it first.
+      4. It is useful for data exploration and machine learning.
+      5. Data can be processed later according to business requirements.
+  Delta Lake is an open-source storage layer that adds reliability and provides advanced features to data lakes such as:
+    - ACID transactions
+    - Time Travel
+    - Schema enforcement
+    - Schema evolution
+    - Transaction logs
+    - UPDATE, DELETE and MERGE operations
+    How does Delta Lake work?
+      Delta Lake mainly uses two important things:
+      1. Parquet files: Store the actual data.
+      2. Transaction log: Tracks changes made to the table.
+  Database = Store and manage application data.
+  Data Warehouse = Analyze business data.
+  Data Lake = Store raw data of different formats.
+  Delta Lake = Add reliability and transaction features to a data lake.
+2. What are ACID Properties?
+  ACID is a set of four important properties that ensure database transactions are processed reliably and safely.
+  ACID stands for:
+  - A – Atomicity means a transaction should be completed entirely or not completed at all.Atomicity = All or Nothing.
+  - C – Consistency the database must follow its rules before and after a transaction.
+  - I – Isolation ensures that multiple transactions running at the same time do not interfere with one another in a way that produces invalid results.
+  - D – Durability ensures that once a transaction is successfully committed, its changes are permanently saved and survive system failures.
+
+Example:
+  Arun transfers ₹1,000 to Priya.
+  Arun	₹5,000
+  Priya	₹2,000
+  
+  Step 1: Deduct ₹1,000 from Arun.
+  - Arun = ₹4,000
+  Step 2: Add ₹1,000 to Priya.
+  - Priya = ₹3,000
+  Now imagine the system crashes after Step 1, before Step 2.
+  Atomicity prevents this incomplete transaction from being committed.
+  
+  Arun has ₹5,000.
+  He tries to transfer ₹6,000.
+  This would result in:
+  ₹5,000 - ₹6,000 = -₹1,000.
+  Consistency prevents from -ve values
+  
+  At nearly the same time, two transactions happen:
+  - Transaction 1: Transfer ₹1,000 to Priya.
+  - Transaction 2: Transfer ₹2,000 to Ravi.
+  Both transactions should calculate and update the balance correctly.Isolation prevents both transactions from updating same balance.
+  
+  New balances:
+  - Arun = ₹4,000
+  - Priya = ₹3,000
+  Now imagine the bank server crashes.
+  After restarting, the database should still contain same.
+  It should not return to the old balances.Durability ensures Changes Stay Saved
+
+3. What is Time Travel in Delta Table?
+  Time Travel is a feature of Delta Lake that allows us to access previous versions of a Delta table.
+  In simple words, even after updating or deleting data, we can go back and read an older version of the table.
+  This is useful when:
+  - Data is accidentally deleted.
+  - Incorrect data is inserted.
+  - Someone updates records incorrectly.
+  - We want to compare current data with historical data.
+  - We need to investigate what changed in a table.
+
+  How does Time Travel work?
+    Delta Lake maintains a transaction log inside the _delta_log folder.
+    Whenever a transaction successfully commits, Delta Lake creates a new table version.
+    Delta Lake uses this transaction history to reconstruct the table as it existed at an earlier version.
+    Method 1: Using versionAsOf
+    Method 2: Using timestampAsOf
+  How to check Delta Table history?
+    We can use DESCRIBE HISTORY.
+    DESCRIBE HISTORY employees;
+  How to restore an older version?
+    Suppose you want to restore Version 1 as the current version of the table.
+    RESTORE TABLE employees TO VERSION AS OF 1;
+    
+4. What is a Transaction in Database Terms?
+  A transaction is a group of one or more database operations that are treated as a single logical unit of work 
+  that must be completed successfully to achieve a particular task.
+  Example:
+    Imagine Arun wants to transfer ₹1,000 to Priya.
+    Operation 1: Deduct money from Arun
+    Operation 2: Add money to Priya
+    Both operations together represent one logical transaction.
+    But what happens if Operation 1 succeeds and Operation 2 fails? That's why we use transactions.
+    Important transaction commands:
+      A. BEGIN / START TRANSACTION
+        It starts a new transaction.It tells the database that the following operations belong to a transaction.
+      B. COMMIT
+        It permanently saves the changes made by the transaction.
+      C. ROLLBACK
+        It cancels the uncommitted changes made during the transaction.
+
+    START TRANSACTION;
+    
+    UPDATE accounts
+    SET balance = balance - 1000
+    WHERE account_id = 101;
+    UPDATE accounts
+    SET balance = balance + 1000
+    WHERE account_id = 102;
+    
+    COMMIT;
+
+
+
+
+
+
+
+
+
+    
+    
