@@ -1,0 +1,11 @@
+entry_id,visitor_id,attraction_id,visit_date,entry_time,wait_minutes,ride_minutes,ticket_type,ticket_price,status,booking_channel
+1003,V547,A04,2026-10-11,11:00:00,40,15,Standard,400.0,Completed,App
+1010,V560,A02,2026-10-09,11:10:00,15,12,Express,675.0,Completed,App
+1040,V514,A03,2026-10-01,19:10:00,5,15,Standard,500.0,Completed,App
+1068,V531,A10,2026-10-15,16:20:00,30,4,Express,725.0,Completed,App
+1095,V563,A07,2026-10-09,11:20:00,75,4,Standard,500.0,Completed,App
+1121,V700,A01,2026-10-20,11:00:00,15,8,Standard,350.0,Completed,Web
+1122,V701,A02,2026-10-20,12:00:00,20,10,Express,600.0,Completed,Web
+1123,V702,A03,2026-10-20,13:00:00,25,12,Standard,350.0,Completed,Web
+1124,V703,A04,2026-10-20,14:00:00,30,14,Express,600.0,Completed,Web
+1125,V704,A05,2026-10-20,15:00:00,35,16,Standard,350.0,Completed,Web

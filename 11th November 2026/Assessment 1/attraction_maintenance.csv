@@ -1,0 +1,29 @@
+maintenance_id,attraction_id,maintenance_date,issue_type,downtime_minutes,maintenance_status
+M001,A05,2026-10-15,Cleaning,90,Scheduled
+M002,A08,2026-10-05,Mechanical,60,Completed
+M003,A02,2026-10-12,Mechanical,0,Scheduled
+M004,A09,2026-10-18,Electrical,0,Open
+M005,A05,2026-10-12,Electrical,0,Scheduled
+M006,A04,2026-10-07,Water System,45,Completed
+M007,A10,2026-10-20,Mechanical,120,Completed
+M008,A04,2026-10-04,Water System,90,Open
+M009,A08,2026-10-19,Safety Check,30,Scheduled
+M010,A02,2026-10-15,Safety Check,0,Open
+M011,A02,2026-10-12,Mechanical,120,Completed
+M012,A06,2026-10-05,Inspection,60,Open
+M013,A10,2026-10-09,Water System,45,Open
+M014,A08,2026-10-16,Inspection,45,Open
+M015,A01,2026-10-12,Safety Check,120,Completed
+M016,A06,2026-10-02,Electrical,15,Completed
+M017,A07,2026-10-18,Water System,120,Completed
+M018,A08,2026-10-01,Water System,45,Open
+M019,A06,2026-10-18,Cleaning,120,Completed
+M020,A07,2026-10-14,Cleaning,30,Scheduled
+M021,A01,2026-10-05,Electrical,15,Scheduled
+M022,A04,2026-10-14,Electrical,30,Completed
+M023,A03,2026-10-03,Cleaning,30,Completed
+M024,A09,2026-10-20,Safety Check,45,Open
+M025,A06,2026-10-01,Cleaning,30,Scheduled
+M026,A02,2026-10-03,Electrical,120,Completed
+M027,A06,2026-10-02,Safety Check,0,Completed
+M028,A09,2026-10-09,Mechanical,0,Completed
