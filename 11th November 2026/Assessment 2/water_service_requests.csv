@@ -1,0 +1,37 @@
+request_id,meter_id,zone_id,reported_at,issue_type,priority,estimated_cost,work_status
+5001,M001,W01,2026-10-02 08:00:00,Low Pressure,High,13627.01,In Progress
+5002,M008,W08,2026-10-04 09:00:00,Leak Suspected,Medium,11907.95,Resolved
+5003,M015,W05,2026-10-06 10:00:00,Meter Fault,Low,5205.59,Open
+5004,M022,W02,2026-10-08 11:00:00,Water Quality,High,6315.27,In Progress
+5005,M029,W09,2026-10-10 12:00:00,Valve Inspection,Medium,8564.44,Resolved
+5006,M006,W06,2026-10-12 13:00:00,Low Pressure,Low,2465.97,Open
+5007,M013,W03,2026-10-14 14:00:00,Leak Suspected,High,16135.29,In Progress
+5008,M020,W10,2026-10-16 08:00:00,Meter Fault,Medium,9106.9,Resolved
+5009,M027,W07,2026-10-18 09:00:00,Water Quality,Low,3112.18,Open
+5010,M004,W04,2026-10-20 10:00:00,Valve Inspection,High,10011.1,In Progress
+5011,M011,W01,2026-10-03 11:00:00,Low Pressure,Medium,10059.61,Resolved
+5012,M018,W08,2026-10-05 12:00:00,Leak Suspected,Low,13603.03,Open
+5013,M025,W05,2026-10-07 13:00:00,Meter Fault,High,11268.95,In Progress
+5014,M002,W02,2026-10-09 14:00:00,Water Quality,Medium,3002.02,Resolved
+5015,M009,W09,2026-10-11 08:00:00,Valve Inspection,Low,7780.09,Open
+5016,M016,W06,2026-10-13 09:00:00,Low Pressure,High,17897.18,In Progress
+5017,M023,W03,2026-10-15 10:00:00,Leak Suspected,Medium,8369.22,Resolved
+5018,M030,W10,2026-10-17 11:00:00,Meter Fault,Low,14473.9,Open
+5019,M007,W07,2026-10-19 12:00:00,Water Quality,High,6952.65,In Progress
+5020,M014,W04,2026-10-02 13:00:00,Valve Inspection,Medium,2846.74,Resolved
+5021,M021,W01,2026-10-04 14:00:00,Low Pressure,Low,6962.13,Open
+5022,M028,W08,2026-10-06 08:00:00,Leak Suspected,High,14519.05,In Progress
+5023,M005,W05,2026-10-08 09:00:00,Meter Fault,Medium,5546.32,Resolved
+5024,M012,W02,2026-10-10 10:00:00,Water Quality,Low,10434.66,Open
+5025,M019,W09,2026-10-12 11:00:00,Valve Inspection,High,3322.05,In Progress
+5026,M026,W06,2026-10-14 12:00:00,Low Pressure,Medium,12669.19,Resolved
+5027,M003,W03,2026-10-16 13:00:00,Leak Suspected,Low,15848.28,Open
+5028,M010,W10,2026-10-18 14:00:00,Meter Fault,High,1827.17,In Progress
+5029,M017,W07,2026-10-20 08:00:00,Water Quality,Medium,5630.55,Resolved
+5030,M024,W04,2026-10-03 09:00:00,Valve Inspection,Low,12986.36,Open
+5031,M001,W01,2026-10-05 10:00:00,Low Pressure,High,9263.35,In Progress
+5032,M008,W08,2026-10-07 11:00:00,Leak Suspected,Medium,3578.82,Resolved
+5033,M015,W05,2026-10-09 12:00:00,Meter Fault,Low,12255.85,Open
+5034,M022,W02,2026-10-11 13:00:00,Water Quality,High,6067.5,In Progress
+5035,M029,W09,2026-10-13 14:00:00,Valve Inspection,Medium,18970.91,Resolved
+5036,M006,W06,2026-10-15 08:00:00,Low Pressure,Low,3036.94,Open

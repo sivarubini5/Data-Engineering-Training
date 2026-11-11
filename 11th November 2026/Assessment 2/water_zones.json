@@ -1,0 +1,11 @@
+{"zone_id": "W01", "zone_name": "Old City", "location": {"city": "Hyderabad", "district": "Central"}, "zone_type": "Residential", "daily_capacity_liters": 240000, "active": true, "commissioned_on": "2018-01-15"}
+{"zone_id": "W02", "zone_name": "Hill View", "location": {"city": "Hyderabad", "district": "North"}, "zone_type": "Residential", "daily_capacity_liters": 180000, "active": true, "commissioned_on": "2019-02-15"}
+{"zone_id": "W03", "zone_name": "Market District", "location": {"city": "Hyderabad", "district": "Central"}, "zone_type": "Commercial", "daily_capacity_liters": 210000, "active": true, "commissioned_on": "2020-03-15"}
+{"zone_id": "W04", "zone_name": "Lake Side", "location": {"city": "Hyderabad", "district": "West"}, "zone_type": "Mixed", "daily_capacity_liters": 280000, "active": true, "commissioned_on": "2021-04-15"}
+{"zone_id": "W05", "zone_name": "University Quarter", "location": {"city": "Hyderabad", "district": "East"}, "zone_type": "Institutional", "daily_capacity_liters": 150000, "active": true, "commissioned_on": "2022-05-15"}
+{"zone_id": "W06", "zone_name": "Industrial Estate", "location": {"city": "Hyderabad", "district": "South"}, "zone_type": "Industrial", "daily_capacity_liters": 320000, "active": true, "commissioned_on": "2023-06-15"}
+{"zone_id": "W07", "zone_name": "Garden Colony", "location": {"city": "Hyderabad", "district": "North"}, "zone_type": "Residential", "daily_capacity_liters": 190000, "active": true, "commissioned_on": "2024-07-15"}
+{"zone_id": "W08", "zone_name": "Transit Hub", "location": {"city": "Hyderabad", "district": "East"}, "zone_type": "Commercial", "daily_capacity_liters": 170000, "active": true, "commissioned_on": "2018-08-15"}
+{"zone_id": "W09", "zone_name": "Riverfront", "location": {"city": "Hyderabad", "district": "West"}, "zone_type": "Mixed", "daily_capacity_liters": 230000, "active": true, "commissioned_on": "2019-01-15"}
+{"zone_id": "W10", "zone_name": "South Extension", "location": {"city": "Hyderabad", "district": "South"}, "zone_type": "Residential", "daily_capacity_liters": 260000, "active": true, "commissioned_on": "2020-02-15"}
+{"zone_id": "W11", "zone_name": "New Development", "location": {"city": "Hyderabad", "district": "West"}, "zone_type": "Mixed", "daily_capacity_liters": 125000, "active": false, "commissioned_on": "2021-03-15"}
