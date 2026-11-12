@@ -1,0 +1,98 @@
+In https://killercoda.com/playgrounds/scenario/ubuntu
+Commands: 
+
+          docker run -d \
+          -p 8080:8080 \
+          --name airflow \
+          apache/airflow standalone
+
+Show me the images:
+            docker ps
+
+For logs:
+            docker logs airflow
+
+in 6th or 7th line there is username and password
+Right hambuger icon->traffic/ports->8080->paste username and password using right click
+
+Nested virtualization
+inside VM->virtual env
+not possible to do in our system because it is costly
+
+Existing env not support airflow so killercoda
+
+              docker exec -it airflow bash
+
+              cd /opt/airflow/dags
+
+              
+              
+              cat > retail_sales_dag.py <<'EOF'
+              from airflow import DAG
+              from airflow.providers.standard.operators.python import PythonOperator
+              from datetime import datetime
+              import csv
+              
+              
+              def create_sales():
+                  with open("/tmp/retail_sales.csv", "w") as f:
+                      writer = csv.writer(f)
+                      writer.writerow(["product", "quantity", "price"])
+                      writer.writerow(["Rice", 10, 1200])
+                      writer.writerow(["Oil", 5, 1500])
+                      writer.writerow(["Sugar", 8, 800])
+              
+              
+              def calculate_revenue():
+                  total = 0
+              
+                  with open("/tmp/retail_sales.csv", "r") as f:
+                      reader = csv.DictReader(f)
+              
+                      for row in reader:
+                          total += int(row["quantity"]) * int(row["price"])
+              
+                  with open("/tmp/revenue_report.txt", "w") as f:
+                      f.write(f"Total Revenue: {total}")
+              
+                  print("Total Revenue:", total)
+              
+              
+              def show_report():
+                  with open("/tmp/revenue_report.txt", "r") as f:
+                      print(f.read())
+              
+              
+              with DAG(
+                  dag_id="retail_sales_pipeline",
+                  start_date=datetime(2025, 1, 1),
+                  schedule=None,
+                  catchup=False
+              ) as dag:
+              
+                  task1 = PythonOperator(
+                      task_id="create_sales",
+                      python_callable=create_sales
+                  )
+              
+                  task2 = PythonOperator(
+                      task_id="calculate_revenue",
+                      python_callable=calculate_revenue
+                  )
+              
+                  task3 = PythonOperator(
+                      task_id="show_report",
+                      python_callable=show_report
+                  )
+              
+                  task1 >> task2 >> task3
+              EOF
+              
+              
+              python retail_sales_dag.py
+               
+              airflow dags list
+
+ui page-> dags->click file name->click trigger button
+
+airflow-> a place where we execute workflows
