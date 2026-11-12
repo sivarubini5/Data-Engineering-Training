@@ -96,3 +96,273 @@ Existing env not support airflow so killercoda
 ui page-> dags->click file name->click trigger button
 
 airflow-> a place where we execute workflows
+
+--------------------------------------------------------------------------------------------------------------------
+
+same till cd the following code
+
+cat > warehouse_inventory_dag.py <<'EOF'
+from airflow import DAG
+from airflow.providers.standard.operators.python import PythonOperator
+from datetime import datetime
+
+
+def load_inventory():
+    inventory = [
+        {"product": "Laptop", "quantity": 5, "price": 55000, "reorder_level": 8},
+        {"product": "Mouse", "quantity": 30, "price": 800, "reorder_level": 10},
+        {"product": "Keyboard", "quantity": 4, "price": 1500, "reorder_level": 10},
+        {"product": "Monitor", "quantity": 12, "price": 9000, "reorder_level": 5},
+        {"product": "Dock", "quantity": 2, "price": 6000, "reorder_level": 6}
+    ]
+
+    print("Inventory loaded successfully")
+    return inventory
+
+
+def check_low_stock(**context):
+    inventory = context["ti"].xcom_pull(task_ids="load_inventory")
+
+    low_stock = [
+        item["product"]
+        for item in inventory
+        if item["quantity"] < item["reorder_level"]
+    ]
+
+    print("Low stock products:", low_stock)
+    return low_stock
+
+
+def calculate_inventory_value(**context):
+    inventory = context["ti"].xcom_pull(task_ids="load_inventory")
+
+    total = sum(
+        item["quantity"] * item["price"]
+        for item in inventory
+    )
+
+    print("Total inventory value:", total)
+    return total
+
+
+def generate_report(**context):
+    low_stock = context["ti"].xcom_pull(task_ids="check_low_stock")
+    total = context["ti"].xcom_pull(task_ids="calculate_inventory_value")
+
+    print("WAREHOUSE INVENTORY REPORT")
+    print("--------------------------")
+    print("Total Inventory Value:", total)
+    print("Products Requiring Restock:", low_stock)
+
+
+with DAG(
+    dag_id="warehouse_inventory_pipeline",
+    start_date=datetime(2025, 1, 1),
+    schedule=None,
+    catchup=False
+) as dag:
+
+    task1 = PythonOperator(
+        task_id="load_inventory",
+        python_callable=load_inventory
+    )
+
+    task2 = PythonOperator(
+        task_id="check_low_stock",
+        python_callable=check_low_stock
+    )
+
+    task3 = PythonOperator(
+        task_id="calculate_inventory_value",
+        python_callable=calculate_inventory_value
+    )
+
+    task4 = PythonOperator(
+        task_id="generate_report",
+        python_callable=generate_report
+    )
+
+    task1 >> task2 >> task4
+    task1 >> task3 >> task4
+
+EOF
+
+python -m py_compile warehouse_inventory_dag.py
+airflow dags list
+
+then trigger in ui screen/page
+then show graph using left side icon and click generate report rectange expand result in right side if you can see inventory and restocking  details then fine.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+cat > courier_routing_dag.py <<'EOF'
+from airflow import DAG
+from airflow.providers.standard.operators.python import (
+    PythonOperator,
+    BranchPythonOperator
+)
+from datetime import datetime
+
+
+def load_order():
+    order = {
+        "order_id": 701,
+        "customer": "Mira",
+        "distance_km": 18
+    }
+
+    print("Order received:", order)
+    return order
+
+
+def choose_delivery(**context):
+    order = context["ti"].xcom_pull(
+        task_ids="load_order"
+    )
+
+    if order["distance_km"] <= 30:
+        return "local_delivery"
+    else:
+        return "outstation_delivery"
+
+
+def local_delivery():
+    print("Local courier assigned")
+
+
+def outstation_delivery():
+    print("Long-distance courier assigned")
+
+
+with DAG(
+    dag_id="courier_routing_pipeline",
+    start_date=datetime(2025, 1, 1),
+    schedule=None,
+    catchup=False
+) as dag:
+
+    task1 = PythonOperator(
+        task_id="load_order",
+        python_callable=load_order
+    )
+
+    task2 = BranchPythonOperator(
+        task_id="choose_delivery",
+        python_callable=choose_delivery
+    )
+
+    task3 = PythonOperator(
+        task_id="local_delivery",
+        python_callable=local_delivery
+    )
+
+    task4 = PythonOperator(
+        task_id="outstation_delivery",
+        python_callable=outstation_delivery
+    )
+
+    task1 >> task2
+    task2 >> [task3, task4]
+
+EOF
+
+python -m py_compile courier_routing_dag.py
+airflow dags list
+
+gain in ui page trigger and outstation delivery should be in skipped status because it's distance is low and it comes under local delivery
+
+
+------------------------------------------------------------------------------------
+stimulating a failure voluntarily
+
+cat > payment_retry_dag.py <<'EOF'
+from airflow import DAG
+from airflow.providers.standard.operators.python import PythonOperator
+from datetime import datetime, timedelta
+
+
+def load_transactions():
+    transactions = [
+        {"id": 101, "amount": 500},
+        {"id": 102, "amount": 1200},
+        {"id": 103, "amount": 800}
+    ]
+
+    print("Transactions loaded:", transactions)
+    return transactions
+
+
+def validate_gateway(**context):
+    attempt = context["ti"].try_number
+
+    print("Gateway connection attempt:", attempt)
+
+    if attempt == 1:
+        raise Exception("Payment gateway unavailable")
+
+    print("Gateway connection successful")
+    return True
+
+
+def process_payments(**context):
+    transactions = context["ti"].xcom_pull(
+        task_ids="load_transactions"
+    )
+
+    total = sum(t["amount"] for t in transactions)
+
+    print("Payments processed:", total)
+    return total
+
+
+def generate_report(**context):
+    total = context["ti"].xcom_pull(
+        task_ids="process_payments"
+    )
+
+    print("PAYMENT PROCESSING REPORT")
+
+    if total is None:
+        print("Payment processing did not complete")
+    else:
+        print("Total Payments:", total)
+
+
+with DAG(
+    dag_id="payment_retry_pipeline",
+    start_date=datetime(2025, 1, 1),
+    schedule=None,
+    catchup=False
+) as dag:
+
+    task1 = PythonOperator(
+        task_id="load_transactions",
+        python_callable=load_transactions
+    )
+
+    task2 = PythonOperator(
+        task_id="validate_gateway",
+        python_callable=validate_gateway,
+        retries=1,
+        retry_delay=timedelta(seconds=15)
+    )
+
+    task3 = PythonOperator(
+        task_id="process_payments",
+        python_callable=process_payments
+    )
+
+    task4 = PythonOperator(
+        task_id="generate_report",
+        python_callable=generate_report,
+        trigger_rule="all_done"
+    )
+
+    task1 >> task2 >> task3 >> task4
+
+EOF
+
+python -m py_compile payment_retry_dag.py
+airflow dags list
