@@ -1,0 +1,211 @@
+docker run -d \
+-p 8080:8080 \
+--name airflow \
+apache/airflow standalone
+
+docker ps
+
+docker logs airflow
+
+docker exec -it airflow bash
+
+cd /opt/airflow/dags
+
+Exercise 1 | Hotel Room Readiness Report
+
+cat > hotel_readiness_dag.py <<'EOF'
+from datetime import datetime
+
+from airflow import DAG
+from airflow.providers.standard.operators.python import PythonOperator
+
+
+def load_rooms():
+    rooms = [
+        {"room": 101, "status": "Ready", "cleaning_min": 0},
+        {"room": 102, "status": "Cleaning", "cleaning_min": 25},
+        {"room": 103, "status": "Ready", "cleaning_min": 0},
+        {"room": 104, "status": "Cleaning", "cleaning_min": 40},
+        {"room": 105, "status": "Cleaning", "cleaning_min": 30}
+    ]
+    return rooms
+
+
+def find_rooms_to_clean(ti):
+    rooms = ti.xcom_pull(task_ids="load_rooms")
+
+    rooms_to_clean = [
+        room["room"] for room in rooms
+        if room["status"] == "Cleaning"
+    ]
+
+    return rooms_to_clean
+
+
+def calculate_cleaning_minutes(ti):
+    rooms = ti.xcom_pull(task_ids="load_rooms")
+
+    total_minutes = sum(
+        room["cleaning_min"] for room in rooms
+        if room["status"] == "Cleaning"
+    )
+
+    return total_minutes
+
+
+def generate_housekeeping_report(ti):
+    rooms = ti.xcom_pull(task_ids="find_rooms_to_clean")
+    total_minutes = ti.xcom_pull(
+        task_ids="calculate_cleaning_minutes"
+    )
+
+    print("HOUSEKEEPING REPORT")
+    print("Rooms needing cleaning:", rooms)
+    print("Total cleaning time:", total_minutes, "minutes")
+
+
+with DAG(
+    dag_id="hotel_readiness_dag",
+    start_date=datetime(2026, 1, 1),
+    schedule=None,
+    catchup=False
+) as dag:
+
+    load = PythonOperator(
+        task_id="load_rooms",
+        python_callable=load_rooms
+    )
+
+    find = PythonOperator(
+        task_id="find_rooms_to_clean",
+        python_callable=find_rooms_to_clean
+    )
+
+    calculate = PythonOperator(
+        task_id="calculate_cleaning_minutes",
+        python_callable=calculate_cleaning_minutes
+    )
+
+    report = PythonOperator(
+        task_id="generate_housekeeping_report",
+        python_callable=generate_housekeeping_report
+    )
+
+    load >> [find, calculate]
+    [find, calculate] >> report
+
+EOF
+
+python -m py_compile hotel_readiness_dag.py
+
+Exercise 2
+
+cat > it_incident_routing_dag.py <<'EOF'
+from datetime import datetime, timedelta
+
+from airflow import DAG
+from airflow.providers.standard.operators.python import (
+    PythonOperator,
+    BranchPythonOperator
+)
+from airflow.utils.trigger_rule import TriggerRule
+from airflow.exceptions import AirflowException
+
+
+def load_incident():
+    incident = {
+        "ticket_id": "INC-402",
+        "service": "Email",
+        "severity": "High",
+        "reported_by": "Operations"
+    }
+
+    return incident
+
+
+def choose_response(ti):
+    incident = ti.xcom_pull(task_ids="load_incident")
+
+    if incident["severity"] in ["High", "Critical"]:
+        return "urgent_response"
+    else:
+        return "standard_response"
+
+
+def urgent_response(ti):
+    if ti.try_number == 1:
+        print("Simulating temporary failure...")
+        raise AirflowException("Temporary failure")
+
+    incident = ti.xcom_pull(task_ids="load_incident")
+
+    print("URGENT ESCALATION")
+    print("Ticket ID:", incident["ticket_id"])
+    print("Service:", incident["service"])
+    print("Severity:", incident["severity"])
+
+
+def standard_response(ti):
+    incident = ti.xcom_pull(task_ids="load_incident")
+
+    print("STANDARD SERVICE DESK ASSIGNMENT")
+    print("Ticket ID:", incident["ticket_id"])
+    print("Service:", incident["service"])
+    print("Assigned to: Standard Service Desk")
+
+
+def write_audit(ti):
+    incident = ti.xcom_pull(task_ids="load_incident")
+
+    print("AUDIT REPORT")
+    print("Incident ID:", incident["ticket_id"])
+    print("Incident processing completed successfully.")
+
+
+with DAG(
+    dag_id="it_incident_routing_dag",
+    start_date=datetime(2026, 1, 1),
+    schedule=None,
+    catchup=False
+) as dag:
+
+    load = PythonOperator(
+        task_id="load_incident",
+        python_callable=load_incident
+    )
+
+    choose = BranchPythonOperator(
+        task_id="choose_response",
+        python_callable=choose_response
+    )
+
+    urgent = PythonOperator(
+        task_id="urgent_response",
+        python_callable=urgent_response,
+        retries=1,
+        retry_delay=timedelta(seconds=10)
+    )
+
+    standard = PythonOperator(
+        task_id="standard_response",
+        python_callable=standard_response
+    )
+
+    audit = PythonOperator(
+        task_id="write_audit",
+        python_callable=write_audit,
+        trigger_rule=TriggerRule.NONE_FAILED_MIN_ONE_SUCCESS
+    )
+
+    load >> choose
+    choose >> [urgent, standard]
+    [urgent, standard] >> audit
+
+EOF
+
+
+
+python -m py_compile it_incident_routing_dag.py
+
+airflow dags list
+
