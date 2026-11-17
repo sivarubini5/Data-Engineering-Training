@@ -4,6 +4,20 @@ docker logs airflow
 docker exec -it airflow bash
 cd /opt/airflow/dags
 
+
+cat > factory_batches.csv <<'EOF'
+batch_id,units_produced,defective_units,value_per_unit
+B501,100,2,350
+B502,80,7,420
+B503,120,4,300
+B504,60,0,550
+B505,90,6,400
+EOF
+
+pwd
+cat factory_batches.csv
+wc -l factory_batches.csv
+
 cat > factory_quality_dag.py <<'EOF'
 import csv
 from datetime import datetime
@@ -67,17 +81,6 @@ with DAG(
     )
     load_task >> [quality_task, value_task] >> report_task
 EOF
-
-cat > factory_batches.csv <<'EOF'
-batch_id,units_produced,defective_units,value_per_unit
-B501,100,2,350
-B502,80,7,420
-B503,120,4,300
-B504,60,0,550
-B505,90,6,400
-EOF
-
-ls -l
 
 python -m py_compile factory_quality_dag.py
 
