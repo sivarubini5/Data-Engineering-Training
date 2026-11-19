@@ -35,4 +35,32 @@ Write Unit Test Cases -- 3 hrs
 
 Inside project page in azure go to work items which should be checked regularly
 
+----------------------------------------------------------------------------------------------------------------------
+Epic: Amazons Payment Screen
 
+Features:
+CC Payment
+DC Payment
+UPI Payment
+COD
+Wallets
+
+User Stories:
+CC Payment
+ICICI Card
+HDFC Card
+SBI Card
+
+I
+
+UPI
+
+GPay
+Phone Pe
+Paytm
+
+Tasks:
+ICICI Card
+Redirecting to ICICI bank Page -- 2 hrs
+Placing the order after receiving the payment -- 4 hrs
+Authentication Stuff -- 2 hrs
