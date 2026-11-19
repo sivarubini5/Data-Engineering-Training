@@ -1,0 +1,38 @@
+Standard way to solve or work in a project
+
+
+EPIC -- Customer Service
+
+Features
+
+Your Orders
+Returns and Refunds
+Manage Address ...
+
+User Stories
+
+1. Your Orders
+Track Orders
+Edit or Cancel Orders
+
+2. Returns and Refunds
+Return or Exchange Items
+Print Mailing Labels
+
+Tasks -- Eng activity that you want to do
+
+Track Orders
+Build the UI - 8 hrs
+Build the API -- 6hrs
+Build the Database -- 4 hrs
+Enable Logging - 3 hrs
+
+Edit or Cancel Orders
+Show the option to Edit the order -- 4 hrs
+Build the API -- 6 hrs
+Modify the DB - 2 hrs
+Write Unit Test Cases -- 3 hrs
+
+Inside project page in azure go to work items which should be checked regularly
+
+
